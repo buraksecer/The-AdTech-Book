@@ -1,93 +1,152 @@
+# 📚 AdTech Kitabı – Türkçe Çeviri
 
+<div align="center">
 
-AdTech Kitabı – Türkçe Çeviri
+### Dijital Reklamcılık Teknolojisi Rehberi
 
-Bu repo, AdTech (Advertising Technology) kitabının Türkçe çevirisini içermektedir. Kitap; dijital reklamcılığın temellerinden, programatik satın alma yöntemlerine, kullanıcı kimliklendirmeden gizlilik regülasyonlarına kadar geniş bir kapsam sunmaktadır.
+*Programatik reklamcılıktan gizlilik düzenlemelerine, AdTech ekosisteminin kapsamlı Türkçe kaynağı*
 
-Çeviri; bölümlere ve alt başlıklara göre ayrı klasörlerde düzenlenmiştir.
+---
 
-İçindekiler
+[![Türkçe](https://img.shields.io/badge/Dil-Türkçe-red.svg)](https://github.com)
+[![AdTech](https://img.shields.io/badge/Konu-AdTech-blue.svg)](https://github.com)
+[![Çeviri](https://img.shields.io/badge/Durum-Çeviri_Devam_Ediyor-yellow.svg)](https://github.com)
 
-01. Giriş
+</div>
+
+---
+
+## 🎯 Proje Hakkında
+
+Bu repo, **AdTech (Advertising Technology)** kitabının Türkçe çevirisini içermektedir. Kitap; dijital reklamcılığın temellerinden, programatik satın alma yöntemlerine, kullanıcı kimliklendirmeden gizlilik regülasyonlarına kadar geniş bir kapsam sunmaktadır.
+
+Çeviri; bölümlere ve alt başlıklara göre ayrı klasörlerde düzenlenmiştir ve Türkçe dijital reklamcılık literatürüne katkı sağlamayı amaçlamaktadır.
+
+---
+
+## 📖 İçindekiler
+
+### 📌 Bölüm 01: Giriş
 - Introduction
 
-02. Reklamcılığın Temelleri
-- Reklamveren-Yayıncı İlişkisi
-- Reklamveren Nedir?
-- Şirketler Neden Reklam Yapar?
-- Yayıncı Nedir?
-- Reklam Teknolojisi (AdTech) Nedir?
-- Önemli Terimler
+### 📌 Bölüm 02: Reklamcılığın Temelleri
+- 🔗 Reklamveren-Yayıncı İlişkisi
+- 💼 Reklamveren Nedir?
+- ❓ Şirketler Neden Reklam Yapar?
+- 📰 Yayıncı Nedir?
+- 🖥️ Reklam Teknolojisi (AdTech) Nedir?
+- 📝 Önemli Terimler
 
-03. Çevrimiçi Reklamcılık Teknolojisinin Tarihi
-- Reklamcılığın Çevrimiçi Evrimi
+### 📌 Bölüm 03: Çevrimiçi Reklamcılık Teknolojisinin Tarihi
+- 📜 Reklamcılığın Çevrimiçi Evrimi
 
-04. Temel Teknoloji Platformları ve Aracılar
-- Reklamverenler – Alıcı Taraf
-- Aracılar
-- Satıcı Taraf (Yayıncılar)
-- AdTech Şirketleri Nasıl Para Kazanır?
-- Walled Gardens
-- Ekosistemde Standardizasyon
+### 📌 Bölüm 04: Temel Teknoloji Platformları ve Aracılar
+- 🛒 Reklamverenler – Alıcı Taraf
+- 🤝 Aracılar
+- 💰 Satıcı Taraf (Yayıncılar)
+- 💵 AdTech Şirketleri Nasıl Para Kazanır?
+- 🏰 Walled Gardens
+- ⚙️ Ekosistemde Standardizasyon
 
-05. Dijital Reklam Mecraları ve Kanalları
-- Reklam Mecraları
-- Reklam Kanalları
+### 📌 Bölüm 05: Dijital Reklam Mecraları ve Kanalları
+- 📱 Reklam Mecraları
+- 🌐 Reklam Kanalları
 
-06. Ad Serving (Reklam Sunucuları)
-- Ad Server Nedir?
-- Kampanya Yürütme: Öncesi ve Sonrası
-- Ad Server Nasıl Çalışır?
-- Birinci Taraf vs Üçüncü Taraf Ad Server
-- Teknik Alan & Ad Server Anatomisi
+### 📌 Bölüm 06: Ad Serving (Reklam Sunucuları)
+- 🖥️ Ad Server Nedir?
+- 🚀 Kampanya Yürütme: Öncesi ve Sonrası
+- ⚡ Ad Server Nasıl Çalışır?
+- 🔄 Birinci Taraf vs Üçüncü Taraf Ad Server
+- 🔧 Teknik Alan & Ad Server Anatomisi
 
-07. Hedefleme ve Bütçe Kontrolü
-- Bağlamsal Hedefleme
-- Anahtar Kelimeler
-- Reklam Alanı ve Konum
-- Yayıncı URL’leri ve Domainler
+### 📌 Bölüm 07: Hedefleme ve Bütçe Kontrolü
+- 🎯 Bağlamsal Hedefleme
+- 🔑 Anahtar Kelimeler
+- 📍 Reklam Alanı ve Konum
+- 🌍 Yayıncı URL'leri ve Domainler
 
-08. İzlenim, Tıklama ve Dönüşüm Takibi
-- Takip ve Raporlama
+### 📌 Bölüm 08: İzlenim, Tıklama ve Dönüşüm Takibi
+- 📊 Takip ve Raporlama
 
-09. Medya Satın Alma Yöntemleri
-- Manuel Satın Alma
-- Programatik Satın Alma
-- Programmatic Direct
-- RTB (Real-Time Bidding)
-- PMP (Private Marketplace)
-- Header Bidding
-- Açık Artırma Dinamikleri
+### 📌 Bölüm 09: Medya Satın Alma Yöntemleri
+- ✋ Manuel Satın Alma
+- 🤖 Programatik Satın Alma
+- 📋 Programmatic Direct
+- ⚡ RTB (Real-Time Bidding)
+- 🔐 PMP (Private Marketplace)
+- 🏷️ Header Bidding
+- 🎲 Açık Artırma Dinamikleri
 
-10. Kullanıcı Kimliklendirme
-- Neden Kullanıcı Kimliklendirme Gerekli?
-- Yöntemler (Çerezler, Fingerprinting, Mobil ID vb.)
-- Kullanıcı Profilleme ve Eşleme
+### 📌 Bölüm 10: Kullanıcı Kimliklendirme
+- 🆔 Neden Kullanıcı Kimliklendirme Gerekli?
+- 🍪 Yöntemler (Çerezler, Fingerprinting, Mobil ID vb.)
+- 👤 Kullanıcı Profilleme ve Eşleme
 
-11. Veri Yönetim Platformları (DMP) ve Veri Kullanımı
-- Veri Türleri: 1st, 2nd, 3rd Party
-- DMP Nedir?
-- Veri Toplama ve Aktivasyonu
-- Müşteri Veri Platformu (CDP)
+### 📌 Bölüm 11: Veri Yönetim Platformları (DMP) ve Veri Kullanımı
+- 📊 Veri Türleri: 1st, 2nd, 3rd Party
+- 🗄️ DMP Nedir?
+- 📥 Veri Toplama ve Aktivasyonu
+- 💾 Müşteri Veri Platformu (CDP)
 
-12. Attribution (Atıf Modellemesi)
-- Çevrimiçi ve Cihazlar Arası Attribution
-- Tüketici Yolculuğu ve Teknolojik Zorluklar
+### 📌 Bölüm 12: Attribution (Atıf Modellemesi)
+- 📈 Çevrimiçi ve Cihazlar Arası Attribution
+- 🛤️ Tüketici Yolculuğu ve Teknolojik Zorluklar
 
-13. Reklam Sahteciliği ve Görünürlük
-- Reklam Sahteciliği Türleri ve Önleme
-- Görünürlük ve Ölçümleme
+### 📌 Bölüm 13: Reklam Sahteciliği ve Görünürlük
+- 🚨 Reklam Sahteciliği Türleri ve Önleme
+- 👁️ Görünürlük ve Ölçümleme
 
-14. Dijital Reklamcılıkta Kullanıcı Gizliliği
-- GDPR, CCPA ve Diğer Regülasyonlar
-- Tarayıcı Ayarları (Safari, Firefox, Chrome)
-- Mobil ID ve Apple/Google Güncellemeleri
-- Reklam Engelleyiciler ve Çözümler
+### 📌 Bölüm 14: Dijital Reklamcılıkta Kullanıcı Gizliliği
+- 🔒 GDPR, CCPA ve Diğer Regülasyonlar
+- 🌐 Tarayıcı Ayarları (Safari, Firefox, Chrome)
+- 📱 Mobil ID ve Apple/Google Güncellemeleri
+- 🛡️ Reklam Engelleyiciler ve Çözümler
 
-15. Satıcıların ve Ajansların Perspektifinden AdTech
-- Satıcı Perspektifi
-- Ajans Perspektifi ve In-House Programmatic
-- Build vs Rent Dilemmaları
+### 📌 Bölüm 15: Satıcıların ve Ajansların Perspektifinden AdTech
+- 💼 Satıcı Perspektifi
+- 🏢 Ajans Perspektifi ve In-House Programmatic
+- ⚖️ Build vs Rent Dilemmaları
 
-16. Programatik & AdTech’in Geleceği
-- 2022 ve Sonrası: Fırsatlar ve Zorluklar
+### 📌 Bölüm 16: Programatik & AdTech'in Geleceği
+- 🔮 2022 ve Sonrası: Fırsatlar ve Zorluklar
+
+---
+
+## 🚀 Kullanım
+
+Her bölüm, ilgili klasöründe detaylı olarak ele alınmıştır. İlgilendiğiniz konuya göre ilgili klasöre giderek içeriği inceleyebilirsiniz.
+
+---
+
+## 🤝 Katkıda Bulunma
+
+Bu çeviri projesi topluluk katkılarına açıktır. Katkıda bulunmak isterseniz:
+
+1. Bu repo'yu fork edin
+2. Yeni bir branch oluşturun (`git checkout -b yeni-bolum`)
+3. Değişikliklerinizi commit edin (`git commit -m 'Bölüm X çevirisi eklendi'`)
+4. Branch'inizi push edin (`git push origin yeni-bolum`)
+5. Pull Request oluşturun
+
+---
+
+## 📄 Lisans
+
+Bu proje çeviri amaçlı hazırlanmıştır. Orijinal kitabın tüm hakları ilgili yayınevine aittir.
+
+---
+
+## 📧 İletişim
+
+Sorularınız veya önerileriniz için lütfen bir issue açın.
+
+---
+
+<div align="center">
+
+**⭐ Bu projeyi faydalı buluyorsanız yıldız vermeyi unutmayın! ⭐**
+
+*Made with ❤️ for Turkish AdTech Community*
+
+</div>
+
