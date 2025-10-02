@@ -136,6 +136,6 @@ Bu kitabı sizin için yazdık. Eğer ekleyebileceğimizi düşündüğünüz ya
 
 <div align="center">
 
-[⬅️ Ana Sayfa](../README.md) | [➡️ Bölüm 02: Reklamcılığın Temelleri](02-reklamciligin-temelleri.md)
+[🏠 Ana Sayfa](../README.md) | [➡️ Bölüm 02: Reklamcılığın Temelleri](02-reklamciligin-temelleri.md)
 
 </div>

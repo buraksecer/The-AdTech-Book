@@ -34,13 +34,20 @@ Bu repo, **AdTech (Advertising Technology)** kitabının Türkçe çevirisini i�
 - 📚 Bu Kitap Nasıl Düzenlendi?
 - 🔤 Bu Kitapta Kullanılan Kurallar ve Terminoloji
 
-### 📌 Bölüm 02: Reklamcılığın Temelleri
+### 📌 [Bölüm 02: Reklamcılığın Temelleri](bolumler/02-reklamciligin-temelleri.md)
 - 🔗 Reklamveren-Yayıncı İlişkisi
 - 💼 Reklamveren Nedir?
-- ❓ Şirketler Neden Reklam Yapar?
+- 🎯 Markalar ve Şirketler Neden Reklam Verir?
 - 📰 Yayıncı Nedir?
+- 💰 Yayıncılar Web Sitelerini Nasıl Gelire Dönüştürür?
 - 🖥️ Reklam Teknolojisi (AdTech) Nedir?
-- 📝 Önemli Terimler
+- 📝 Önemli Terimlerin Açıklaması
+  - Reklam Alanı & Reklam Boşluğu
+  - Envanter ve Türleri
+  - Reklam İçeriği (Creative)
+  - Görüntülü Reklam Formatları
+  - Gösterim, Tıklama ve Dönüşüm
+  - Fiyatlandırma Modelleri (CPM, CPC, CPA)
 
 ### 📌 Bölüm 03: Çevrimiçi Reklamcılık Teknolojisinin Tarihi
 - 📜 Reklamcılığın Çevrimiçi Evrimi
