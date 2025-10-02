@@ -26,8 +26,13 @@ Bu repo, **AdTech (Advertising Technology)** kitabının Türkçe çevirisini i�
 
 ## 📖 İçindekiler
 
-### 📌 Bölüm 01: Giriş
-- Introduction
+### 📌 [Bölüm 01: Giriş](bolumler/01-giris.md)
+- 📖 Giriş
+- 🤔 Bu Kitabı Neden Yazdık?
+- 👥 The AdTech Book Kimin İçin Yazıldı?
+- 📋 Genel Varsayımlar
+- 📚 Bu Kitap Nasıl Düzenlendi?
+- 🔤 Bu Kitapta Kullanılan Kurallar ve Terminoloji
 
 ### 📌 Bölüm 02: Reklamcılığın Temelleri
 - 🔗 Reklamveren-Yayıncı İlişkisi
