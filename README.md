@@ -49,8 +49,14 @@ Bu repo, **AdTech (Advertising Technology)** kitabının Türkçe çevirisini i�
   - Gösterim, Tıklama ve Dönüşüm
   - Fiyatlandırma Modelleri (CPM, CPC, CPA)
 
-### 📌 Bölüm 03: Çevrimiçi Reklamcılık Teknolojisinin Tarihi
-- 📜 Reklamcılığın Çevrimiçi Evrimi
+### 📌 [Bölüm 03: Çevrimiçi Reklamcılık Teknolojisinin Tarihi](bolumler/03-cevrimici-reklamcilik-teknolojisinin-tarihi.md)
+- 🌐 Reklamcılık Çevrimiçi Dünyaya Taşınıyor
+- 🎯 1994: İlk Banner Reklam
+- 🖥️ 1995: İlk Reklam Sunucusu (Ad Server)
+- 🔗 Reklam Ağları (Ad Networks) ve DoubleClick
+- 📊 Network Optimizers ve SSP'lerin Doğuşu
+- 💹 Reklam Borsaları (Ad Exchanges) ve RTB
+- 📅 Programatik Reklamcılık Zaman Çizelgesi
 
 ### 📌 Bölüm 04: Temel Teknoloji Platformları ve Aracılar
 - 🛒 Reklamverenler – Alıcı Taraf
