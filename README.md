@@ -58,13 +58,20 @@ Bu repo, **AdTech (Advertising Technology)** kitabının Türkçe çevirisini i�
 - 💹 Reklam Borsaları (Ad Exchanges) ve RTB
 - 📅 Programatik Reklamcılık Zaman Çizelgesi
 
-### 📌 Bölüm 04: Temel Teknoloji Platformları ve Aracılar
-- 🛒 Reklamverenler – Alıcı Taraf
-- 🤝 Aracılar
-- 💰 Satıcı Taraf (Yayıncılar)
-- 💵 AdTech Şirketleri Nasıl Para Kazanır?
-- 🏰 Walled Gardens
-- ⚙️ Ekosistemde Standardizasyon
+### 📌 [Bölüm 04: Temel Teknoloji Platformları ve Aracılar](bolumler/04-temel-teknoloji-platformlari-ve-araclari.md)
+- 🌐 Çevrimiçi Reklam Ekosistemi Nedir?
+- 📚 Ekosistem Terimleri Sözlüğü
+  - Advertiser, Agency, AdOps
+  - Ad Server, DSP, DMP
+  - Ad Network, Ad Exchange
+  - SSP, Publisher
+- 🛒 Reklamverenler – Satın Alma Tarafı (Buy Side)
+  - Reklam Operasyonları (AdOps)
+  - Reklamverenin Reklam Sunucusu
+- 🤝 Aracılar (Intermediaries)
+  - Reklam Ajansları ve Tarihi
+  - Ajansların Dijital Dönüşümü
+  - Büyük Uluslararası Ajanslar
 
 ### 📌 Bölüm 05: Dijital Reklam Mecraları ve Kanalları
 - 📱 Reklam Mecraları
