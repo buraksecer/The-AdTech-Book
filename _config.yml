@@ -1,0 +1,34 @@
+# Jekyll Configuration for AdTech Book
+title: "AdTech Kitabı – Türkçe Çeviri"
+description: "Dijital Reklamcılık Teknolojisi Rehberi - Programatik reklamcılıktan gizlilik düzenlemelerine, AdTech ekosisteminin kapsamlı Türkçe kaynağı"
+baseurl: "/The-AdTech-Book" # Repository adınız
+url: "https://buraksecer.github.io"
+
+# Jekyll Settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Theme (GitHub Pages destekli temalar)
+# Tema seçenekleri: minima, cayman, slate, midnight, architect, etc.
+theme: jekyll-theme-cayman
+
+# Exclude from processing
+exclude:
+  - .github/
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+
+# Include files
+include:
+  - README.md
+  - bolumler/
+
+# Plugins (GitHub Pages otomatik yükler)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
