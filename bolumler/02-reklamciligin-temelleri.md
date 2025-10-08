@@ -505,6 +505,6 @@ Kitap boyunca başka ifadeler, kısaltmalar ve terimlerle de karşılaşacaksın
 
 <div align="center">
 
-[⬅️ Bölüm 01: Giriş](01-giris.md) | [🏠 Ana Sayfa](../README.md) | [➡️ Bölüm 03: Çevrimiçi Reklamcılık Teknolojisinin Tarihi](03-cevrimici-reklamcilik-teknolojisinin-tarihi.md)
+[⬅️ Bölüm 01: Giriş](01-giris.md) | [🏠 Ana Sayfa](../index.md) | [➡️ Bölüm 03: Çevrimiçi Reklamcılık Teknolojisinin Tarihi](03-cevrimici-reklamcilik-teknolojisinin-tarihi.md)
 
 </div>
