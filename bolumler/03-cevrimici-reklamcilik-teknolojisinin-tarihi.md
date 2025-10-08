@@ -321,7 +321,7 @@ Her yeni teknoloji, bir önceki dönemin zorluklarına çözüm olarak doğdu ve
 ---
 
 <p align="center">
-  <a href="02-reklamciligin-temelleri.md">⬅️ Bölüm 02: Reklamcılığın Temelleri</a> | 
-  <a href="../index.md">🏠 Ana Sayfa</a> | 
-  <a href="04-temel-teknoloji-platformlari-ve-araclari.md">➡️ Bölüm 04: Temel Teknoloji Platformları ve Aracılar</a>
+  <a href="02-reklamciligin-temelleri">⬅️ Bölüm 02: Reklamcılığın Temelleri</a> | 
+  <a href="../">🏠 Ana Sayfa</a> | 
+  <a href="04-temel-teknoloji-platformlari-ve-araclari">➡️ Bölüm 04: Temel Teknoloji Platformları ve Aracılar</a>
 </p>

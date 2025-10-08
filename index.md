@@ -34,7 +34,7 @@ Bu repo, **AdTech (Advertising Technology)** kitabının Türkçe çevirisini i�
 
 ## 📖 İçindekiler
 
-### 📌 [Bölüm 01: Giriş](bolumler/01-giris.md)
+### 📌 [Bölüm 01: Giriş](bolumler/01-giris)
 - 📖 Giriş
 - 🤔 Bu Kitabı Neden Yazdık?
 - 👥 The AdTech Book Kimin İçin Yazıldı?
@@ -42,7 +42,7 @@ Bu repo, **AdTech (Advertising Technology)** kitabının Türkçe çevirisini i�
 - 📚 Bu Kitap Nasıl Düzenlendi?
 - 🔤 Bu Kitapta Kullanılan Kurallar ve Terminoloji
 
-### 📌 [Bölüm 02: Reklamcılığın Temelleri](bolumler/02-reklamciligin-temelleri.md)
+### 📌 [Bölüm 02: Reklamcılığın Temelleri](bolumler/02-reklamciligin-temelleri)
 - 🔗 Reklamveren-Yayıncı İlişkisi
 - 💼 Reklamveren Nedir?
 - 🎯 Markalar ve Şirketler Neden Reklam Verir?
@@ -57,7 +57,7 @@ Bu repo, **AdTech (Advertising Technology)** kitabının Türkçe çevirisini i�
   - Gösterim, Tıklama ve Dönüşüm
   - Fiyatlandırma Modelleri (CPM, CPC, CPA)
 
-### 📌 [Bölüm 03: Çevrimiçi Reklamcılık Teknolojisinin Tarihi](bolumler/03-cevrimici-reklamcilik-teknolojisinin-tarihi.md)
+### 📌 [Bölüm 03: Çevrimiçi Reklamcılık Teknolojisinin Tarihi](bolumler/03-cevrimici-reklamcilik-teknolojisinin-tarihi)
 - 🌐 Reklamcılık Çevrimiçi Dünyaya Taşınıyor
 - 🎯 1994: İlk Banner Reklam
 - 🖥️ 1995: İlk Reklam Sunucusu (Ad Server)
@@ -66,7 +66,7 @@ Bu repo, **AdTech (Advertising Technology)** kitabının Türkçe çevirisini i�
 - 💹 Reklam Borsaları (Ad Exchanges) ve RTB
 - 📅 Programatik Reklamcılık Zaman Çizelgesi
 
-### 📌 [Bölüm 04: Temel Teknoloji Platformları ve Aracılar](bolumler/04-temel-teknoloji-platformlari-ve-araclari.md)
+### 📌 [Bölüm 04: Temel Teknoloji Platformları ve Aracılar](bolumler/04-temel-teknoloji-platformlari-ve-araclari)
 - 🌐 Çevrimiçi Reklam Ekosistemi Nedir?
 - 📚 Ekosistem Terimleri Sözlüğü
   - 👥 Taraflar ve Roller (Advertiser, Publisher, Visitor)
