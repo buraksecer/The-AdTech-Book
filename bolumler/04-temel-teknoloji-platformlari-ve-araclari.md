@@ -1263,8 +1263,4 @@ Bu kapsamlı bölümde, çevrimiçi reklam ekosisteminin temel yapı taşların�
 
 ---
 
-<p align="center">
-  <a href="03-cevrimici-reklamcilik-teknolojisinin-tarihi">⬅️ Bölüm 03: Çevrimiçi Reklamcılık Teknolojisinin Tarihi</a> | 
-  <a href="../">🏠 Ana Sayfa</a> | 
-  <a href="05-dijital-reklam-mecralari-ve-kanallari">➡️ Bölüm 05: Dijital Reklam Mecraları ve Kanalları</a>
-</p>
+[⬅️ Bölüm 03: Çevrimiçi Reklamcılık Teknolojisinin Tarihi](03-cevrimici-reklamcilik-teknolojisinin-tarihi.md) | [🏠 Ana Sayfa](../index.md) | [➡️ Bölüm 05: Dijital Reklam Mecraları ve Kanalları](05-dijital-reklam-mecralari-ve-kanallari.md)

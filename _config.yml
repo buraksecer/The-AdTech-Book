@@ -10,6 +10,9 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
+# Permalink settings - makes URLs work without extensions
+permalink: pretty
+
 # Theme (GitHub Pages destekli temalar)
 # Tema seçenekleri: minima, cayman, slate, midnight, architect, etc.
 theme: jekyll-theme-cayman

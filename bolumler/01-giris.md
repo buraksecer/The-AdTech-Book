@@ -141,7 +141,4 @@ Bu kitabı sizin için yazdık. Eğer ekleyebileceğimizi düşündüğünüz ya
 
 ---
 
-<p align="center">
-  <a href="../">🏠 Ana Sayfa</a> | 
-  <a href="02-reklamciligin-temelleri">➡️ Bölüm 02: Reklamcılığın Temelleri</a>
-</p>
+[🏠 Ana Sayfa](../index.md) | [➡️ Bölüm 02: Reklamcılığın Temelleri](02-reklamciligin-temelleri.md)
