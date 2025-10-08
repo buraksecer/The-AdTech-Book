@@ -61,17 +61,46 @@ Bu repo, **AdTech (Advertising Technology)** kitabının Türkçe çevirisini i�
 ### 📌 [Bölüm 04: Temel Teknoloji Platformları ve Aracılar](bolumler/04-temel-teknoloji-platformlari-ve-araclari.md)
 - 🌐 Çevrimiçi Reklam Ekosistemi Nedir?
 - 📚 Ekosistem Terimleri Sözlüğü
-  - Advertiser, Agency, AdOps
-  - Ad Server, DSP, DMP
-  - Ad Network, Ad Exchange
-  - SSP, Publisher
+  - 👥 Taraflar ve Roller (Advertiser, Publisher, Visitor)
+  - 📢 Reklam ve Operasyonlar (Ads, AdOps, Ad Slot)
+  - 🖥️ Sunucu Teknolojileri (Ad Server)
+  - 🎯 Alım ve Satım Platformları (DSP, SSP, ATD)
+  - 🔗 Ağlar ve Borsalar (Ad Network, Ad Exchange)
+  - 📊 Veri ve Analitik (DMP, Data Broker)
 - 🛒 Reklamverenler – Satın Alma Tarafı (Buy Side)
-  - Reklam Operasyonları (AdOps)
-  - Reklamverenin Reklam Sunucusu
+  - ⚙️ Reklam Operasyonları (AdOps)
+  - 💻 Reklamverenin Reklam Sunucusu
+  - 🔧 Bağımsız Ad Server Örnekleri
 - 🤝 Aracılar (Intermediaries)
-  - Reklam Ajansları ve Tarihi
-  - Ajansların Dijital Dönüşümü
-  - Büyük Uluslararası Ajanslar
+  - 🏢 Reklam Ajansları ve Tarihi (1786-Günümüz)
+  - 📺 Geleneksel Rolden Dijital Dönüşüme
+  - 🎬 Mad Men Çağı ve İnternetin Etkisi
+  - 🌍 Büyük Uluslararası Ajanslar
+  - 🏆 Dünyanın En Büyük 5 Holdingi (WPP, Omnicom, Publicis, IPG, Dentsu)
+- 💼 Agency Trading Desk (ATD)
+  - 🎯 Tanım ve Yapı
+  - 🔄 Programatik Reklam Satın Alma Süreci
+- 🔗 Ad Network (Reklam Ağı)
+  - 📜 Kısa Tarihçe
+  - 🏷️ Reklam Ağı Türleri (Premium, Vertical, Specialized, Performance)
+  - 🎯 Hedefleme Kriterleri
+- 🎯 Demand-Side Platform (DSP)
+  - ⚙️ Nasıl Çalışır? (Real-Time Bidding)
+  - 🧠 DSP'nin Anatomisi
+  - ⚖️ Ad Network vs DSP Karşılaştırması
+- 📊 Data Management Platform (DMP)
+  - 📍 Veri Türleri (1st, 2nd, 3rd Party)
+  - 🧩 DMP Bileşenleri
+  - 🏆 Popüler DMP'ler
+- 💹 Ad Exchange (Reklam Borsası)
+  - ⚙️ Nasıl Çalışır?
+- 🏗️ Supply-Side Platform (SSP)
+  - 🧩 SSP'nin Anatomisi
+  - ⚖️ SSP vs Ad Exchange Karşılaştırması
+  - 💼 Popüler SSP'ler
+- 🧠 Data Broker (Veri Aracısı)
+  - 🔍 Veri Kaynakları
+  - 🧱 Veri Segmentleri
 
 ### 📌 Bölüm 05: Dijital Reklam Mecraları ve Kanalları
 - 📱 Reklam Mecraları
