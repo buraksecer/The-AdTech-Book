@@ -1,17 +1,20 @@
 # 📚 AdTech Kitabı – Türkçe Çeviri
 
 <div align="center">
-
-### Dijital Reklamcılık Teknolojisi Rehberi
-
-*Programatik reklamcılıktan gizlilik düzenlemelerine, AdTech ekosisteminin kapsamlı Türkçe kaynağı*
-
----
-
-[![Türkçe](https://img.shields.io/badge/Dil-Türkçe-red.svg)](https://github.com)
-[![AdTech](https://img.shields.io/badge/Konu-AdTech-blue.svg)](https://github.com)
-[![Çeviri](https://img.shields.io/badge/Durum-Çeviri_Devam_Ediyor-yellow.svg)](https://github.com)
-
+  <h3>Dijital Reklamcılık Teknolojisi Rehberi</h3>
+  <p><em>Programatik reklamcılıktan gizlilik düzenlemelerine, AdTech ekosisteminin kapsamlı Türkçe kaynağı</em></p>
+  <hr>
+  <p>
+    <a href="https://github.com/buraksecer/The-AdTech-Book">
+      <img src="https://img.shields.io/badge/Dil-Türkçe-red.svg" alt="Türkçe">
+    </a>
+    <a href="https://github.com/buraksecer/The-AdTech-Book">
+      <img src="https://img.shields.io/badge/Konu-AdTech-blue.svg" alt="AdTech">
+    </a>
+    <a href="https://github.com/buraksecer/The-AdTech-Book">
+      <img src="https://img.shields.io/badge/Durum-Çeviri_Devam_Ediyor-yellow.svg" alt="Çeviri Devam Ediyor">
+    </a>
+  </p>
 </div>
 
 ---
