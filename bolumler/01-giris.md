@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Bölüm 01: Giriş"
+---
+
 # Bölüm 01: Giriş
 
 ## 📖 Genel Bakış

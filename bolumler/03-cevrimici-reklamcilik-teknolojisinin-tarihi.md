@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Bölüm 03: Çevrimiçi Reklamcılık Teknolojisinin Tarihi"
+---
+
 # Bölüm 03: Çevrimiçi Reklamcılık Teknolojisinin Tarihi
 
 ## 🌐 Reklamcılık Çevrimiçi Dünyaya Taşınıyor

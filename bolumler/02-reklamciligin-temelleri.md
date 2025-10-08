@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Bölüm 02: Reklamcılığın Temelleri"
+---
+
 # Bölüm 02: Reklamcılığın Temelleri
 
 ## 🔗 Reklamveren-Yayıncı İlişkisi

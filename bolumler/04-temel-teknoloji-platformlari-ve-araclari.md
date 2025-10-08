@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Bölüm 04: Temel Teknoloji Platformları ve Aracılar"
+---
+
 # Bölüm 04: Çevrimiçi Görüntülü Reklam Ekosistemindeki Temel Teknoloji Platformları ve Aracılar
 
 ## 🌐 Çevrimiçi Reklam Ekosistemi Nedir?
