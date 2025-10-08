@@ -139,8 +139,9 @@ Bu kitabı sizin için yazdık. Eğer ekleyebileceğimizi düşündüğünüz ya
 
 ---
 
-<div align="center">
+---
 
-[🏠 Ana Sayfa](../index.md) | [➡️ Bölüm 02: Reklamcılığın Temelleri](02-reklamciligin-temelleri.md)
-
-</div>
+<p align="center">
+  <a href="../index.md">🏠 Ana Sayfa</a> | 
+  <a href="02-reklamciligin-temelleri.md">➡️ Bölüm 02: Reklamcılığın Temelleri</a>
+</p>

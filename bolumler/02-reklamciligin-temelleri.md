@@ -503,8 +503,10 @@ Kitap boyunca başka ifadeler, kısaltmalar ve terimlerle de karşılaşacaksın
 
 ---
 
-<div align="center">
+---
 
-[⬅️ Bölüm 01: Giriş](01-giris.md) | [🏠 Ana Sayfa](../index.md) | [➡️ Bölüm 03: Çevrimiçi Reklamcılık Teknolojisinin Tarihi](03-cevrimici-reklamcilik-teknolojisinin-tarihi.md)
-
-</div>
+<p align="center">
+  <a href="01-giris.md">⬅️ Bölüm 01: Giriş</a> | 
+  <a href="../index.md">🏠 Ana Sayfa</a> | 
+  <a href="03-cevrimici-reklamcilik-teknolojisinin-tarihi.md">➡️ Bölüm 03: Çevrimiçi Reklamcılık Teknolojisinin Tarihi</a>
+</p>
