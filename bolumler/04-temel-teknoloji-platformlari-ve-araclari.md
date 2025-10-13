@@ -1227,6 +1227,763 @@ Bu veri segmentleri daha sonra şuralara satılır:
 
 ---
 
+### 🧠 Başlıca Data Broker Şirketleri
+
+Bu bölümde, reklamverenlere veri sağlayan en büyük veri aracıları listeleniyor.
+
+Bu şirketler, kullanıcı verilerini toplar, analiz eder ve reklam hedeflemesinde kullanılmak üzere DMP'lere, DSP'lere veya doğrudan markalara satar.
+
+#### 🔹 Örnek Data Broker'lar:
+
+**Comscore:**
+- Dijital medya ölçümünde uzman
+- Hangi web sitelerinin ne kadar ziyaretçi aldığı, hangi kitlelere ulaştığı gibi veriler sunar
+- Özellikle "ölçümleme ve doğrulama" alanında da güçlüdür
+
+**Acxiom:**
+- Çevrimdışı ve çevrimiçi tüketici verilerini birleştirir
+- Bankalar, perakendeciler ve reklamverenler tarafından müşteri profili oluşturmak için sıkça kullanılır
+
+**Oracle:**
+- Oracle Data Cloud (BlueKai) aracılığıyla devasa miktarda tüketici verisi sunar
+- Segmentasyon, hedefleme ve kampanya optimizasyonunda kullanılır
+
+**Lotame:**
+- DMP ve veri sağlayıcısı olarak çalışır
+- Kullanıcı verilerini ilgi alanı, davranış ve demografi bazlı olarak sınıflandırır
+
+## 📊 Verification & Measurement (Doğrulama ve Ölçümleme)
+
+Bu servisler, reklamverenlerin dijital kampanyalarının doğru şekilde yayınlanıp yayınlanmadığını ve gerçek kullanıcılar tarafından görülüp görülmediğini kontrol eder.
+
+> **Yani kısaca:** Reklamın "nerede, kim tarafından, ne kadar süreyle" görüntülendiğini teyit eder.
+
+---
+
+### 🔍 Verification (Doğrulama) Servisleri
+
+Verification servisleri şu bilgileri sağlar:
+
+- 🔸 Reklamın hangi web sitelerinde gösterildiği
+- 🔸 Reklamların coğrafi konumu (geolocation)
+- 🔸 Reklamların görülme oranı (viewability rate)
+- 🔸 Bot kaynaklı sahte trafik olup olmadığı (örneğin sahte tıklamalar veya izlenimler)
+- 🔸 Reklamın uygunsuz içeriklerin (örneğin yasa dışı, şiddet veya nefret içerikli sitelerin) yanında gösterilip gösterilmediği
+
+> **👉 Bu bilgiler**, markaların itibarını koruması ve reklam bütçesinin boşa gitmemesi açısından çok önemlidir.
+
+---
+
+### 📈 Measurement (Ölçümleme) Servisleri
+
+Measurement servisleri:
+
+- Kampanyanın performansını ve erişimini detaylı olarak analiz eder
+- Kullanıcı davranışları, trendler ve etkileşim oranları hakkında bilgi verir
+- Reklamverenin hedef kitle stratejisini geliştirmesine yardımcı olur
+
+> **💡 Bu analiz türü**, klasik "Google Analytics" tarzı web trafiği raporlamasından farklıdır —
+> burada odak, reklamın kendisinin başarısı üzerinedir (örneğin kaç kişi gördü, kim tıkladı, hangi bölgede izlendi vs.).
+
+---
+
+### 🔄 MarTech (Marketing Technology) ile Bağlantısı
+
+Artık birçok web ve uygulama analitik aracı (örneğin Google Analytics, Mixpanel, Amplitude) aynı zamanda reklam kampanyalarıyla ilgili veriler de sunuyor.
+
+Bu sayede **"MarTech"** (marketing technology) ve **"AdTech"** (advertising technology) giderek iç içe geçiyor.
+
+#### **Yani:**
+
+- 🔹 **AdTech:** Reklamların satın alınması, hedeflenmesi ve ölçülmesiyle ilgilenir
+- 🔹 **MarTech:** Kullanıcı davranışlarını ve pazarlama stratejilerini analiz eder
+
+Bugün bu iki alan birleşerek markalara hem reklam performansı, hem de müşteri deneyimi hakkında bütüncül içgörüler sağlıyor.
+
+## 🕵️‍♂️ Ad Verification (Reklam Doğrulama) Araçları Nasıl Çalışır?
+
+Reklam doğrulama sistemleri, bir reklamın gerçekten doğru şekilde ve doğru yerde yayınlanıp yayınlanmadığını otomatik olarak kontrol eden araçlardır.
+
+Bu, reklamverenin parasının boşa gitmemesi ve markasının güvenliğini koruması açısından çok önemlidir.
+
+---
+
+### 💻 Süreç Adım Adım:
+
+#### **1. Kullanıcı bir web sayfası açar**
+Bu sayfada, reklamların yüklendiği özel bir alan vardır — buna **Ad Slot (reklam alanı)** denir.
+
+#### **2. DSP → SSP → Ad Exchange zinciri çalışır**
+- Reklam, reklamverenin kullandığı DSP (Demand-Side Platform) üzerinden satın alınır
+- SSP (Supply-Side Platform) ve Ad Exchange aracılığıyla ilgili siteye ulaşır
+
+#### **3. Reklam yüklenirken "Ad Markup" devreye girer**
+Bu kod, reklamın nasıl görüntüleneceğini belirler ve içinde üç önemli unsur vardır:
+
+- 🎨 **Creative:** Reklamın kendisi (görsel, video, banner vb.)
+- 📸 **Impression Pixel:** Reklamın gerçekten görüntülendiğini ölçen izleme pikselleri
+- 🧾 **Ad Verification Code:** Reklamın nerede, ne kadar süreyle ve kim tarafından görüntülendiğini izleyen doğrulama kodu
+
+#### **4. Açık artırmada en yüksek teklifi veren DSP reklamı kazanır**
+Bu DSP'nin reklamı, yayıncının sitesindeki reklam alanına gönderilir.
+
+#### **5. Reklam yüklendiğinde doğrulama sistemi veri toplar**
+Reklamın nerede gösterildiği, kim tarafından görüldüğü, görünürlük oranı, etkileşim gibi bilgiler toplanır.
+
+#### **6. Ad Verification Vendor (Doğrulama Hizmeti Sağlayıcı) verileri analiz eder**
+
+Reklamverenlere performans raporu sunar:
+- ✅ Reklam doğru yerde mi yayınlandı?
+- ✅ Gerçek kullanıcılar mı gördü?
+- ✅ Görüntülenme oranı ve etkileşim nasıldı?
+
+---
+
+> **🎯 Kısaca:**
+> 
+> **Ad Verification**, reklamların güvenli, görünür ve etkili bir şekilde yayınlandığını kontrol eden sistemdir.
+> 
+> Reklamverenin parasını korur, bot trafiğini azaltır ve yanlış yerleşimleri engeller.
+
+## 🎨 Creative Optimization (Yaratıcı Optimizasyon)
+
+Bu bölümde, reklamların daha etkili ve ilgi çekici hale getirilmesi için kullanılan teknolojilerden bahsediliyor.
+
+---
+
+### 🧩 Creative Optimization nedir?
+
+- Reklam ajansları veya medya satın alma ekipleriyle çalışan özel firmalar tarafından yürütülür
+- **Amaç:** Reklamın tasarımını ve içeriğini kullanıcıya göre optimize etmektir
+
+---
+
+### 💡 Nasıl İşler?
+
+- Reklamlara video, animasyon veya etkileşimli öğeler eklenir
+- Böylece standart banner'lar yerine **"rich media"** (zengin medya) formatları kullanılır
+- Bu tür dinamik reklamlar, kullanıcıların dikkatini daha fazla çeker ve tıklanma oranlarını artırır
+
+---
+
+### 🎯 Sonuç:
+
+Creative optimization, reklamın "görsel etkisini" güçlendirir — kampanyaların performansını (örneğin CTR, engagement) doğrudan artırır.
+
+---
+
+> **💬 Özetle:**
+> 
+> - **Ad Verification** → Reklamın doğru yerde, doğru kişiye gösterildiğini doğrular
+> - **Creative Optimization** → Reklamın tasarımını ve içeriğini optimize ederek performansı yükseltir
+
+## 🧱 The Sell Side (Publisher) — Satış Tarafı
+
+### 🧩 Publisher (Yayıncı) Kimdir?
+
+Yayıncılar; web siteleri veya mobil uygulamalar gibi, reklam alanı (ad space / ad slot) sunan taraflardır.
+
+Onlar, reklam alanlarını reklamverenlere veya medya alıcılarına satmak ister.
+
+Bu nedenle **"sell side"** (satış tarafı) olarak adlandırılırlar — çünkü gelirleri reklam alanı satışıyla oluşur.
+
+---
+
+### 🧑‍💻 Advertising Operations (AdOps) — Yayıncı Tarafı Reklam Operasyonları
+
+Yayıncı tarafında AdOps ekibi, teknik olarak reklam kampanyalarının kurulumundan ve yönetiminden sorumludur.
+
+#### **AdOps'un Görevleri:**
+
+- Yayıncının ad server'ında (reklam sunucusunda) kampanyaları kurmak
+- Trafficking tags yönetmek (reklam kodlarını sitelere yerleştirmek)
+- Header-bidding yapılandırmak (farklı SSP'lerden teklif almak için)
+- Gerekirse kampanyalarda değişiklikler yapmak veya optimizasyon sağlamak
+
+> **Yani AdOps**, bir nevi reklamların "arka plan mühendisi"dir — kampanyaların doğru şekilde çalışmasını sağlar.
+
+---
+
+### ⚙️ First-Party Ad Server (Birinci Taraf Reklam Sunucusu)
+
+Bu teknoloji, yayıncıların kendi sitelerindeki reklam alanlarını yönetmesini sağlar.
+
+#### **Yayıncılar:**
+
+- Kendi doğrudan anlaşmaları varsa (örneğin bir marka ile özel kampanya yaptıysa), bu reklamları doğrudan yayınlayabilir
+- Eğer doğrudan kampanya yoksa, ad server otomatik olarak karar verir: hangi reklam kodunun (ör. SSP'den, ad network'ten veya üçüncü taraf bir ad server'dan gelen) gösterileceğine
+
+> Bu sayede yayıncılar reklam alanlarını boş bırakmaz, her zaman bir reklam gösterimi sağlar.
+
+---
+
+### ❓ Kimlerin Ad Server'a İhtiyacı Var?
+
+**Kısa cevap:** Hayır, herkesin ihtiyacı yok.
+
+- Çoğu publisher (yayıncı) bir ad server kullanır
+- Ancak her reklamverenin ad server'a ihtiyacı yoktur
+- Çünkü birçok DSP (Demand-Side Platform) zaten kendi içinde reklam sunma (ad serving) özelliğine sahiptir
+
+> Yani reklamverenler, banner veya video içeriklerini doğrudan DSP üzerinden yönetebilir.
+
+#### **SSP Alternatifi:**
+
+- Aynı şekilde, bazı yayıncılar da SSP'leri ad server yerine kullanabilir
+- Çünkü birçok SSP artık reklam yönetimi (ad serving) özelliğini entegre şekilde sunuyor
+
+#### **🧩 Yayıncılar Neden Yine De Ad Server Kullanır?**
+
+- SSP değiştirmek veya birden fazla SSP ile çalışmak gerektiğinde kolaylık sağlar
+- Tüm kampanyaları merkezi olarak yönetmek mümkündür
+- Hangi reklamın ne kadar gelir getirdiğini görmek daha kolay olur
+
+#### **🧱 Küçük Yayıncılar İçin:**
+
+Küçük siteler veya blog sahipleri, yeni bir sistem kurmak yerine, reklam kodlarını doğrudan sitelerine yerleştirerek basit bir şekilde çalışabilirler.
+
+Bu yöntem, ayrı bir ad server kurma ihtiyacını ortadan kaldırır.
+
+---
+
+> **💬 Özetle:**
+> 
+> - 🔹 **Publisher** = reklam alanını satan taraf
+> - 🔹 **AdOps** = teknik kurulum ve optimizasyon ekibi
+> - 🔹 **Ad Server** = reklamların hangi sırayla, nerede ve kime gösterileceğini yöneten sistem
+> - 🔹 Herkesin ad server'a ihtiyacı yok, ama büyük yayıncılar için büyük kolaylık sağlar
+
+## 🖥️ Yayıncılar İçin Popüler Ad Server'lar
+
+Bu bölüm, web siteleri veya uygulamalarında reklam gösteren yayıncıların en sık kullandığı bazı reklam sunucu (ad server) çözümlerini listeliyor.
+
+### 🔹 Yaygın Ad Server Örnekleri:
+
+**ZEDO:**
+- Yayıncılar için video ve display (görsel) reklam yönetimi sunan bir platformdu
+- *(2021'de Amazon tarafından satın alındı)*
+
+**Adzerk (şimdi Kevel):**
+- API tabanlı bir ad server
+- Özellikle kişiselleştirilmiş reklam deneyimleri sunmak isteyen yayıncılar tarafından tercih edilir
+
+**Broadstreet:**
+- Özellikle yerel medya yayıncıları için uygun, kolay yönetilebilir bir ad server çözümü
+
+**Google Ad Manager:**
+- Google'ın en yaygın kullanılan yayıncı ad server'ıdır
+- Hem küçük hem büyük yayıncılar için kapsamlı bir reklam yönetimi ve SSP entegrasyonu sağlar
+
+**AdButler:**
+- Basit ve esnek yapısıyla küçük ve orta ölçekli siteler tarafından sıkça kullanılır
+
+**AdSpeed:**
+- "High Performance Ad Server" olarak bilinir
+- Hızlı yükleme ve detaylı raporlama özellikleri sunar
+
+> **👉 Bu sistemler**, yayıncıların farklı kampanyaları yönetmesine, reklam alanlarını optimize etmesine ve gelirlerini artırmasına yardımcı olur.
+
+## 💰 AdTech Şirketleri Nasıl Para Kazanır?
+
+AdTech (advertising technology) şirketleri, DSP, SSP, ad exchange veya ad server gibi teknolojik altyapılar sağlar.
+
+Bu sistemleri kurmak, sürdürmek ve güncel tutmak çok maliyetlidir — çünkü sürekli geliştirici ekipleri, teknik altyapı, satış ve destek gerektirir.
+
+---
+
+### 💼 Peki Gelir Nasıl Elde Ederler?
+
+AdTech firmaları, genellikle şu yollarla gelir sağlar:
+
+#### **1. Komisyon (fee / markup):**
+- Reklam harcamasının belirli bir yüzdesini alırlar
+- Örneğin bir marka $100'lık reklam satın alıyorsa, platform bu tutara %10–30 oranında ek bir pay ekleyebilir
+
+#### **2. Kullanım Ücreti (platform fee):**
+- Bazı sistemler, kampanya hacmine veya gösterim sayısına göre sabit bir kullanım ücreti alır
+
+#### **3. Ek Hizmet Ücretleri:**
+- Raporlama, veri entegrasyonu, DMP bağlantısı, veya özel teknik destek gibi hizmetlerden ek ücret talep edilir
+
+---
+
+### 📈 "AdTech Tax" (AdTech Vergisi) Nedir?
+
+Bu terim, reklam harcamasına eklenen gizli platform maliyetlerini tanımlar.
+
+- **Eskiden:** Çoğu AdTech platformu, medya maliyetine ortalama %30 ek ücret koyardı
+- **Şimdi:** Rekabetin ve şeffaflık baskısının artmasıyla bu oran yıllar içinde azaldı
+- **Bugün:** Birçok AdTech şirketi, tek haneli komisyon oranları (%5–9 gibi) ile çalıştığını iddia ediyor
+
+---
+
+> **💬 Özetle:**
+> 
+> - 🔹 AdTech şirketleri, reklam ekosisteminde köprü görevi görür
+> - 🔹 Teknolojilerini geliştirip sürdürebilmek için reklam bütçelerinden küçük bir komisyon (fee) alırlar
+> - 🔹 Eskiden bu oranlar çok yüksekti, ancak artık rekabet ve şeffaflık nedeniyle ciddi şekilde azalmış durumda
+
+## 💸 AdTech Tax Detayı
+
+Sayfadaki görselde bir pasta dilimi görüyorsun — bu, bir reklamverenin (advertiser) harcadığı 1 doların nasıl paylaşıldığını gösteriyor.
+
+---
+
+### 📊 Görselin Anlamı:
+
+Bir reklamveren **$1 harcadığında:**
+
+- **Yaklaşık $0.30** yayıncıya (publisher) gider — yani reklamı gerçekten gösteren tarafa
+- **Geriye kalan $0.70**, zincirdeki çeşitli AdTech şirketlerine dağılır:
+  - DSP (Demand-Side Platform)
+  - SSP (Supply-Side Platform)
+  - Ad Exchange
+  - Data Broker veya DMP
+  - Ad Network
+  - Agency + Trading Desk (ATD)
+
+> Bu aradaki paylara genel olarak **"AdTech Tax"** (AdTech vergisi) denir.
+
+---
+
+### ⚠️ Sorun Nedir?
+
+AdTech ekosistemi çok parçalı (fragmented) bir yapıdadır.
+
+Bir reklamın yayınlanması için birden fazla aracı platform devreye girer. Her biri küçük bir komisyon alır, ama sonuçta:
+
+- 🔸 Reklamverenin ödediği paranın büyük kısmı aracılara gider
+- 🔸 Yayıncı ise reklam gelirinin yalnızca küçük bir kısmını alır
+
+---
+
+### 🧩 Son Yıllardaki Değişim
+
+AdTech dünyasında bu durumun farkına varıldı ve son yıllarda:
+
+- Büyük firmalar, küçük AdTech şirketlerini satın alarak birleşmeye başladı
+- Böylece zincirdeki aracı sayısı azaldı
+- Bu da "AdTech vergisi" oranlarını düşürmeye yardımcı oldu
+
+> **📉 Eskiden** toplamda medya maliyetinin %30'unu geçen kesintiler olurdu, **artık** birçok sistemde bu oran tek hanelere (%5–9 gibi) indi.
+
+## 🏰 The Walled Gardens (Kapalı Bahçeler)
+
+AdTech ekosistemi bugün iki ana kategoriye ayrılır:
+
+1. **Bağımsız AdTech şirketleri** (ör. The Trade Desk, PubMatic, Index Exchange vb.)
+2. **Walled Gardens** (Kapalı Bahçeler)
+
+---
+
+### 🌳 Walled Garden Nedir?
+
+**"Walled Garden"** terimi, kendi kapalı reklam ekosistemine sahip dev teknoloji şirketlerini tanımlar.
+
+Bu şirketler, hem kullanıcı verilerini hem de reklam platformlarını kendi kontrollerinde tutar.
+
+#### **Örnekler:**
+
+- 🔵 **Google** (Google Ads, YouTube, AdSense, DV360, Ad Manager)
+- 💙 **Facebook / Meta** (Facebook Ads, Instagram Ads)
+- 🍏 **Apple** (Apple Search Ads)
+- 🟠 **Amazon** (Amazon DSP, Amazon Ads)
+
+> Bu dört dev genellikle birlikte **GAFA** olarak anılır:
+> 
+> **🧠 GAFA = Google, Apple, Facebook, Amazon**
+
+---
+
+### 🔒 Neden "Kapalı Bahçe" Deniyor?
+
+Çünkü bu platformlarda:
+
+- Reklam verileri dış sistemlerle paylaşılmaz
+- Analiz, hedefleme ve kampanya yönetimi tamamen platformun kendi içinde kalır
+- Reklamverenler bu platformlarda doğrudan kullanıcı verisine erişemez, sadece platformun izin verdiği ölçüde veri kullanabilir
+
+#### **Yani:**
+
+- 🔸 Dışarıdan görünmez bir "duvar" vardır — sistemin içine bakamazsın
+- 🔸 Her şey Google, Meta, Amazon veya Apple'ın kontrolündedir
+
+---
+
+> **💬 Özetle:**
+> 
+> - **AdTech Tax:** Reklam bütçesinden aracı teknolojilere giden pay
+> - **Walled Gardens:** Veriyi ve reklam sürecini tamamen kendi içinde tutan teknoloji devleri (GAFA)
+
+## 🔎 Google'ın Reklam Ekosistemi
+
+Google, sadece bir arama motoru değil; aynı zamanda dünyanın en büyük dijital reklam ağına sahip şirkettir.
+
+Milyarlarca insanın kullandığı ürünleri vardır:
+
+- Google Search (Arama Motoru)
+- YouTube
+- Google Maps
+- Gmail
+
+> Bu ürünler, reklam gösterimi için muazzam bir veri ve kitle kaynağı oluşturur.
+
+---
+
+### 📦 Google'ın Reklam Ürünleri
+
+#### **1. Google Ad Manager (GAM)**
+
+Eskiden iki ayrı ürün vardı:
+- DoubleClick for Publishers (DFP)
+- DoubleClick Ad Exchange (AdX)
+
+Google bunları birleştirip **Google Ad Manager** adını verdi.
+
+GAM, yayıncıların (publishers) reklam envanterlerini yönetmesine, satmasına ve farklı kaynaklardan gelen reklamları (ör. SSP veya direkt anlaşmalar) yayınlamasına olanak tanır.
+
+Yani bu araç, yayıncı tarafına (sell side) hitap eder.
+
+> **🧩 Kısaca:** Yayıncılar için "reklam yönetim ve satış platformu"
+
+#### **2. Google Ads**
+
+Eskiden **Google AdWords** olarak biliniyordu.
+
+Markalar bu platformu kullanarak Google arama sonuçlarında, YouTube'da, ve Google Display Network (GDN) üzerinde reklam verirler.
+
+Reklamverenlerin (advertisers) hedef kitleye ulaşmak için kullandığı ana platformdur.
+
+> **💡 Kısaca:** Reklamverenler için "reklam satın alma aracı"
+
+#### **3. Google Marketing Platform (GMP)**
+
+Bu, Google'ın pazarlama teknolojileri (MarTech) için geliştirdiği geniş ürün ailesidir.
+
+**İçinde birçok araç bulunur:**
+
+- Search Ads 360 (eski DoubleClick Search)
+- Analytics 360 (Google Analytics'in gelişmiş versiyonu)
+- Data Studio (raporlama ve görselleştirme aracı)
+- Optimize 360 (A/B testleri ve kişiselleştirme)
+- Surveys 360 (kullanıcı anketleri)
+- Tag Manager 360 (etiket yönetimi)
+- **Display & Video 360 (DV360)** → DoubleClick Bid Manager (DBM) ve DoubleClick Campaign Manager'ın birleşimidir
+
+> **🎯 DV360**, Google'ın DSP (Demand-Side Platform)'udur — yani reklamverenlerin farklı mecralardan programatik olarak reklam satın alabildiği sistemdir.
+
+---
+
+### 🌐 Özet Tablo:
+
+| Ürün | Kime Hizmet Eder | Türü | Açıklama |
+|------|------------------|------|----------|
+| **Google Ad Manager (GAM)** | Publisher | Ad Server / SSP | Yayıncıların reklam satışı ve yönetimi |
+| **Google Ads** | Advertiser | Ad Buying Platform | Markaların arama, video ve display reklamları satın aldığı yer |
+| **Google Marketing Platform (GMP)** | Ajanslar & Reklamverenler | MarTech / DSP | Veriye dayalı kampanya planlama, analiz ve medya satın alma platformu |
+
+---
+
+### 🧠 Neden Önemli?
+
+Google, hem **"reklam satın alan"** (buy side) hem de **"reklam satan"** (sell side) sistemleri kontrol ettiği için:
+
+- 🔸 Kendi içinde tam kapalı bir ekosistem oluşturur
+- 🔸 Kullanıcı verisi dışa kapalıdır
+- 🔸 Reklam performansına dair tüm raporlar sadece Google sistemlerinden alınabilir
+
+> Bu yüzden Google, **Walled Garden** kavramının en güçlü örneklerinden biridir.
+
+## 💙 Facebook (Meta) — Sosyal Medya Reklam Devi
+
+Facebook (şimdi Meta) yaklaşık **2.3 milyar aktif kullanıcıya** sahip.
+
+Bu kadar geniş kullanıcı kitlesi sayesinde, reklamverenler (advertisers) için hedef kitlelerine ulaşmanın en güçlü yollarından biri haline gelmiş durumda.
+
+---
+
+### 📦 Facebook'un Başlıca Reklam Ürünleri:
+
+#### **1. Facebook Ad Manager**
+
+Bu platform, Facebook üzerinde görünen reklamların yönetim aracıdır.
+
+- Reklamverenler burada kampanya oluşturabilir
+- Hedef kitle belirleyebilir
+- Bütçe ayarlayabilir
+- Performans raporlarını görebilir
+
+Reklamlar yalnızca Facebook ekosistemi içinde (ör. Facebook Feed, Reels, Marketplace, vb.) gösterilir.
+
+> **Yani:** Facebook Ad Manager → sadece Facebook içindeki reklam alanlarını (inventory) satar
+
+#### **2. Facebook Audience Network (FAN)**
+
+Bu sistem, Facebook reklamlarını **Facebook dışına** taşır.
+
+Reklamverenler, Facebook'taki hedefleme verilerini kullanarak diğer mobil uygulamalarda ve web sitelerinde reklam gösterebilir.
+
+> Böylece aynı hedef kitleye Facebook dışında da ulaşmak mümkün olur.
+
+---
+
+### 🧩 Özet Tablo:
+
+| Ürün | Nerede Reklam Gösterir | Ne İşe Yarar |
+|------|------------------------|--------------|
+| **Ad Manager** | Facebook platformu (Feed, Stories, vb.) | Kampanya yönetimi |
+| **Audience Network** | Diğer mobil uygulamalar & web siteleri | Facebook verisini kullanarak dışarıda reklam gösterimi |
+
+---
+
+### 🎯 Neden Güçlü Bir "Walled Garden"?
+
+Facebook, kendi içinde muazzam miktarda kullanıcı verisine sahiptir:
+
+- Kim olduğun
+- Neleri beğendiğin
+- Kiminle iletişimde olduğun
+- Hangi içerikleri tıkladığın
+
+**Bu veriler dışarıyla paylaşılmaz.**
+
+Reklamveren, yalnızca Facebook'un sunduğu hedefleme araçlarıyla bu verilere dolaylı olarak erişebilir.
+
+> Yani veri — Facebook'un "bahçesi"nin içinde kalır. 🌳
+
+## 🍏 Apple — Gizlilik Odaklı Dev
+
+Apple da, tıpkı Google ve Meta gibi, çok sayıda kullanıcı odaklı (consumer-facing) ürüne sahiptir:
+
+**Donanım:**
+- iPhone, Mac, iPad, Apple Watch
+
+**Yazılım:**
+- iOS, macOS, App Store, Safari, Apple Music, Apple Pay, Apple TV+, iCloud
+
+> Bu ürünler, Apple'a kendi ekosistemine tamamen kapalı bir kullanıcı dünyası sağlar.
+
+---
+
+### 🧭 Apple'ın Farkı Nedir?
+
+- Apple, Google ve Facebook gibi büyük bir reklam ağı işletmiyor
+- App Store içinde bazı reklam alanları olsa da (ör. arama reklamları), genel olarak reklam teknolojisinden çok **gizlilik politikalarıyla** öne çıkıyor
+
+---
+
+### 🔒 Apple'ın "Intelligent Tracking Prevention" (ITP) Politikası
+
+Bu sistem, Safari tarayıcısında ve iOS'ta:
+
+- Üçüncü taraf çerezleri (3rd-party cookies) engeller
+- Uygulamalara, kullanıcı davranışlarını izleme (tracking) izni verilmez
+- Kullanıcılar artık **"Uygulama beni takip etsin mi?"** sorusuna **"Hayır"** diyebilir
+
+---
+
+### 🎯 Sonuç:
+
+> Apple, **"gizlilik"i** ön planda tutarak Google ve Facebook gibi platformların kullanıcı verisine erişmesini zorlaştırıyor.
+
+## 🛒 Amazon — E-Ticaretten Reklam Teknolojisine
+
+Amazon başlangıçta bir e-ticaret şirketiydi, ama bugün artık dünyanın en büyük reklam platformlarından biri haline geldi.
+
+**Bunun nedeni:** Sahip olduğu devasa miktarda alışveriş verisi (commerce data).
+
+---
+
+### 💡 Amazon'un Reklam Gücünün Kaynağı
+
+- **Google**, kullanıcıların ne aradığını bilir
+- **Facebook**, kullanıcıların kim olduğunu ve neyi sevdiğini bilir
+- **Ama Amazon**, kullanıcıların **ne satın aldığını** bilir — yani **"purchase intent"** (satın alma niyeti) verisine sahiptir 🛍️
+
+> Bu, özellikle perakende markaları (ör. elektronik, moda, FMCG markaları) için çok değerli bir hedefleme avantajı yaratır.
+
+---
+
+### ⚙️ Amazon'un AdTech Ürünleri
+
+Amazon, reklamcılara kendi ekosistemi içinde kampanya yürütme imkânı sunar.
+
+**Kapsadığı platformlar:**
+
+- Amazon.com (e-ticaret sitesi)
+- Fire TV
+- Kindle
+- IMDb
+- Prime Video
+
+> Reklamverenler bu kanallarda **Amazon DSP** (Demand-Side Platform) aracılığıyla kampanyalarını yönetebilirler.
+
+---
+
+### 🧩 Amazon DSP:
+
+Amazon'un programatik reklam satın alma platformudur.
+
+- Reklamverenler bu sistemle hem Amazon'un kendi sitelerinde hem de Amazon dışı web sitelerde reklam verebilir
+- Amazon'un 1st-party (birinci taraf) verilerini kullanarak son derece hassas hedefleme yapılabilir
+
+---
+
+### 💼 Amazon'un 2019 AdTech Genişlemesi
+
+**2019'da** Amazon, **Sizmek** adlı bir AdTech şirketini satın aldı.
+
+**Bu şirketin iki önemli ürünü vardı:**
+
+- **Sizmek Ad Server** — reklam yayınlama ve yönetim aracı
+- **Dynamic Creative Optimization (DCO)** — reklamlarda otomatik kişiselleştirme teknolojisi
+
+**Bu satın alma sayesinde Amazon, tam entegre bir reklam ekosistemi oluşturdu:**
+
+- Reklam gösterimi (ad server)
+- Programatik satın alma (DSP)
+- Kişiselleştirme (DCO)
+- Ölçümleme ve raporlama
+
+---
+
+### 🧭 Amazon ve Walled Garden İlişkisi
+
+Amazon da artık Google ve Meta gibi bir **walled garden** sayılıyor.
+
+- Çünkü kullanıcı verileri (ne aradı, ne sepete ekledi, ne satın aldı) Amazon'un sisteminde kalıyor
+- Reklamverenler bu verilere yalnızca Amazon Ads üzerinden erişebiliyor
+
+> Bu nedenle kitapta bu dört dev topluca **GAFA** olarak anılıyor:
+> 
+> **Google, Apple, Facebook, Amazon**
+
+---
+
+### 🎲 Walled Gardens Infographic (Monopoly Teması)
+
+Monopoly benzeri infografik, Google, Facebook (Meta), Apple ve Amazon'un (GAFA) AdTech dünyasındaki "kapalı bahçe" (walled garden) konumunu mizahi bir şekilde anlatıyor.
+
+**Bu dört dev şirket:**
+
+- Kendi reklam ürünlerine sahip
+- Kullanıcı verilerini dış dünyaya kapalı tutan
+- Sadece kendi sistemleri içinde reklam verilmesine izin veren yapılar oldukları için, Monopoly oyunu gibi "piyasayı kontrol eden" oyunculara benzetilmiş 🎲
+
+> **🧩 Kısacası bu infografik şunu gösteriyor:**
+> 
+> GAFA, AdTech dünyasında "tekelleşmiş" ve kapalı sistemler olarak çalışıyor.
+
+## ⚙️ Standardization in the Ecosystem (Ekosistemde Standartlaşma)
+
+### 💡 Sorun:
+
+İnternet reklamcılığının ilk dönemlerinde (1990'ların başında), her şirket ve platform kendi teknolojisini geliştiriyordu.
+
+**Ama bu sistemler birbiriyle uyumlu değildi:**
+
+- Farklı boyutlarda banner'lar
+- Farklı veri biçimleri
+- Farklı raporlama yöntemleri vardı
+
+> Bu da **kaosa** yol açıyordu.
+
+---
+
+### 🧭 Çözüm: IAB'nin (Interactive Advertising Bureau) Kuruluşu
+
+**📅 1996 yılında**, sektördeki bu karmaşayı çözmek için **IAB – Interactive Advertising Bureau** kuruldu.
+
+#### **IAB'nin Amacı:**
+
+- Tüm reklam teknolojilerinin ortak standartlarla çalışmasını sağlamak
+- Format, ölçümleme, gizlilik, ve veri paylaşımı gibi konularda kurallar belirlemek
+- Reklam endüstrisinde uyumlu bir dil oluşturmak
+
+---
+
+### 🧩 IAB'nin Önemi:
+
+IAB, online reklamcılığın **"altyapı kurumu"** gibidir.
+
+- Banner boyutlarından (ör. 300x250, 728x90 gibi) RTB (Real-Time Bidding) protokollerine kadar pek çok teknik standardı belirlemiştir
+- Bugün kullanılan birçok AdTech protokolü ve ölçümleme sistemi, IAB'nin tanımladığı standartlara dayanır
+
+---
+
+## 🏛️ IAB'nin (Interactive Advertising Bureau) Rolü ve Önemi
+
+IAB, dijital reklamcılığın **"kurallar koyucu"** kurumudur.
+
+**Bu kurumun varlık nedeni:**
+
+- ➡️ Reklam teknolojilerinin birbiriyle düzgün çalışmasını
+- ➡️ Şeffaflık, ölçümleme ve veri uyumluluğu sağlamaktır
+
+---
+
+### 🔧 IAB'nin Temel Görevleri:
+
+#### **1. Teknik Standartlar Geliştirmek:**
+
+- Reklamların formatları (ör. banner boyutları, video formatları vb.)
+- Veri iletimi protokolleri (ör. RTB, VAST, OpenRTB)
+- Hedefleme, raporlama ve ölçümleme kuralları
+
+#### **2. En İyi Uygulamaları (Best Practices) Belirlemek:**
+
+- Veri gizliliği, kullanıcı izni (ör. GDPR, CCPA)
+- Görüntülenebilirlik (viewability), dolandırıcılık önleme (ad fraud prevention) gibi konularda rehberler yayınlar
+
+#### **3. Sektör Araştırmaları Yürütmek:**
+
+- Dijital reklamcılığın ekonomik etkisini, trendleri ve yatırım oranlarını analiz eder
+
+#### **4. Eğitim ve Farkındalık:**
+
+- Ajansları, yayıncıları ve markaları dijital reklamcılığın standartlarına uygun çalışmaya teşvik eder
+
+---
+
+### 🌍 IAB'nin Yapısı ve Üyeleri:
+
+**📅 2017 itibarıyla:**
+
+- IAB'nin **600'den fazla üyesi** var
+- **Üyeleri:** Önde gelen medya şirketleri, teknoloji sağlayıcıları ve reklam platformları (örneğin Google, Meta, Amazon, Verizon, The New York Times gibi devler)
+- Ayrıca **42 farklı ülkede** IAB'nin yerel temsilcilikleri bulunuyor (örneğin IAB Europe, IAB Turkey, IAB UK gibi)
+
+---
+
+### 🔗 IAB'nin Geliştirdiği Standartlardan Bazıları:
+
+Bu kitapta da ilerleyen sayfalarda detaylandırılacak:
+
+- **Ad Formats:** Banner, interstitial, video, native reklamlar için sabit formatlar
+- **Protocols:** RTB (Real-Time Bidding), VAST (Video Ad Serving Template), OpenRTB, TCF (Transparency and Consent Framework)
+- **Measurement Standards:** Görüntülenebilirlik (viewability), dolandırıcılık (fraud) tespiti, kullanıcı etkileşimi ölçümü
+
+> Bu standartlar sayesinde reklamcılık ekosisteminin iki tarafı —
+> 
+> 🎯 **Buy Side** (advertiser, DSP) ve
+> 🖥️ **Sell Side** (publisher, SSP)
+> 
+> birbiriyle sorunsuz şekilde veri alışverişi yapabiliyor.
+
+---
+
+| Başlık                | Açıklama                                                                  |
+| --------------------- | ------------------------------------------------------------------------- |
+| **Kuruluş yılı**      | 1996                                                                      |
+| **Amaç**              | Dijital reklamcılıkta ortak standartlar ve şeffaflık oluşturmak          |
+| **Üye sayısı (2017)** | 600+ şirket, 42 ülke temsilciliği                                         |
+| **Görevleri**         | Standart geliştirme, araştırma, eğitim, best practices oluşturma         |
+| **Katkısı**           | Buy-side ve sell-side sistemlerin ortak protokollerle çalışmasını sağlar |
+
+
+
+
+
 ## 🎓 Bölüm Özeti
 
 Bu kapsamlı bölümde, çevrimiçi reklam ekosisteminin temel yapı taşlarını detaylıca öğrendik:

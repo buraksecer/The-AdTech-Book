@@ -75,35 +75,137 @@ Bu repo, **AdTech (Advertising Technology)** kitabının Türkçe çevirisini i�
   - 💻 Reklamverenin Reklam Sunucusu
   - 🔧 Bağımsız Ad Server Örnekleri
 - 🤝 Aracılar (Intermediaries)
-  - 🏢 Reklam Ajansları ve Tarihi (1786-Günümüz)
-  - 📺 Geleneksel Rolden Dijital Dönüşüme
-  - 🎬 Mad Men Çağı ve İnternetin Etkisi
-  - 🌍 Büyük Uluslararası Ajanslar
-  - 🏆 Dünyanın En Büyük 5 Holdingi (WPP, Omnicom, Publicis, IPG, Dentsu)
+- 🏢 Reklam Ajansları (Advertising Agencies)
+  - 🎯 Tanım
+  - 📺 Geleneksel Rolü
+  - 💻 Dijital Çağda Ajanslar
+- 📜 Reklam Ajanslarının Tarihi
+  - 🕰️ İlk Dönem
+  - 🏛️ İlk Reklam Ajansları (William Taylor 1786, Volney B. Palmer 1840)
+  - 🎨 Zamanla Ajansların Evrimi
+  - 🏆 Modern Ajanslara Geçiş: N.W. Ayer & Son
+- 🔄 Zaman İçinde Reklam Ajansları Nasıl Değişti?
+  - 📊 Ajansların Gerçek İşi
+  - 📈 Yıllar İçinde Dönüşüm
+  - 📰 İnternet Öncesi Dönem
+  - 🎬 1960'larda (Mad Men Çağı)
+  - 🌐 İnternetin Ortaya Çıkışı
+  - 📊 Ajanslar ve Veri Çağı
+  - 🚀 Günümüzde Ajanslar ve AdTech
+- 🌍 Büyük Uluslararası Reklam Ajansları
+  - 🌐 Küreselleşme
+  - 🏢 McCann Erickson
+  - 📊 J. Walter Thompson
+  - 🇬🇧 İngiliz Ajanslar
+  - 🎨 Saatchi & Saatchi
+- 🏆 Dünyanın En Büyük 5 Reklam Holdingi
+  - 🇬🇧 WPP Group
+  - 🇺🇸 Omnicom Group
+  - 🇫🇷 Publicis Groupe
+  - 🇺🇸 Interpublic Group (IPG)
+  - 🇯🇵 Dentsu
+  - 🏢 Holding Yapısı
+- 📝 Ünlü Reklam Kampanyaları
+  - 📞 AT&T - "Reach Out and Touch Someone"
+  - 🎖️ ABD Ordusu - "Be All You Can Be"
+  - 💎 De Beers - "A Diamond is Forever"
 - 💼 Agency Trading Desk (ATD)
-  - 🎯 Tanım ve Yapı
+  - 🎯 Tanım
+  - 🏗️ ATD'lerin Yapısı
   - 🔄 Programatik Reklam Satın Alma Süreci
 - 🔗 Ad Network (Reklam Ağı)
+  - 📖 Tanım
   - 📜 Kısa Tarihçe
-  - 🏷️ Reklam Ağı Türleri (Premium, Vertical, Specialized, Performance)
+  - ⚙️ Nasıl Çalışır?
+  - 🎯 Ne Yapar?
+  - ✅ Reklam Ağlarının Sağladığı Faydalar
+  - 🏷️ Reklam Ağlarının Türleri (Premium, Vertical, Specialized, Performance)
   - 🎯 Hedefleme Kriterleri
 - 🎯 Demand-Side Platform (DSP)
+  - 📖 Tanım
   - ⚙️ Nasıl Çalışır? (Real-Time Bidding)
+  - 🌟 DSP'ler Neden Önemli?
+  - 📊 DSP'lerin Veri Kaynakları
+  - 🏆 Popüler DSP Örnekleri
   - 🧠 DSP'nin Anatomisi
   - ⚖️ Ad Network vs DSP Karşılaştırması
-- 📊 Data Management Platform (DMP)
+- 📊 Data Management Platform (DMP) – Reklamverenler İçin
+  - 📖 Tanım
   - 📍 Veri Türleri (1st, 2nd, 3rd Party)
   - 🧩 DMP Bileşenleri
+  - 🎯 DMP Ne İşe Yarar?
   - 🏆 Popüler DMP'ler
 - 💹 Ad Exchange (Reklam Borsası)
+  - 📖 Tanım
   - ⚙️ Nasıl Çalışır?
 - 🏗️ Supply-Side Platform (SSP)
+  - 📖 Tanım
+  - 🧩 SSP'nin Faydaları
   - 🧩 SSP'nin Anatomisi
   - ⚖️ SSP vs Ad Exchange Karşılaştırması
-  - 💼 Popüler SSP'ler
+  - 💼 Popüler Ad Exchange ve SSP'ler
+- 🧠 Data-Management Platform (DMP) – Yayıncılar İçin
+  - 💰 Yeni Gelir Kaynakları (Audience Extension)
+  - 📈 Envanter Değerini Artırma
+  - ✨ İçerik Kişiselleştirmesi
 - 🧠 Data Broker (Veri Aracısı)
+  - 📖 Tanım
   - 🔍 Veri Kaynakları
+  - 🧩 Nasıl Çalışır?
   - 🧱 Veri Segmentleri
+  - 💰 Kimler Kullanır?
+  - 🧠 Başlıca Data Broker Şirketleri (Comscore, Acxiom, Oracle, Lotame)
+- 📊 Verification & Measurement (Doğrulama ve Ölçümleme)
+  - 🔍 Verification Servisleri
+  - 📈 Measurement Servisleri
+  - 🔄 MarTech ile Bağlantısı
+- 🕵️‍♂️ Ad Verification Araçları Nasıl Çalışır?
+  - 💻 Süreç Adım Adım
+- 🎨 Creative Optimization (Yaratıcı Optimizasyon)
+  - 🧩 Tanım
+  - 💡 Nasıl İşler?
+- 🧱 The Sell Side (Publisher) – Satış Tarafı
+  - 🧩 Publisher Kimdir?
+  - 🧑‍💻 AdOps – Yayıncı Tarafı
+  - ⚙️ First-Party Ad Server
+  - ❓ Kimlerin Ad Server'a İhtiyacı Var?
+- 🖥️ Yayıncılar İçin Popüler Ad Server'lar
+  - ZEDO, Adzerk (Kevel), Broadstreet, Google Ad Manager, AdButler, AdSpeed
+- 💰 AdTech Şirketleri Nasıl Para Kazanır?
+  - 💼 Gelir Modelleri (Komisyon, Platform Fee, Ek Hizmetler)
+  - 📈 "AdTech Tax" (AdTech Vergisi) Nedir?
+- 💸 AdTech Tax Detayı
+  - 📊 Paranın Dağılımı
+  - ⚠️ Sorun ve Çözüm
+- 🏰 The Walled Gardens (Kapalı Bahçeler)
+  - 🌳 Walled Garden Nedir?
+  - 🔒 Neden "Kapalı Bahçe" Deniyor?
+  - 🧠 GAFA (Google, Apple, Facebook, Amazon)
+- 🔎 Google'ın Reklam Ekosistemi
+  - 📦 Google Ad Manager (GAM)
+  - 📦 Google Ads
+  - 📦 Google Marketing Platform (GMP)
+  - 🌐 Özet Tablo
+- 💙 Facebook (Meta) – Sosyal Medya Reklam Devi
+  - 📦 Facebook Ad Manager
+  - 📦 Facebook Audience Network (FAN)
+  - 🎯 Neden Güçlü Bir "Walled Garden"?
+- 🍏 Apple – Gizlilik Odaklı Dev
+  - 🧭 Apple'ın Farkı
+  - 🔒 Intelligent Tracking Prevention (ITP)
+- 🛒 Amazon – E-Ticaretten Reklam Teknolojisine
+  - 💡 Amazon'un Reklam Gücünün Kaynağı
+  - ⚙️ Amazon'un AdTech Ürünleri
+  - 🧩 Amazon DSP
+  - 💼 2019 Sizmek Satın Alımı
+  - 🧭 Walled Garden İlişkisi
+- ⚙️ Standardization in the Ecosystem (Ekosistemde Standartlaşma)
+  - 💡 Sorun
+  - 🧭 Çözüm: IAB'nin Kuruluşu (1996)
+- 🏛️ IAB'nin (Interactive Advertising Bureau) Rolü ve Önemi
+  - 🔧 Temel Görevleri
+  - 🌍 Yapısı ve Üyeleri
+  - 🔗 Geliştirdiği Standartlar
 
 ### 📌 Bölüm 05: Dijital Reklam Mecraları ve Kanalları
 - 📱 Reklam Mecraları
@@ -166,6 +268,16 @@ Bu repo, **AdTech (Advertising Technology)** kitabının Türkçe çevirisini i�
 
 ### 📌 Bölüm 16: Programatik & AdTech'in Geleceği
 - 🔮 2022 ve Sonrası: Fırsatlar ve Zorluklar
+
+---
+
+## 📚 Ek Kaynaklar
+
+### 📖 [AdTech Sözlüğü](sozluk/sozluk.md)
+Kitapta geçen tüm terimler, kısaltmalar ve açıklamaların alfabetik listesi
+
+### 📝 [AdTech Mimari Akışlar](notlar/mimari.md)
+Ekosistem mimarisi, veri akışları ve platform entegrasyonları
 
 ---
 
