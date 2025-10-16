@@ -77,6 +77,9 @@ Bir dönüşüme yol açan farklı pazarlama kanallarının ve temas noktaların
 ### Brand Awareness (Marka Farkındalığı)
 Geniş bir tüketici kitlesine ulaşmak, onlarla etkileşim kurmak ve markaya maruz kaldıkları süreyi en üst düzeye çıkarmak amacıyla yapılan reklam stratejisidir.
 
+### Branded Content (Markalı İçerik)
+Markaların kendi hikayelerini, ürünlerini veya mesajlarını editoryal içerik biçiminde sundukları reklamlardır. Kullanıcıyı başka bir siteye yönlendirmez, doğrudan yayıncının sitesinde "Sponsored by [marka adı]" etiketiyle yayınlanır.
+
 ### Buy Side (Satın Alma Tarafı)
 Reklam ekosisteminde reklamverenler, reklam ajansları ve DSP'ler gibi reklam envanteri satın alan tarafı ifade eder.
 
@@ -84,8 +87,14 @@ Reklam ekosisteminde reklamverenler, reklam ajansları ve DSP'ler gibi reklam en
 
 ## C
 
+### Channel (Kanal)
+Reklamın dağıtıldığı veya iletildiği platform ya da araçtır. Örneğin: Display reklamcılık, sosyal medya reklamları, TV reklamcılığı. Reklamın nerede gösterildiğine odaklanır.
+
 ### Click (Tıklama)
 Bir kişinin reklama tıklaması durumunda sayılan metriktir. Kullanıcı reklamverενin web sitesine ulaşamasa bile sayılır.
+
+### Content Recommendation Ads (İçerik Öneri Reklamları)
+Native reklam türlerinden biridir. Genellikle makale veya haberlerin altında "From the web", "Recommended for you" gibi ibarelerle görünür. Kullanıcıyı başka bir siteye veya markalı içeriğe yönlendirmeyi amaçlar.
 
 ### CPA (Cost Per Action / Acquisition - Eylem/Edinim Başına Maliyet)
 Yayıncının veya bağlı ortağın, yalnızca kullanıcı bir dönüşüm gerçekleştirdiğinde ödeme aldığı fiyatlandırma modelidir. Genellikle affiliate pazarlamasında kullanılır.
@@ -185,6 +194,15 @@ Dijital reklamcılık endüstrisi için standartlar belirleyen, rehberler yayın
 ### Impression (Gösterim)
 Bir reklamın kullanıcıya gösterildiği her andır. Genellikle reklamın sayfa üzerinde yüklendiği anda sayılır, kullanıcının görmesi gerekmez.
 
+### Image Ads (Görsel Reklamlar)
+Görsel reklamlar (banner ads olarak da bilinir), markaların grafik tabanlı reklam formatlarıdır. Görseller, marka logoları, kısa metinler, ürün fotoğrafları içerir ve marka bilinirliği yaratmak için idealdir.
+
+### In-Content Native Ads (İçerik İçi Yerel Reklamlar)
+Doğrudan bir makalenin içinde, paragraflar arasında veya sonunda yer alan native reklamlardır. Okuma deneyimini bölmeden makale akışına doğal biçimde entegre olur.
+
+### In-Feed Native Ads (Akış İçi Yerel Reklamlar)
+Makale listelerinde veya içerik akışlarında (sosyal medya feed'i gibi) görünen native reklamlardır. Tasarım ve tipografi bulunduğu siteyle aynıdır, kullanıcı akış deneyimi bozulmaz.
+
 ### ITP (Intelligent Tracking Prevention)
 Apple'ın Safari tarayıcısında ve iOS'ta kullandığı gizlilik koruma teknolojisidir. Üçüncü taraf çerezleri engeller ve uygulamaların kullanıcı davranışlarını izlemesini kısıtlar.
 
@@ -220,12 +238,18 @@ IAB tarafından belirlenen reklam standartlarıdır:
 ### MarTech (Marketing Technology)
 Pazarlama faaliyetlerini destekleyen teknolojilerin genel adıdır. Müşteri ilişkileri yönetimi, e-posta pazarlama, web analitik gibi araçları kapsar. AdTech ile giderek iç içe geçmektedir.
 
+### Medium (Medya Türü)
+Bir iletişim biçimidir — reklamın içeriği veya formatıdır. Örneğin: metin reklamları, görsel reklamlar, video reklamları. Reklamın nasıl bir şey olduğuna odaklanır.
+
 ### Medium Rectangle
 300x250 piksel boyutunda en yaygın kullanılan reklam formatıdır. Neredeyse tüm web sitelerinde desteklenir.
 
 ---
 
 ## O
+
+### Native Ads (Yerel Reklamlar)
+Bulunduğu sayfanın içeriğine doğal bir şekilde uyum sağlayan, "reklam gibi görünmeyen" reklamlardır. Sayfa tasarımına benzer görünür ancak "Sponsored", "Ad", "Promoted" gibi açıklama eklenir.
 
 ### Online Advertising Ecosystem (Çevrimiçi Reklamcılık Ekosistemi)
 Bir reklam kampanyasının oluşturulmasında, yürütülmesinde ve ölçümlenmesinde rol oynayan onlarca farklı reklam teknolojisi platformu ve aracıdan oluşan devasa yapıdır.
@@ -296,6 +320,9 @@ IAB tarafından geliştirilen, GDPR uyumluluğu için kullanıcı izinlerini yö
 
 ### Trading Desk
 Programatik medya satın alma işlemlerini yürüten birimdir. Genellikle ajanslar bünyesinde kurulur (Agency Trading Desk - ATD) ve DSP teknolojilerini kullanarak müşteriler adına reklam satın alır.
+
+### Text Ads (Metin Reklamları)
+Yalnızca yazı içeren, görsel veya animasyon barındırmayan reklamlardır. En çok kullanılan örnek Google Search Ads'tir. Başlık, açıklama ve URL'den oluşur ve arama niyetine doğrudan hitap eder.
 
 ### Third-Party Data (Üçüncü Taraf Verisi)
 Veri aracıları (data brokers) tarafından çeşitli kaynaklardan toplanıp paketlenen ve satışa sunulan verilerdir. En az güvenilir veri türüdür ve gizlilik düzenlemelerinden en çok etkilenir.

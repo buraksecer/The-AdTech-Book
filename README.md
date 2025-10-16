@@ -207,9 +207,50 @@ Bu repo, **AdTech (Advertising Technology)** kitabının Türkçe çevirisini i�
   - 🌍 Yapısı ve Üyeleri
   - 🔗 Geliştirdiği Standartlar
 
-### 📌 Bölüm 05: Dijital Reklam Mecraları ve Kanalları
-- 📱 Reklam Mecraları
-- 🌐 Reklam Kanalları
+### 📌 [Bölüm 05: Dijital Reklam Mecraları ve Kanalları](bolumler/05-baslica-dijital-reklam-mecralari-ve-kanallari.md)
+- 🔁 Medium ve Channel Arasındaki Fark
+  - 📖 Terim Tanımları
+  - 🧠 Basit Örnekler
+- 🧩 Medium ve Channel — Nihai Tanımlar
+  - 🔹 Medium (Medya Türü): Reklamın formatı
+  - 🔹 Channel (Kanal): Reklamın yayınlandığı platform
+- 💻 Advertising Mediums — Reklam Mecraları
+- 🕹️ İlk Dijital Reklam: 1994 AT&T Banner Ad
+  - 📅 Yayın Tarihi: 27 Ekim 1994
+  - 📍 Site: HotWired.com
+  - 👤 Marka: AT&T
+  - 🗨️ Mesaj: "Have you ever clicked your mouse right HERE? YOU WILL."
+- 🧱 Text and Image Ads – Günümüzdeki Formatları
+  - 📝 Text Ads (Metin Reklamları)
+    - 📍 Özellikleri
+    - 📊 Avantajları
+    - 🧠 Örnek Kullanım Alanları
+  - 🖼️ Image Ads (Görsel Reklamlar)
+    - 📍 Özellikleri
+    - 📊 Avantajları
+    - 🧠 Örnek Kullanım Alanları
+- 📰 Native Ads (Yerel Reklamlar)
+  - 🔹 Tanım
+  - 💡 Nasıl Çalışır
+  - 📍 Nerelerde Kullanılır
+  - ⚙️ Teknik Sunum
+- 🧱 Native Ad Türleri (IAB'ye göre)
+  - 1️⃣ Content Recommendation Ads (İçerik Öneri Reklamları)
+    - 🔹 Amaç ve Görünüm
+    - 🔹 Örnek Sağlayıcılar (Taboola, Outbrain, Revcontent)
+  - 2️⃣ In-feed veya In-content Ads (Akış İçi Reklamlar)
+    - 🔹 Instagram, LinkedIn, Twitter Örnekleri
+- 🧩 In-Feed Native Ads vs. In-Content Native Ads
+  - 📰 In-Feed Native Ads
+    - 📍 Özellikleri
+    - 🧠 Örnekler
+  - 📄 In-Content Native Ads
+    - 📍 Özellikleri
+    - 🧠 Örnekler
+- 🧱 Branded / Native Content (Markalı İçerik)
+  - 🔹 Tanım
+  - 📍 Farkları
+  - 🧠 Netflix Örnekleri (Orange Is the New Black, House of Cards)
 
 ### 📌 Bölüm 06: Ad Serving (Reklam Sunucuları)
 - 🖥️ Ad Server Nedir?
