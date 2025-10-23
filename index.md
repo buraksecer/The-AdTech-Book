@@ -256,6 +256,26 @@ Bu repo, **AdTech (Advertising Technology)** kitabının Türkçe çevirisini i�
   - 🔹 Tanım
   - 📍 Farkları
   - 🧠 Netflix Örnekleri (Orange Is the New Black, House of Cards)
+- 🎬 Video Reklamlar
+  - 🔹 Tanım ve Özellikler
+  - 🎥 Video Reklam Protokolleri (VAST, VPAID, VMAP)
+  - 📋 Teknik Standartlar
+- 🎨 Zengin Medya Reklamları (Rich Media Ads)
+  - 🔹 Tanım ve Formatlar
+  - 🖼️ Bannerlar, Genişleyen Reklamlar, Geçiş Reklamları
+  - 💡 Lightbox Reklamları
+  - ⚙️ Teknik Standartlar (HTML5, JavaScript, MRAID)
+- 🔊 Sesli Reklamlar (Audio Ads)
+  - 🔹 Tanım ve Teknik Standartlar
+  - 🖼️ Eşlik Eden / Banner Reklamlar
+  - 📦 Reklam Paketleri (Ad Pods)
+  - 🎯 Dinamik Reklamlar
+- 🌐 Reklam Kanalları
+  - 💻 Web Reklamcılığı (Web Advertising)
+  - 📱 Sosyal Medya Reklamcılığı (Social Media Advertising)
+  - 📺 Gelişmiş TV Reklamcılığı (Advanced TV)
+  - 🏙️ DOOH Reklamcılığı (Digital Out-of-Home)
+  - 🔍 Arama Reklamcılığı (Search Advertising)
 
 ### 📌 Bölüm 06: Ad Serving (Reklam Sunucuları)
 - 🖥️ Ad Server Nedir?

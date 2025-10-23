@@ -64,6 +64,23 @@ Reklam ajansları bünyesinde kurulmuş, programatik medya alımı yapan özel b
 ### Attribution (Atıf Modellemesi)
 Bir dönüşüme yol açan farklı pazarlama kanallarının ve temas noktalarının katkısını ölçme ve değerlendirme sürecidir.
 
+### Ad Pod (Reklam Paketi)
+Video reklamcılığında kullanılan, tek bir ses dosyası içinde birden fazla sesli reklamı çalıştırmak için kullanılan formattır. Pre-roll (içerikten önce) veya mid-roll (içerik sırasında) biçiminde gösterilebilir.
+
+### Addressable TV (Hedeflenebilir TV)
+Geleneksel doğrusal TV reklamlarının aksine, aynı program sırasında farklı izleyicilere farklı reklamlar gösterebilen TV reklamcılığı türüdür. Internet Protocol TV (IPTV) üzerinden toplanan verileri kullanarak gerçekleştirir.
+
+### Advanced TV (Gelişmiş TV)
+IAB tarafından, geleneksel yayın, kablo veya uydu bağlantıları dışındaki tüm TV türlerini tanımlamak için kullanılan terimdir.
+
+### Audio Ads (Sesli Reklamlar)
+Podcast'lerin, müzik yayın servislerinin ve dijital radyonun popülerliğinin artmasıyla birlikte ortaya çıkan yeni reklam mecrasıdır. VAST 4.1 standardı kullanılarak sunulur.
+
+**Sesli Reklam Formatları:**
+- **Companion/Banner Ads:** Ses dosyası dinlerken ekranda görüntülenen banner reklamlar
+- **Ad Pods:** Tek bir ses dosyası içinde çalıştırılan birden fazla sesli reklam
+- **Dynamic Ads:** Kullanıcı bilgilerine dayalı olarak değişen içerik sunan reklamlar
+
 ---
 
 ## B
@@ -92,6 +109,12 @@ Reklamın dağıtıldığı veya iletildiği platform ya da araçtır. Örneğin
 
 ### Click (Tıklama)
 Bir kişinin reklama tıklaması durumunda sayılan metriktir. Kullanıcı reklamverενin web sitesine ulaşamasa bile sayılır.
+
+### Companion Ads (Eşlik Eden Reklamlar)
+Web sayfalarında veya mobil uygulamalarda gördüğünüz banner reklamlara benzer şekilde, bir kullanıcı bir ses dosyası (örneğin bir podcast veya müzik) dinlerken ekranda görüntülenebilen reklam türüdür.
+
+### Connected TV (CTV - Bağlı TV)
+Internete bağlanabilen ve kullanıcıların OTT yayın hizmetlerinden video içerik izlemelerini sağlayan cihazlardır. Akıllı TV'ler, oyun konsolları ve yayın cihazları örnek verilebilir.
 
 ### Content Recommendation Ads (İçerik Öneri Reklamları)
 Native reklam türlerinden biridir. Genellikle makale veya haberlerin altında "From the web", "Recommended for you" gibi ibarelerle görünür. Kullanıcıyı başka bir siteye veya markalı içeriğe yönlendirmeyi amaçlar.
@@ -127,6 +150,9 @@ Bir kullanıcının reklamveren veya pazarlamacı tarafından belirlenen bir hed
 ### Data Broker (Veri Aracısı)
 Çeşitli kaynaklardan (çevrimiçi ve çevrimdışı) kullanıcı verisi toplayan ve bu verileri paketleyerek reklamverenlere, ajanslara veya DMP'lere satan şirketlerdir.
 
+### DAAST (Digital Audio Ad Serving Template)
+Sesli reklamların sunulması için kullanılan standarttır. Daha sonra VAST 4.1 sürümüne dahil edilmiştir.
+
 ### DCO (Dynamic Creative Optimization)
 Reklamların otomatik kişiselleştirme teknolojisidir. Kullanıcı profiline, davranışına ve bağlamına göre reklam içeriğini gerçek zamanlı olarak değiştiren sistemdir.
 
@@ -140,7 +166,7 @@ Web sitelerinde ve mobil uygulamalarda gösterilen görsel reklam formatlarıdı
 Birinci taraf (1st party), ikinci taraf (2nd party) ve üçüncü taraf (3rd party) verilerini toplayan, depolayan, analiz eden ve segment oluşturmak için kullanılan platformdur.
 
 ### DOOH (Digital Out-of-Home)
-Dijital açık hava reklamcılığıdır. Dijital billboard'lar, metro istasyonlarındaki ekranlar gibi fiziksel alanlardaki dijital reklam mecralarını kapsar.
+Dijital açık hava reklamcılığıdır. Geleneksel OOH reklamcılığının dijital teknolojilerle (dijital ekranlar, internet bağlantısı ve sensörler) geliştirilmiş halidir.
 
 ### DoubleClick
 Google tarafından satın alınan (2008) ve dijital reklam teknolojisinin gelişiminde öncü rol oynayan reklam teknolojisi şirketidir. İlk merkezi reklam sunucularından birini geliştirdi.
@@ -150,6 +176,16 @@ Reklamverenlerin ve ajansların, birden fazla reklam borsası ve reklam ağı ü
 
 ### DV360 (Display & Video 360)
 Google'ın DSP (Demand-Side Platform) ürünüdür. Eskiden DoubleClick Bid Manager (DBM) ve DoubleClick Campaign Manager'ın birleşimiyle oluşturulmuştur. Google Marketing Platform'un bir parçasıdır.
+
+### Dynamic Ads (Dinamik Reklamlar)
+Kitlelere aynı mesajı iletmek için tasarlanmış statik sesli reklamlardan farklı olarak, kullanıcı hakkında bilinen bilgilere (örneğin konumu, günün saati ve hatta hava durumu gibi) dayalı olarak değişen içerik sunan reklam türüdür.
+
+---
+
+## E
+
+### Expanding Ads (Genişleyen Reklamlar)
+Normal bir banner reklam olarak başlar, ancak kullanıcı tıkladığında genişleyen zengin medya reklam türüdür. Farklı yönlere doğru açılabilir (örneğin sağdan sola ya da yukarıdan aşağıya).
 
 ---
 
@@ -203,6 +239,9 @@ Doğrudan bir makalenin içinde, paragraflar arasında veya sonunda yer alan nat
 ### In-Feed Native Ads (Akış İçi Yerel Reklamlar)
 Makale listelerinde veya içerik akışlarında (sosyal medya feed'i gibi) görünen native reklamlardır. Tasarım ve tipografi bulunduğu siteyle aynıdır, kullanıcı akış deneyimi bozulmaz.
 
+### Interstitials (Geçiş Reklamları)
+Sayfa içeriğinin üzerinde yüzen zengin medya reklamlarıdır.
+
 ### ITP (Intelligent Tracking Prevention)
 Apple'ın Safari tarayıcısında ve iOS'ta kullandığı gizlilik koruma teknolojisidir. Üçüncü taraf çerezleri engeller ve uygulamaların kullanıcı davranışlarını izlemesini kısıtlar.
 
@@ -231,6 +270,9 @@ IAB tarafından belirlenen reklam standartlarıdır:
 - **Ad choice supported:** Reklam tercihleriyle uyumlu
 - **Non-invasive:** Kullanıcıya müdahaleci olmayan
 
+### Lightbox Ads (Lightbox Reklamları)
+Genişleyen reklamlara benzer şekilde çalışır, ancak genellikle tüm ekranı kaplar. Kullanıcı reklamın üzerine geldiğinde (örneğin en az iki saniye beklediğinde) veya tıkladığında genişler.
+
 ---
 
 ## M
@@ -244,6 +286,9 @@ Bir iletişim biçimidir — reklamın içeriği veya formatıdır. Örneğin: m
 ### Medium Rectangle
 300x250 piksel boyutunda en yaygın kullanılan reklam formatıdır. Neredeyse tüm web sitelerinde desteklenir.
 
+### MRAID (Mobile Rich Media Ad Interface Definition)
+Zengin medya reklamlarını mobil uygulamalarda görüntülemek için kullanılan uygulama programlama arayüzüdür (API). Mobil uygulamalar farklı programlama dilleriyle ve farklı işletim sistemlerinde geliştirilebildiği için, içerik üreticilerinin ve reklamverenlerin zengin medya reklamlarını tüm mobil cihazlarda ve uygulamalarda çalıştırmalarına olanak tanıyan standart bir çerçeve sağlar.
+
 ---
 
 ## O
@@ -256,6 +301,9 @@ Bir reklam kampanyasının oluşturulmasında, yürütülmesinde ve ölçümlenm
 
 ### OpenRTB
 Real-Time Bidding (RTB) için IAB tarafından geliştirilen açık kaynak protokoldür. DSP'ler ve SSP'ler arasında standart veri alışverişi sağlar.
+
+### OTT (Over-the-top)
+Dijital içeriğin bağlı bir TV'ye aktarılmasını sağlayan cihaz veya hizmetleri ifade eder. Netflix, Hulu, HBO GO, Amazon Prime, Disney+, Apple TV+, Roku, ZEE5 gibi hizmetler örnek verilebilir.
 
 ---
 
@@ -297,13 +345,43 @@ Reklam gösteriminin milisaniyeler içinde açık artırma yoluyla satın alınd
 
 ---
 
+## R
+
+### Rich Media Ads (Zengin Medya Reklamları)
+Etkileşimli bir reklamcılık biçimidir ve animasyonlu görseller (örneğin GIF'ler), ses dosyaları ve videolar içerebilir. Geleneksel metin ve görsel reklamlardan farklı olarak, kullanıcının reklamla etkileşime girmesine olanak tanıyan unsurları içerir.
+
+**Rich Media Formatları:**
+- **Bannerlar:** Standart metin bannerlarına benzer, ancak etkileşimli öğeler içerirler
+- **Genişleyen Reklamlar (Expanding Ads):** Normal bir banner reklam olarak başlar, ancak kullanıcı tıkladığında genişler
+- **Geçiş Reklamları (Interstitials):** Sayfa içeriğinin üzerinde yüzen zengin medya reklamlarıdır
+- **Lightbox Reklamları:** Genişleyen reklamlara benzer şekilde çalışır, ancak genellikle tüm ekranı kaplar
+
+---
+
 ## S
+
+### Search Advertising (Arama Reklamcılığı)
+Bir ürün veya hizmeti çevrimiçi olarak aradığınızda, Google, Bing veya DuckDuckGo gibi arama motorlarının organik (doğal) ve sponsorlu (ücretli) sonuçların bir karışımını gösterdiği reklam türüdür.
+
+**Avantajları:**
+- **Açık Niyet (Explicit Intent):** Kullanıcıların açık niyetine dayandıkları için oldukça etkili
+- **Native Ad Formatı:** Yerel reklam (native ad) biçiminde görüntülenir
+- **Yüksek Performans:** Tıklama oranı ve dönüşüm oranları banner reklamlara kıyasla çok daha yüksek
 
 ### Second-Party Data (İkinci Taraf Verisi)
 Başka bir şirketin birinci taraf verisinin, güvenilir bir ortakla doğrudan paylaşıldığı veridir.
 
 ### Skyscraper
 160x600 piksel boyutunda dikey reklam formatıdır. Genellikle web sayfalarının yan kısmında yer alır.
+
+### Social Media Advertising (Sosyal Medya Reklamcılığı)
+Facebook, LinkedIn ve Twitter gibi sosyal medya ağlarının kendi başlarına birer reklam kanalı olarak kullanıldığı reklam türüdür. Yerel reklamcılığı (native advertising) kullanır ve organik içerikmiş gibi algılanır.
+
+**Avantajları:**
+- **Yeniden Hedefleme:** E-posta adreslerini kullanarak kullanıcıları yeniden hedefleme
+- **Güçlü Hedefleme:** Ayrıntılı demografik ve davranışsal verilerle hedefleme
+- **Maliyet Avantajı:** Diğer reklam kanallarına kıyasla daha uygun maliyetli
+- **Ad-Blocker Direnci:** Reklam engelleme yazılımlarına karşı daha dirençli
 
 ### SSP (Supply-Side Platform - Arz Tarafı Platformu)
 Yayıncıların reklam envanterlerini yönetmelerine, birden fazla talep kaynağına sunmalarına ve gelirlerini optimize etmelerine yardımcı olan platformdur.
@@ -345,7 +423,16 @@ Bir reklamın kullanıcı tarafından gerçekten görülme olasılığını öl�
 Web sitesini veya uygulamayı ziyaret eden kullanıcıdır. Reklamcılıkta hedeflenen kişidir.
 
 ### VAST (Video Ad Serving Template)
-IAB tarafından geliştirilen video reklam sunumu için standart protokoldür. Video reklamlarının teknik spesifikasyonlarını ve veri alışverişini standartlaştırır.
+Reklamverenlerin ve yayıncıların video reklam sunarken karşılaştıkları birçok uyumluluk sorununu çözen protokoldür. MP4, 3GP ve MOV gibi birçok farklı video formatını destekler ve reklamları videonun başında (pre-roll), ortasında (mid-roll) veya sonunda (end-roll) gösterebilir.
+
+### VPAID (Video Player Ad Interface Definition)
+Reklamverenlerin zengin, etkileşimli reklamları kullanıcılara sunmasına ve kullanıcıların bu video reklamlarla nasıl etkileşim kurduğuna dair veri toplamasına olanak tanıyan protokoldür. 2017 yılında IAB Tech Lab tarafından SIMID ve OMID ile değiştirileceği duyurulmuştur.
+
+### VMAP (Video Multiple Ad Playlist)
+İçerik oluşturucuların — yani videoyu hazırlayanların — reklam aralarının nereye yerleştirileceğini belirlemelerine olanak tanıyan protokoldür. Video oynatıcının kendisini kontrol etmeyen ama video deneyimini yönetmek isteyen içerik üreticileri için özellikle faydalıdır.
+
+### Video Ads (Video Reklamlar)
+Reklamların geleneksel statik biçimleri (örneğin banner reklamlar) yerine video biçiminde gösterilmesini ifade eden reklam türüdür. Televizyon reklamcılığı ile karıştırılmamalıdır.
 
 ---
 
@@ -359,6 +446,9 @@ Kendi kapalı reklam ekosistemine sahip büyük teknoloji şirketlerini tanımla
 
 ### Website Visitor (Web Sitesi Ziyaretçisi)
 Web sitesini ziyaret eden kullanıcıdır. Reklamcılıkta hedeflenen kişidir.
+
+### Web Advertising (Web Reklamcılığı)
+Çevrimiçi reklamcılığın köklü biçimlerinden biridir. İnternetin 1990'ların sonlarında yaygınlaşmasıyla birlikte, markalar ve ajanslar için erişilebilir ilk reklam kanalı olmuştur. Masaüstü bilgisayarlarda, dizüstü bilgisayarlarda ve mobil cihazlarda web tarayıcılarında gösterilen reklamlara karşılık gelir.
 
 ### Yield Optimization (Gelir Optimizasyonu)
 SSP'lerin algoritma kullanarak yayıncı adına hangi teklifi kabul edeceğini otomatik belirleme sürecidir. Amaç, her gösterimden maksimum gelir elde etmektir.

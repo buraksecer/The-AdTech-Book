@@ -367,6 +367,331 @@ Siyaset ve medya ilişkilerini işleyen bir makale
 
 ---
 
+
+Kaynak: The New York Times
+Kaynak: The Atlantic
+Bu tür markalı içeriklerin oluşturulması genellikle marka ile yayıncının editoryal ekipleri arasında işbirliği yapılmasını gerektirir. Bu da diğer yerel reklam türlerine kıyasla daha yaratıcı ve ilgi çekici içeriklerin ortaya çıkmasına yol açar.
+
+---
+
+## 🎬 Video Reklamlar
+
+### 🔹 Tanım:
+
+Video reklamcılığı, reklamların geleneksel statik biçimleri (örneğin banner reklamlar) yerine **video biçiminde gösterilmesini** ifade eder.
+
+> **💡 Önemli:** Video reklamcılığını televizyon reklamcılığı ile karıştırmamaya çalışın — aynı şey değildirler; ancak çevrimiçi yayın hizmetlerinin artması nedeniyle bu ikisini ayırt etmek giderek zorlaşmaktadır.
+
+### 📍 Nasıl Çalışır:
+
+Kanal türüne bağlı olarak, bir video reklam sunmak; bir görsel, metin ya da yerel reklam sunmaya benzerdir. **Tek fark**, yaratıcı içeriğin (yani videonun) web sayfasının bir parçası olarak değil, **bir video oynatıcı içinde görüntülenmesidir**.
+
+Ayrıca, çoğu video reklam **IAB Tech Lab** tarafından geliştirilen protokoller aracılığıyla sunulur.
+
+---
+
+## 🎥 Video Reklam Protokolleri
+
+### 📋 VAST (Video Ad Serving Template)
+
+**VAST**, reklamverenlerin ve yayıncıların video reklam sunarken karşılaştıkları birçok uyumluluk sorununu çözer.
+
+#### 📍 Özellikleri:
+
+- **MP4, 3GP ve MOV** gibi birçok farklı video formatını destekler
+- Reklamları videonun **başında (pre-roll), ortasında (mid-roll) veya sonunda (end-roll)** gösterebilir
+- **Duraklatma veya reklam atlama** gibi bazı etkileşimli özellikler sunar
+
+> 📱 **Görsel açıklaması:** Reklamlar "Ad Pod" içinde sıralanır; video öncesi, ortası ve sonrası reklam molaları gösterilir.
+
+### 📋 VPAID (Video Player Ad Interface Definition)
+
+**VPAID**, reklamverenlerin zengin, etkileşimli reklamları kullanıcılara sunmasına ve kullanıcıların bu video reklamlarla nasıl etkileşim kurduğuna dair veri toplamasına olanak tanır.
+
+#### 📍 Özellikleri:
+
+- Kullanıcıların daha fazla bilgi almak için farklı sekmelere tıklayıp tıklamadıkları gibi veriler toplar
+- Form doldurmak, anket tamamlamak veya oyun oynamak gibi etkileşimleri ölçer
+
+> **⚠️ Güncelleme:** 2017 yılında IAB Tech Lab, VPAID standardını kullanımdan kaldıracağını ve etkileşimli işlevler sağlamak için **SIMID** ile, ölçüm ve doğrulama için **OMID** ile değiştireceğini duyurdu.
+
+### 📋 VMAP (Video Multiple Ad Playlist)
+
+**VMAP**, içerik oluşturucuların — yani videoyu hazırlayanların — reklam aralarının nereye yerleştirileceğini belirlemelerine olanak tanır.
+
+#### 📍 Özellikleri:
+
+- İçerik içindeki reklam araları
+- Her aranın zamanı
+- Kaç tane reklam arası olacağı
+- Her arada kaç reklamın gösterileceği
+
+> Bu, video oynatıcının kendisini kontrol etmeyen ama video deneyimini yönetmek isteyen içerik üreticileri için özellikle faydalıdır.
+
+---
+
+## 🎨 Zengin Medya Reklamları (Rich Media Ads)
+
+### 🔹 Tanım:
+
+**Rich Media**, etkileşimli bir reklamcılık biçimidir ve **animasyonlu görseller (örneğin GIF'ler), ses dosyaları ve videolar** içerebilir.
+
+Geleneksel metin ve görsel reklamlardan farklı olarak, zengin medya reklamlar genellikle kullanıcının reklamla **etkileşime girmesine olanak tanıyan unsurları** içerir.
+
+### 📍 Rich Media Formatları:
+
+#### 🖼️ Bannerlar
+Standart metin bannerlarına benzer, ancak **etkileşimli öğeler** içerirler.
+
+#### 📈 Genişleyen Reklamlar (Expanding Ads)
+Normal bir banner reklam olarak başlar, ancak kullanıcı tıkladığında **genişler**. Farklı yönlere doğru açılabilir (örneğin sağdan sola ya da yukarıdan aşağıya).
+
+#### 🚀 Geçiş Reklamları (Interstitials)
+Sayfa içeriğinin üzerinde **yüzen zengin medya reklamlarıdır**.
+
+#### 💡 Lightbox Reklamları
+Genişleyen reklamlara benzer şekilde çalışır, ancak genellikle **tüm ekranı kaplar**. Kullanıcı reklamın üzerine geldiğinde (örneğin en az iki saniye beklediğinde) veya tıkladığında genişler.
+
+### ⚙️ Teknik Standartlar:
+
+Bu reklamlar genellikle **HTML5 veya JavaScript** kullanılarak oluşturulur ve **VAST** ya da **MRAID** (Mobile Rich Media Ad Interface Definition) adlı IAB standardını kullanabilir.
+
+**MRAID**, zengin medya reklamlarını mobil uygulamalarda görüntülemek için kullanılan bir uygulama programlama arayüzüdür (API).
+
+---
+
+## 🔊 Sesli Reklamlar (Audio Ads)
+
+### 🔹 Tanım:
+
+Metin, görsel ve video reklamlar on yılı aşkın süredir çevrimiçi reklamcılığa hâkim olsa da, **sesli reklamlar** giderek popülerlik kazanmaktadır.
+
+Podcast'lerin, müzik yayın servislerinin ve dijital radyonun popülerliğinin artmasıyla birlikte, sesli reklamlar markalar ve reklamverenler için hızla **yeni bir reklam mecrasına** dönüşmektedir.
+
+### 📍 Teknik Standartlar:
+
+Video ve ses dosyaları arasındaki benzerlikler nedeniyle, yayıncılar ve reklamverenler **VAST 4.1** sürümünü kullanarak reklamları sunabilir ve ilgili verileri toplayabilirler.
+
+> **📝 Not:** Bir zamanlar sesli reklamların sunulması için **DAAST** (Digital Audio Ad Serving Template) adlı ayrı bir standart bulunmaktaydı; ancak bu standart daha sonra **VAST 4.1** sürümüne dahil edilmiştir.
+
+### 📍 Sesli Reklam Formatları:
+
+#### 🖼️ Eşlik Eden / Banner Reklamlar (Companion/Banner Ads)
+Web sayfalarında veya mobil uygulamalarda gördüğünüz banner reklamlara benzer şekilde, bu tür reklamlar da bir kullanıcı bir ses dosyası (örneğin bir podcast veya müzik) dinlerken **ekranda görüntülenebilir**.
+
+#### 📦 Reklam Paketleri (Ad Pods)
+Video reklamcılığında kullanılan "ad pod"lara benzer şekilde, bu format bir veya birden fazla sesli reklamı **tek bir ses dosyası içinde çalıştırmak** için kullanılabilir.
+
+Bu reklamlar, **pre-roll (içerikten önce)** veya **mid-roll (içerik sırasında)** biçiminde gösterilebilir.
+
+#### 🎯 Dinamik Reklamlar (Dynamic Ads)
+Kitlelere aynı mesajı iletmek için tasarlanmış statik sesli reklamlardan farklı olarak, dinamik reklamlar, kullanıcı hakkında bilinen bilgilere (örneğin **konumu, günün saati ve hatta hava durumu** gibi) dayalı olarak **değişen içerik** sunar.
+
+---
+
+## 🌐 Reklam Kanalları
+
+### 💻 Web Reklamcılığı (Web Advertising)
+
+**Web reklamcılığı**, çevrimiçi reklamcılığın köklü biçimlerinden biridir. İnternetin 1990'ların sonlarında yaygınlaşmasıyla birlikte, markalar ve ajanslar için **erişilebilir ilk reklam kanalı** olmuştur.
+
+#### 📍 Kapsamı:
+
+Bu kanal, **masaüstü bilgisayarlarda, dizüstü bilgisayarlarda ve mobil cihazlarda** (akıllı telefonlar ve tabletler) web tarayıcılarında gösterilen reklamlara karşılık gelir.
+
+#### ⚙️ Teknik Çalışma:
+
+Reklamların (metin, görsel veya video fark etmeksizin) web tarayıcılarında görüntülenmesi, sayfanın içeriğine **HTML veya JavaScript kodu eklenmesini** gerektirir.
+
+Tarayıcı bu kodu yükledikten sonra, sayfa içeriğiyle birlikte reklamı da yükler ve kullanıcıya gösterir.
+
+---
+
+## 📱 Sosyal Medya Reklamcılığı (Social Media Advertising)
+
+### 🔹 Tanım:
+
+Facebook, LinkedIn ve Twitter gibi sosyal medya ağları web ve mobil uygulama reklamcılığı kategorilerine dâhil edilebilse de, aslında **kendi başlarına birer reklam kanalıdır**.
+
+### 📍 Özellikler:
+
+Facebook, Twitter, Pinterest, LinkedIn ve Instagram gibi birçok popüler sosyal medya sitesi, **yerel reklamcılığı (native advertising)** kullanır.
+
+Bu tür reklamlarda, reklamlar haber akışının içinde veya yanında görünür ve bu sayede **organik içerikmiş gibi algılanır**.
+
+### 📊 Avantajları:
+
+#### 🎯 Yeniden Hedefleme
+Reklamverenler, markaya verdikleri e-posta adreslerini kullanarak kullanıcıları yeniden hedefleyebilir; bu da genellikle **yüksek dönüşüm oranlarıyla** sonuçlanır.
+
+#### 📈 Güçlü Hedefleme
+Facebook ve LinkedIn gibi bazı sosyal medya platformları, kullanıcıların **isim, yaş, konum, ilgi alanı ve eğitim düzeyi** gibi ayrıntılı demografik ve davranışsal verilerini toplar. Bu sayede markalara **güçlü hedefleme (audience targeting)** imkanları sunar.
+
+#### 💰 Maliyet Avantajı
+Ekran (display) veya video reklamcılığı gibi diğer reklam kanallarına kıyasla, sosyal medya reklamcılığı hem erişim hem de dönüşüm açısından **daha uygun maliyetli** olabilir.
+
+#### 🛡️ Ad-Blocker Direnci
+Sosyal medya platformlarında gösterilen reklamların çoğu yerel reklam (native ad) formatında olduğu için, genellikle **daha fazla etkileşim alır** (görülme, tıklama, beğeni vb.) ve geleneksel banner reklamlara göre **reklam engelleme yazılımlarına (ad-blockers) karşı daha dirençlidir**.
+
+---
+
+## 📺 Gelişmiş TV Reklamcılığı (Advanced TV)
+
+### 🔹 Tanım:
+
+TV reklamcılığı uzun zamandır birçok marka ve ajans için **temel taş** olmuştur.
+
+**Geniş bir kitleye ulaşabilme**, ilgi çekici ve genellikle eğlenceli mesajlarla marka bilinirliğini artırma ve satışları yönlendirme gücü sağlar.
+
+Geleneksel TV hâlâ güçlü bir şekilde varlığını sürdürse de, **yeni TV biçimleri** ortaya çıkmaktadır.
+
+### 📺 Yeni TV Türleri:
+
+#### 🎯 Advanced TV (Gelişmiş TV)
+IAB tarafından, geleneksel yayın, kablo veya uydu bağlantıları dışındaki **tüm TV türlerini** tanımlamak için kullanılan bir terimdir.
+
+#### 📡 OTT (Over-the-top)
+OTT, dijital içeriğin bağlı bir TV'ye aktarılmasını sağlayan **cihaz veya hizmetleri** ifade eder.
+
+**OTT hizmetlerine örnekler:**
+- Netflix
+- Hulu
+- HBO GO
+- Amazon Prime
+- Disney+
+- Apple TV+
+- Roku
+- ZEE5
+
+#### 📺 Connected TV (Bağlı TV)
+CTV, internete bağlanabilen ve kullanıcıların OTT yayın hizmetlerinden video içerik izlemelerini sağlayan **cihazlardır**.
+
+**Örnekler:**
+- Akıllı TV'ler (smart TV'ler)
+- Oyun konsolları
+- Yayın cihazları (streaming devices)
+
+> **📝 Not:** IAB Tech Lab, masaüstü bilgisayarları, dizüstüleri, akıllı telefonları ve tabletleri CTV kapsamında değerlendirmez.
+
+#### 🎯 Addressable TV (Hedeflenebilir TV)
+Geleneksel doğrusal TV reklamlarının aksine, addressable TV, aynı program sırasında **farklı izleyicilere farklı reklamlar** gösterebilir.
+
+**Nasıl Çalışır:**
+- Internet Protocol TV (IPTV) üzerinden toplanan verileri kullanır
+- Bağlı TV'leri, OTT cihazlarını, hizmetleri ve set-top box'ları kapsar
+
+**Örnek:**
+Seattle'da Mad Men izleyen bir kişi, Portland'daki başka bir Mad Men izleyicisinden **farklı bir reklam** görebilir.
+
+### 📊 Avantajlar ve Zorluklar:
+
+Yukarıda belirtilen tüm sistemler, geleneksel TV'nin sunamadığı birçok yeni avantaj sağlar:
+- **Hedefleme (targeting)**
+- **Ölçümleme (measurement)**
+- **Attribution (ilişkilendirme)**
+
+Ancak, birçok teknolojik engel nedeniyle, sektör bu avantajları **yüksek doğrulukta ve geniş ölçekte** sunabilmekten hâlâ birkaç yıl uzaktadır.
+
+---
+
+## 🏙️ DOOH Reklamcılığı (Digital Out-of-Home)
+
+### 🔹 Tarihçe:
+
+İnternet öncesi dönemde açıkhava reklamcılığı (OOH – Out-of-Home) oldukça popüler bir mecraydı.
+
+**Geleneksel OOH Alanları:**
+- Reklam panoları (billboards)
+- Sokak mobilyaları (örneğin otobüs durakları ve telefon kulübeleri)
+- Taksilerde, otobüslerde ve metro duvarlarında reklam alanları
+
+### 📱 Dijital Dönüşüm:
+
+OOH ekranlarındaki teknolojik gelişmelerin (örneğin **dijital ekranlar, internet bağlantısı ve sensörler**) sayesinde, **dijital açıkhava reklamcılığı (DOOH)** bu geleneksel reklamcılık biçimine yeni bir soluk getiriyor.
+
+Bu gelişme, markalar ile ajansların **yeni yaratıcı formatları** keşfetmelerine olanak tanıyor.
+
+### 🎯 DOOH Özellikleri:
+
+- **Yüz tanıma teknolojisi** ile etkileşimli dijital billboard'lar
+- **Gerçek zamanlı içerik güncellemeleri**
+- **Hava durumu, trafik durumu** gibi dinamik bilgilerle entegrasyon
+
+### ⚠️ Mevcut Zorluklar:
+
+DOOH, dijital reklamcılıktaki en heyecan verici trendlerden biri olmasına rağmen, şu konularda **başlangıç zorlukları** yaşamaktadır:
+
+- **Medya satın alma süreci**
+- **Attribution (ilişkilendirme)**
+- **Ölçümleme**
+- **Hedefleme**
+
+Bununla birlikte, bu alanların tümü **AdTech (Advertising Technology) şirketleri için büyük fırsatlar** sunmaktadır ve önümüzdeki yıllarda bu sorunların çözülmesi beklenmektedir.
+
+---
+
+## 🔍 Arama Reklamcılığı (Search Advertising)
+
+### 🔹 Tanım:
+
+Bir ürün veya hizmeti çevrimiçi olarak aradığınızda, Google, Bing veya DuckDuckGo gibi arama motorları, **organik (doğal) ve sponsorlu (ücretli) sonuçların bir karışımını** gösterir.
+
+Arama motorları, hangi sonuçların sponsorlu, hangilerinin organik olduğunu belirtmenin **çeşitli yollarına** sahiptir.
+
+### 📍 Nasıl Çalışır:
+
+Sponsorlu reklamlar, kullanıcılar reklamverenin sunduğu ürün veya hizmetlerle eşleşen **anahtar kelimeleri arama motoruna girdiğinde** görüntülenir.
+
+Bu şekilde reklamlar, kullanıcının yaptığı aramayla **doğrudan ve mükemmel şekilde eşleşir**.
+
+### 📊 Avantajları:
+
+#### 🎯 Açık Niyet (Explicit Intent)
+Arama reklamları, kullanıcıların **açık niyetine** dayandıkları için oldukça etkili kabul edilir; yani kullanıcıların ne aradığını tahmin etmek yerine **doğrudan belirli bir amaca yanıt verirler**.
+
+#### 📰 Native Ad Formatı
+Bu reklamlar, **yerel reklam (native ad) biçiminde** görüntülenir.
+
+#### 📈 Yüksek Performans
+Bu faktörlerin her ikisi de, arama reklamlarının **tıklama oranı (click-through rate)** ve **dönüşüm oranlarını**, banner reklamlara kıyasla **çok daha yüksek** hale getirir.
+
+### 🏢 Kimler Arama Reklamı Sunar?
+
+#### 🔍 Arama Motorları
+Çoğu arama motoru şirketi, arama sonuçlarında reklamların görüntülenmesine olanak tanıyan **platformlar işletir**.
+
+**Örnekler:**
+- **Google:** AdWords üzerinden
+- **Bing:** Bing Ads üzerinden
+
+Bu yöntem, arama motorlarının geniş kullanıcı tabanlarını **gelir elde edecek şekilde değerlendirmesinin** doğal bir yoludur.
+
+#### 📊 Pazar Payları:
+- **Google:** ~%77
+- **Baidu:** ~%9
+- **Microsoft Bing:** ~%8
+- **Yahoo!:** ~%3
+- **Yandex:** ~%1
+
+#### 📰 Yayıncılar (Publishers)
+İnternette yapılan aramaların çoğu büyük arama motorları üzerinden gerçekleştirilse de, birçok yayıncı (özellikle **e-ticaret siteleri**) kendi arama işlevlerine sahiptir ve bu alanlarda genellikle **tanıtılan listelemeler (promoted listings)** biçiminde reklam göstermeye olanak tanır.
+
+**Örnek:** Amazon.com üzerinde "smart watch" araması; sayfanın üst kısmında "sponsored" etiketli ürün reklamları yer alıyor.
+
+#### 💰 Kazan-Kazan Durumu:
+Bu sitelerdeki arama özellikleri yalnızca kullanıcıların ürün ve hizmetleri bulmasını kolaylaştırmakla kalmaz, aynı zamanda yayıncının satıcılara (advertisers) **arama reklamı sunabilmesini** de sağlar.
+
+**Faydalar:**
+- **E-ticaret sitesi:** Yeni bir gelir kaynağı oluşturur
+- **Satıcı (reklamveren):** Satışlarını artırma fırsatı bulur
+
+---
+
+Artık dijital reklamcılığın ortamlarını ve kanallarını incelediğimize göre, şimdi bu reklamların nasıl sunulduğuna ve kullanıcılara nasıl gösterildiğine bakalım.
+
+
+
+
 ## 🎓 Bölüm Özeti
 
 Bu bölümde dijital reklam mecraları ve kanallarının temellerini öğrendik:
