@@ -272,11 +272,31 @@ Bu repo, **AdTech (Advertising Technology)** kitabının Türkçe çevirisini i�
   - 🏙️ DOOH Reklamcılığı (Digital Out-of-Home)
   - 🔍 Arama Reklamcılığı (Search Advertising)
 
-### 📌 Bölüm 06: Ad Serving (Reklam Sunucuları)
+### 📌 [Bölüm 06: Ad Serving (Reklam Sunucuları)](bolumler/06-ad-serving.md)
 - 🖥️ Ad Server Nedir?
+  - 🔹 Tanım ve Temel Görevler
+  - 💡 WordPress Benzetmesi
+  - 👥 Kimler Kullanır?
+- 🔗 Reklamveren–Yayıncı İlişkisi
+  - 📅 1990'lar - 2000'ler Arası Dönem
+  - 🤝 Temel İlişki Dinamikleri
 - 🚀 Kampanya Yürütme: Öncesi ve Sonrası
+  - 📋 Insertion Order (IO) Süreci
+  - 🔄 Adım Adım İşleyiş
+- 🔄 Ad Trafficking vs AdOps
+  - 📋 Ad Trafficking (Süreç)
+  - 👥 AdOps (İnsanlar)
+- 📰 Birinci Taraf (Yayıncının) Ad Sunucusu
+  - 🔹 Temel Görevler
+  - 📈 Envanter Tahmini
+- 📢 Üçüncü Taraf (Reklamverenin) Ad Server'ları
+  - ⚠️ Reklamverenlerin Karşılaştığı Zorluklar
+  - 🛡️ Bağımsız Reklam Sunucuları Çözümü
+  - 🔄 İşleyiş Şeması
 - ⚡ Ad Server Nasıl Çalışır?
-- 🔄 Birinci Taraf vs Üçüncü Taraf Ad Server
+  - 📰 Yayıncının Ad Server'ı
+  - 📢 Reklamverenin Ad Server'ı
+- 🔄 Birinci Taraf vs Üçüncü Taraf Karşılaştırması
 - 🔧 Teknik Alan & Ad Server Anatomisi
 
 ### 📌 Bölüm 07: Hedefleme ve Bütçe Kontrolü

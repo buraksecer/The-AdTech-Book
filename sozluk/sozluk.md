@@ -140,6 +140,9 @@ IAB tarafından belirlenen, reklam boyutu, dosya formatı, animasyon süresi gib
 ### CTR (Click-Through Rate - Tıklama Oranı)
 Bir reklamın kaç kez gösterildiği ile kaç kez tıklandığı arasındaki orandır. **Formül:** (Tıklama Sayısı / Gösterim Sayısı) x 100
 
+### Co-viewership (Ortak İzleyici)
+Yayıncılar arası ortak izleyiciyi hesaba katarak kampanyanın erişimini ölçme yöntemidir. Birden fazla yayıncıda aynı kullanıcıları görmüş olan kampanyaların gerçek erişimini hesaplamak için kullanılır.
+
 ### Conversion (Dönüşüm)
 Bir kullanıcının reklamveren veya pazarlamacı tarafından belirlenen bir hedefi tamamlamasıdır. Örneğin: ürün satın alma, kayıt olma, dosya indirme, form doldurma.
 
@@ -239,6 +242,9 @@ Doğrudan bir makalenin içinde, paragraflar arasında veya sonunda yer alan nat
 ### In-Feed Native Ads (Akış İçi Yerel Reklamlar)
 Makale listelerinde veya içerik akışlarında (sosyal medya feed'i gibi) görünen native reklamlardır. Tasarım ve tipografi bulunduğu siteyle aynıdır, kullanıcı akış deneyimi bozulmaz.
 
+### Insertion Order (IO - Ek Yerleştirme Formu)
+Reklamveren ve yayıncı arasında imzalanan, kampanyanın koşullarını belirten sözleşme belgesidir. Yayın tarihleri, placement, reklam formatı, fiyatlandırma modeli gibi detayları içerir.
+
 ### Interstitials (Geçiş Reklamları)
 Sayfa içeriğinin üzerinde yüzen zengin medya reklamlarıdır.
 
@@ -285,6 +291,9 @@ Bir iletişim biçimidir — reklamın içeriği veya formatıdır. Örneğin: m
 
 ### Medium Rectangle
 300x250 piksel boyutunda en yaygın kullanılan reklam formatıdır. Neredeyse tüm web sitelerinde desteklenir.
+
+### Markup (İşaretleme)
+HTML, XML veya diğer işaretleme dillerinde yazılmış kod yapısıdır. Reklam sunucularında reklamların web sayfalarında nasıl görüntüleneceğini belirleyen kod parçacıklarını ifade eder.
 
 ### MRAID (Mobile Rich Media Ad Interface Definition)
 Zengin medya reklamlarını mobil uygulamalarda görüntülemek için kullanılan uygulama programlama arayüzüdür (API). Mobil uygulamalar farklı programlama dilleriyle ve farklı işletim sistemlerinde geliştirilebildiği için, içerik üreticilerinin ve reklamverenlerin zengin medya reklamlarını tüm mobil cihazlarda ve uygulamalarda çalıştırmalarına olanak tanıyan standart bir çerçeve sağlar.
