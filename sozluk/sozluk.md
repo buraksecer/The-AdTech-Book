@@ -49,6 +49,13 @@ Dijital reklamların planlanması, satın alınması, sunulması ve ölçümlenm
 ### AdTech Tax (AdTech Vergisi)
 Bir reklamverenin harcadığı bütçenin, zincirdeki çeşitli AdTech şirketlerine (DSP, SSP, Ad Exchange, DMP vb.) giden komisyon paylarının toplamıdır. Eskiden medya maliyetinin %30'unu geçebilirdi, günümüzde rekabet nedeniyle tek haneli oranlara düştü.
 
+### Ad Markup (Reklam İşaretlemesi)
+Bir ad sunucudan veya başka bir AdTech platformundan (ör. SSP, DSP vb.) bir reklam etiketi aracılığıyla alınan ve bir reklam alanında (ad slot) işlenen bir kod parçasıdır.
+
+**Ad Markup'ın İki Ana Sorumluluğu:**
+1. Reklam kreatif dosyasını (ör. banner görseli, video) reklam alanına yüklemek
+2. İzleme piksellerini yükleyerek gösterimi (impression) takip etmek
+
 ### Ad Verification (Reklam Doğrulama)
 Reklamların doğru yerde, gerçek kullanıcılar tarafından görüntülendiğini ve uygunsuz içeriklerin yanında gösterilmediğini kontrol eden sistemlerdir. Bot trafiği, sahte tıklama ve marka güvenliği açısından önemlidir.
 
@@ -233,8 +240,30 @@ Dijital reklamcılık endüstrisi için standartlar belirleyen, rehberler yayın
 ### Impression (Gösterim)
 Bir reklamın kullanıcıya gösterildiği her andır. Genellikle reklamın sayfa üzerinde yüklendiği anda sayılır, kullanıcının görmesi gerekmez.
 
+### Iframe Reklam Etiketleri (Iframe Ad Tags)
+Masaüstü veya mobil tarayıcıda web sayfalarında display reklam sunumu için kullanılan HTML iframe etiketleridir. Iframe, içindeki reklam kodunu tamamen izole eder ve bu sayede reklamın sayfanın geri kalanıyla etkileşime girmesini engeller.
+
+**Avantajları:**
+- Yayıncıyı, reklam kodlarının web sitesinin içeriğini değiştirmesinden korur
+- JavaScript kodunu iframe içinde izole ederek güvenliği artırır
+- Reklamlar içeriğin geri kalanından sonra yüklenebilir
+
+**Dezavantajları:**
+- Yayıncı sitesindeki içerikle sınırlı etkileşim
+- Viewability (görüntülenebilirlik) takip edilmesi zordur
+
 ### Image Ads (Görsel Reklamlar)
 Görsel reklamlar (banner ads olarak da bilinir), markaların grafik tabanlı reklam formatlarıdır. Görseller, marka logoları, kısa metinler, ürün fotoğrafları içerir ve marka bilinirliği yaratmak için idealdir.
+
+### IMG Reklam Etiketleri (IMG Ad Tags)
+HTML etiketleridir ve iframe etiketlerine benzer. Genellikle mobil uygulamalarda display reklam göstermek için veya tarayıcının JavaScript çalıştırmadığı durumlarda yedek (fallback) olarak kullanılır.
+
+**Avantajları:**
+- Basit yapıya sahiptir ve teknik sorunlarla karşılaşmadan kolayca görüntülenebilir
+- CDN kullanarak görseller daha hızlı yüklenebilir
+
+**Dezavantajları:**
+- Zengin medya reklamlarını (genişleyebilir veya etkileşimli reklamlar) destekleyemez
 
 ### In-Content Native Ads (İçerik İçi Yerel Reklamlar)
 Doğrudan bir makalenin içinde, paragraflar arasında veya sonunda yer alan native reklamlardır. Okuma deneyimini bölmeden makale akışına doğal biçimde entegre olur.
@@ -258,6 +287,22 @@ Bir web sitesinde mevcut tüm reklam boşluklarına verilen addır (ad inventory
 - **Premium Inventory:** En değerli ve talep edilen envanter
 - **Remnant Inventory:** Satılamayan "artık" envanter
 - **Long-tail Inventory:** Küçük sitelerde ve bloglarda bulunan envanter
+
+---
+
+## J
+
+### JavaScript Reklam Etiketleri (JavaScript Ad Tags)
+Masaüstü veya mobil tarayıcıda web sayfalarında display reklamların sunulması için kullanılan reklam etiketleridir. Doğrudan yayıncının sayfa koduna yerleştirilir.
+
+**Avantajları:**
+- Reklamlar yayıncının web sitesiyle etkileşime girebilir
+- Görüntülenebilirlik (viewability) takip edilebilir
+- Reklamlar, içeriğin yüklenmesi sırasında veya sonrasında yüklenebilir
+
+**Dezavantajları:**
+- Reklamlar, yayıncının web sitesi içeriğini değiştirebilir ve sitenin bozulmasına neden olabilir
+- Güvenlik riskleri oluşturabilir (JavaScript enjeksiyonu, kötü amaçlı yazılım)
 
 ---
 
@@ -318,6 +363,9 @@ Dijital içeriğin bağlı bir TV'ye aktarılmasını sağlayan cihaz veya hizme
 
 ## P
 
+### Piggybacking
+Yayıncının ad sunucusundan dönen reklam markup'ının, tarayıcının reklamverenin (üçüncü taraf) ad sunucusuna ikinci bir istek göndermesini tetikleme sürecidir. Bu yöntemle hem yayıncı hem reklamveren ad sunucuları aynı gösterimde rol alabilir.
+
 ### PMP (Private Marketplace)
 Özel reklam borsasıdır. Yayıncılar premium envanterlerini sadece davetli reklamverenlere sunar. Açık borsalardan daha kontrollü ve yüksek kaliteli bir ortamdır.
 
@@ -368,6 +416,14 @@ Etkileşimli bir reklamcılık biçimidir ve animasyonlu görseller (örneğin G
 ---
 
 ## S
+
+### SafeFrame
+IAB tarafından tanıtılan, iframe ve JavaScript reklam etiketlerinin avantajlarını birleştirip dezavantajlarını ortadan kaldıran reklam standardıdır. Reklamı iframe içinde yükler ancak bir API aracılığıyla bu iframe'in reklamveren ile kontrollü şekilde etkileşime girmesine izin verir.
+
+**Faydaları:**
+- Reklamveren, reklam alanını genişletebilir veya viewability ölçümleri yapabilir
+- Yayıncı site bütünlüğünü korur; reklam kodu site içeriğini değiştiremez
+- Kullanıcıların hassas bilgileri korunur
 
 ### Search Advertising (Arama Reklamcılığı)
 Bir ürün veya hizmeti çevrimiçi olarak aradığınızda, Google, Bing veya DuckDuckGo gibi arama motorlarının organik (doğal) ve sponsorlu (ücretli) sonuçların bir karışımını gösterdiği reklam türüdür.

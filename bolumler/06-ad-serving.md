@@ -392,6 +392,255 @@ Birinci taraf ve üçüncü taraf ad sunucuları **temelde aynı tür teknolojid
 | **📈 Analitik & Raporlama** | Yayıncıların envanter doluluk oranlarını tahmin etmesi, gelir ve faturalama raporları sunması ve farklı kaynaklardan gelen talebin verimliliğini analiz etmesi | Reklamverenin gelecekteki medya satın alımlarını optimize etmesi, hangi sitelerin ve hedeflemelerin işe yaradığını belirlemesi ve A/B testleri yapması |
 | **🔮 Tahmin & Optimizasyon** | Yayıncıların belirli hedefleme kriterlerini karşılayan trafik & envanter miktarını öngörmesi | Reklamverenlerin performans metriklerini denetlemesi ve doğrulaması |
 
+⸻
+
+## 🔄 Yayıncı Ad Sunucusu ile Ad Serving Süreci
+
+İlk örnek, ad sunumunun yalnızca bir yayıncı ad sunucusu kullanıldığında nasıl çalıştığını göstermektedir:
+
+### 📋 İşleyiş Adımları
+
+**🍪 Çerez Kullanımı:** Birinci taraf çerezi kullanılır.
+
+1. **📱 Kullanıcı İsteği:** Kullanıcı bir web sitesini ziyaret ettiğinde tarayıcı, yayıncının web sunucusuna HTML içeriğini almak için bir istek gönderir.
+Web sunucusu HTML’yi döndürür ve sayfa yüklenmeye başlar.
+
+Sayfada bulunan reklam alanının kodu, tarayıcının yayıncının ad sunucusuna bir reklam isteği göndermesini tetikler.
+Yayıncının ad sunucusu, kullanıcı hakkında elde ettiği bilgilere dayanarak uygun bir kampanya seçer.
+Ad sunucusu, reklamverenin reklam etiketi (markup) ve kreatifini geri gönderir.
+Tarayıcı bu kreatifi yükleyip reklam alanında görüntüler.
+Gösterim bu süreçte sayılmış olur.
+
+---
+
+## 🔄 Yayıncı + Reklamveren Ad Sunucusu ile Ad Serving Süreci
+
+İkinci örnek, hem yayıncı hem de reklamveren ad sunucusunun sürece dahil olduğu ad sunma yapısını göstermektedir:
+
+### 📋 İşleyiş Adımları
+
+**🍪 Çerez Kullanımı:** Hem birinci taraf hem üçüncü taraf çerezleri kullanılabilir.
+
+1. **📱 Kullanıcı İsteği:** Kullanıcı web sitesine gider ve tarayıcı yayıncının web sunucusundan HTML kodunu ister.
+Web sunucusu HTML’yi döndürür ve sayfa yüklenmeye başlar.
+
+Reklam alanının kodu, yayıncının ad sunucusuna bir reklam isteği gönderir.
+Yayıncının ad sunucusu kampanya eşleştirmesi yapar, gösterimi sayar ve reklam markup’ını döndürür.
+
+Bu reklam markup’ı, tarayıcının bu kez reklamverenin (üçüncü taraf) ad sunucusuna bir istek göndermesini tetikler. Buna “piggybacking” denir.
+
+Reklamveren ad sunucusu:
+	•	kampanyayı seçer,
+	•	gösterimi sayar,
+	•	kreatifin bulunduğu CDN’e bir bağlantı içeren markup’ı döndürür.
+
+Tarayıcı CDN’e gidip kreatifi çeker ve reklamı kullanıcıya gösterir.
+
+⸻
+
+Bir Ad Sunucusunun Anatomisi
+
+Aşağıda, yukarıdaki diyagramlarda geçen ad sunma bileşenlerinin açıklamaları yer almaktadır.
+
+Reklam Etiketleri (Ad Tags)
+
+Bir reklam etiketi, bir reklamın bir reklam alanına yerleştirilmesini sağlayan kod parçasıdır.
+Ad etiketleri, uygulama yöntemine göre farklı türlerde olabilir.
+
+Aşağıda en yaygın reklam etiketi türleri, kullanım amaçları ve sundukları avantaj–dezavantajlar açıklanmaktadır (örneğin: JavaScript ad tags).
+
+⸻
+
+JavaScript Reklam Etiketleri (JavaScript Ad Tags)
+
+Kullanım:
+JavaScript reklam etiketleri, masaüstü veya mobil tarayıcıda web sayfalarında display reklamların sunulması için kullanılır.
+Mobil uygulamalarda da kullanılabilirler; bu durumda genellikle özel etiketler veya MRAID (Mobile Rich Media Ad Interface Definition) kullanılır.
+
+Uygulama:
+JavaScript reklam etiketleri doğrudan yayıncının sayfa koduna yerleştirilir.
+
+Avantajlar:
+	•	Reklamlar yayıncının web sitesiyle etkileşime girebilir.
+	•	Görüntülenebilirlik (viewability) takip edilebilir.
+	•	Reklamlar, içeriğin yüklenmesi sırasında veya sonrasında yüklenebilir (uygulamaya bağlıdır).
+
+Dezavantajlar:
+	•	Reklamlar, yayıncının web sitesi içeriğini değiştirebilir ve sitenin bozulmasına neden olabilir.
+	•	Reklamlar güvenlik riskleri oluşturabilir; örneğin JavaScript enjeksiyonu yoluyla kötü amaçlı yazılım yüklenebilir ve kullanıcıların form verileri, şifreleri, e-posta adresleri gibi hassas bilgiler ele geçirilebilir.
+Örneğin: Magecart saldırısı, 380.000 müşterinin kredi kartı bilgilerinin çalınmasına yol açmıştır.
+
+Bir JavaScript reklam etiketi örneği:
+
+<script type="text/javascript"><!--
+google_ad_client = "pub-1111111111";
+/* 160x600 - TOP */
+google_ad_slot = "12345";
+google_ad_width = 160;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+
+⸻
+
+Iframe Reklam Etiketleri (Iframe Ad Tags)
+
+Kullanım:
+Masaüstü veya mobil tarayıcıda web sayfalarında display reklam sunumu için kullanılır.
+
+Uygulama:
+Iframe reklam etiketleri, yayıncının sayfa koduna eklenen HTML iframe etiketleridir.
+Iframe, içindeki reklam kodunu tamamen izole eder ve bu sayede reklamın sayfanın geri kalanıyla etkileşime girmesini engeller.
+
+Avantajlar:
+	•	Yayıncıyı, reklam kodlarının web sitesinin içeriğini değiştirmesinden korur.
+	•	JavaScript kodunu iframe içinde izole ederek güvenliği artırır.
+	•	Reklamlar içeriğin geri kalanından sonra yüklenebilir; bu da sayfa yükleme süresini iyileştirebilir.
+
+Dezavantajlar:
+	•	Yayıncı sitesindeki içerikle sınırlı etkileşim — genişletilebilir reklamlar için ek JavaScript gerekir.
+	•	Viewability (görüntülenebilirlik) takip edilmesi zordur.
+
+Bir iframe reklam etiketi örneği (OpenX):
+
+<iframe id="a62ae7d3" name="a62ae7d3"
+src="http://delivery_server_domain/w/1.0/afr?auid=6635&cb=INSERT_RANDOM_NUMBER_HERE&rnd=5&r=3"
+frameborder="0" scrolling="no" width="728" height="90">
+<a href="http://delivery_server_domain/w/1.0/ct?cs=aed22faf&cb=INSERT_RANDOM_NUMBER_HERE"
+target="_blank">
+<img
+src="http://delivery_server_domain/w/1.0/ai?auid=6635&cs=aed22faf&cb=INSERT_RANDOM_NUMBER_HERE"
+border="0" alt="" /></a></iframe>
+
+
+⸻
+
+SafeFrame
+
+JavaScript ve iframe reklam etiketlerinde görülen sorunları çözmek için IAB tarafından yeni bir standart tanıtılmıştır: SafeFrame.
+
+SafeFrame nedir?
+SafeFrame, iframe ve JavaScript reklam etiketlerinin avantajlarını birleştirip birçok dezavantajlarını ortadan kaldıran bir IAB standardıdır.
+
+SafeFrame reklam alanları, reklamı iframe içinde yükler; ancak bir API aracılığıyla bu iframe’in reklamveren ile kontrollü şekilde etkileşime girmesine izin verir.
+
+Bu sayede:
+	•	Reklamveren, reklam alanını genişletebilir veya viewability ölçümleri yapabilir.
+	•	Yayıncı ise site bütünlüğünü korur; reklam kodu site içeriğini değiştiremez.
+	•	Kullanıcıların hassas bilgileri korunur.
+
+⸻
+
+SafeFrame Nasıl Çalışır?
+
+SafeFrame uygulaması aşağıdaki şekilde çalışır:
+	1.	Kullanıcı yayıncının web sitesine erişir ve tarayıcı, içeriği ve SafeFrame işaretlemelerini almak için yayıncının web sunucusuna bir istek gönderir.
+	2.	SafeFrame (JavaScript), SafeFrame API’si ile birlikte bir iframe yükler ve bu iframe’in yayıncı sitesiyle kontrollü şekilde etkileşime geçmesine izin verir.
+	3.	Reklam işlenir ve kullanıcıya gösterilir.
+	4.	Aynı zamanda, görüntülenebilirlik (viewability) ve ölçüm satıcıları tarafından veri toplanır ve reklamverenlere raporlanır.
+
+SafeFrame ile yüklenen reklamların iframe içinde tamamen izole edildiğini unutmamak önemlidir — yani üçüncü taraf ve reklamverenin ad sunucuları iframe içinde JavaScript çalıştırabilir, ancak yayıncının web sitesini etkileyemez. Yayıncı sitesiyle etkileşim sadece SafeFrame API tarafından izin verilen yöntemlerle yapılabilir; örneğin görüntülenebilirlik ölçümü gibi belirli işlemler mümkündür.
+
+⸻
+
+VAST ve VPAID (Video Reklamları İçin)
+
+Video reklam sunumunda, IAB tarafından tanımlanan iki format kullanılır:
+VAST (Video Ad-Serving Template) ve VPAID (Video Player Ad-Serving Interface Definition).
+
+VAST nedir?
+VAST, video reklamlarının (örneğin YouTube benzeri video oynatıcı içi reklamlardan) video ad sunucularından alınarak birçok farklı cihazda (masaüstü, mobil, tablet vb.) oynatılmasını sağlayan bir XML şemasıdır.
+
+VPAID nedir?
+VPAID, video reklam birimleriyle video oynatıcıların karşılıklı etkileşim kurmasını sağlayan bir JavaScript parçasıdır.
+
+⸻
+
+IMG Reklam Etiketleri (IMG Ad Tags)
+
+IMG reklam etiketleri HTML etiketleridir ve iframe etiketlerine benzer.
+
+Kullanım:
+Bu etiketler genellikle mobil uygulamalarda display reklam göstermek için veya tarayıcının JavaScript çalıştırmadığı durumlarda yedek (fallback) olarak kullanılır.
+
+Uygulama:
+Çoğu AdTech platformu ve yayıncı, tam HTML belgeleri yerine yalnızca HTML/IMG kod snippet’lerini kabul eder (örneğin <html>, <head> veya <title> etiketleri olmadan).
+
+HTML/IMG reklam etiketi örneği:
+
+<a href="https://www.clearcode.cc/">
+  <img src="http://clearcode250x250.jpg">
+</a>
+
+
+⸻
+
+Avantajlar
+	•	HTML/IMG etiketleri basit bir yapıya sahiptir ve teknik sorunlarla karşılaşmadan kolayca tarayıcı ve uygulamalarda görüntülenebilir.
+	•	İçerik dağıtım ağı (CDN) kullanarak görseller daha hızlı yüklenebilir; bu da reklamın görüntülenme olasılığını artırır.
+
+⸻
+
+Dezavantajlar
+	•	HTML/IMG reklam etiketleri zengin medya reklamlarını (ör. genişleyebilir veya etkileşimli reklamlar) destekleyemez.
+
+⸻
+
+Reklam Etiketlerini Takip Etmek İçin Kullanılan Spreadsheet’ler
+
+Reklamverenler, kampanyalarında kullanılan reklam etiketlerini takip etmek için genellikle spreadsheet’ler oluşturur.
+
+Tipik bir spreadsheet şu bilgileri içerir:
+	•	Yerleştirme listesi
+	•	Her yerleştirme için ilgili reklam etiketi
+
+Bu işlem manuel ve hata yapmaya açık olsa da, programatik olmayan display kampanyalarında (yayıncı ile reklamveren arasındaki doğrudan anlaşmalar) ve bazı self-serve AdTech platformlarında hâlâ yaygın kullanılan yöntemdir.
+
+⸻
+
+Ad Markup (Reklam İşaretlemesi)
+
+Ad markup, bir ad sunucudan veya başka bir AdTech platformundan (ör. SSP, DSP vb.) bir reklam etiketi aracılığıyla alınan ve bir reklam alanında (ad slot) işlenen bir kod parçasıdır.
+
+Aşağıdaki görselde temel akış gösterilir:
+	1.	Reklam alanının (ad slot) kodu, tarayıcının bir AdTech platformuna (ad server, SSP vb.) istek göndermesini tetikler.
+	2.	AdTech platformu reklam işaretlemesini (ad markup) geri döndürür.
+	3.	Reklam işaretlemesi, kreatif dosyasını ve izleme piksellerini yüklemek için gereken çağrıları yapar.
+
+⸻
+
+Ad Markup’ın İki Ana Sorumluluğu
+	1.	Reklam kreatif dosyasını (ör. banner görseli, video) reklam alanına yüklemek.
+	2.	İzleme piksellerini yükleyerek gösterimi (impression) takip etmek. Bu takip şu amaçlarla yapılır:
+	•	Ölçümleme (measurement)
+	•	Reklam doğrulama (ad verification)
+	•	Görüntülenebilirlik ölçümü (viewability)
+	•	Diğer analitik işlemler
+
+⸻
+
+Basit Bir Ad Markup Örneği
+
+<a href="http://landingpage.com/">
+  <img src="http://host-with-creatives.com/ads/banner.jpg" />
+</a>
+
+
+⸻
+
+Bölüm Özeti (Chapter Summary)
+	•	Ad serving, çevrimiçi reklamcılığın temel süreçlerinden biridir.
+	•	Birinci taraf (publisher) ad server, yayıncılar tarafından web sitelerindeki reklam alanlarını yönetmek, doğrudan kampanyalardan gelen reklamları sunmak, RTB gibi diğer kampanyaları yönetmek ve performans raporlamak için kullanılır (örn. gösterimler ve tıklamalar).
+	•	Üçüncü taraf (advertiser) ad server, reklamverenler tarafından kreatiflerini yönetmek, yayıncılara göndermek ve kampanyalarının performansı hakkında veri toplamak için kullanılır.
+
+⸻
+
+
+
 ### 📋 Özet Farklar:
 
 #### 📰 **Birinci Taraf (Yayıncı) Odaklı:**

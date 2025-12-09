@@ -298,6 +298,16 @@ Bu repo, **AdTech (Advertising Technology)** kitabının Türkçe çevirisini i�
   - 📢 Reklamverenin Ad Server'ı
 - 🔄 Birinci Taraf vs Üçüncü Taraf Karşılaştırması
 - 🔧 Teknik Alan & Ad Server Anatomisi
+  - 🔄 Yayıncı Ad Sunucusu ile Ad Serving Süreci
+  - 🔄 Yayıncı + Reklamveren Ad Sunucusu ile Ad Serving Süreci
+  - 🧩 Bir Ad Sunucusunun Anatomisi
+  - 🏷️ Reklam Etiketleri (Ad Tags)
+    - 📝 JavaScript Reklam Etiketleri
+    - 🖼️ Iframe Reklam Etiketleri
+    - 🛡️ SafeFrame
+    - 🎬 VAST ve VPAID (Video Reklamları İçin)
+    - 📷 IMG Reklam Etiketleri
+  - 📋 Ad Markup (Reklam İşaretlemesi)
 
 ### 📌 Bölüm 07: Hedefleme ve Bütçe Kontrolü
 - 🎯 Bağlamsal Hedefleme
