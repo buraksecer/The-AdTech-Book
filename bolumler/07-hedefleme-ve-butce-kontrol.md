@@ -321,6 +321,417 @@ Peki reklamverenler kullanıcıların nerede olduğunu nasıl bilir?
 
 ---
 
+
+## 📱 GPS ve Mobil Uygulamalarda Coğrafi Hedefleme
+
+### 🔹 Gelişmiş Konum Tespiti:
+
+**Yerel (Native) Mobil Uygulamalar:**
+Yerel mobil uygulamalar, bir akıllı telefonun **GPS'inden alınan kesin enlem ve boylam bilgilerini** doğrudan reklam sunucusuna iletebilir.
+### 🎯 Radius-Based Targeting (Yarıçap Bazlı Hedefleme):
+
+Bu gibi durumlarda reklam sunucusu, kullanıcıları **belirli bir noktanın belirli bir yarıçapı içinde** hedefleyebilir.
+
+**Örnek:**
+Bir mağazanın **5 mil çevresindeki kullanıcılar** hedeflenebilir.
+
+### ✅ GPS Hedeflemenin Avantajları:
+
+Bu yaklaşım, **IP adresine dayalı konum tespitine kıyasla çok daha hassas ve doğru** bir coğrafi hedefleme sağlar.
+
+### ⚠️ GPS Verilerinin Sınırlamaları:
+
+Ancak şunu da belirtmek gerekir ki:
+- ⚠️ GPS verileri dahi **zaman zaman hatalı olabilir**
+- 🚨 Hatta bazı durumlarda **sahte (fraudulent) konum bilgileri** söz konusu olabilir
+
+### 🔧 Doğruluk İyileştirme:
+
+Konum verilerinin doğruluğunu artırmak için bazı veri şirketleri:
+- 📊 **Farklı veri noktalarını**
+- 🔍 **Sensörleri**
+- 📡 **Kaynakları**
+
+toplar, birleştirir ve analiz eder.
+
+### 💡 Örnek Senaryo:
+
+**Durum:**
+Bir kullanıcı **New York şehir merkezinde** bir bankta oturmuş sandviç yerken, akıllı telefonunda bir oyun oynuyor olsun.
+
+**Hedefleme:**
+**Starbucks** (reklamveren), kullanıcının bulunduğu konumdan **5 dakika uzaklıktaki Starbucks şubesine** gitmesini teşvik eden bir reklam gösterebilir.
+
+---
+
+## 💻 Tarayıcı Türü, İşletim Sistemi ve Cihaz Türü
+### 🔹 Tanım:
+
+Reklam sunucusuna gönderilen her reklam isteği, bir **User-Agent HTTP header** içerir.
+
+### 📋 Örnek User-Agent:
+
+```
+User-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6)
+AppleWebKit/537.36 (KHTML, like Gecko)
+Chrome/60.0.3112.101 Safari/537.36
+```
+
+### 🔍 Bu Örnekten Çıkarılan Bilgiler:
+
+- 💻 **İşletim Sistemi:** Mac OS X 10.12.6
+- 🌐 **Tarayıcı:** Chrome
+- 📌 **Tarayıcı Sürümü:** 60.0.3112.101
+
+### 📱 Mobil Cihaz Örneği:
+
+Bir başka örnekte, **14D27** kimliği bir **iPhone 7 Plus** cihazını temsil eder ve cihazın **iOS 10.2.1** çalıştırdığı anlaşılır.
+
+### 🎯 Tespit Edilebilen Bilgiler:
+
+Bu bilgiler sayesinde reklam sunucusu:
+- 💻 **İşletim sistemini**
+- 🌐 **Tarayıcı türünü ve sürümünü**
+- 📱 **Cihaz türünü**
+- 🏷️ **Marka ve modeli**
+
+tespit edebilir.
+
+### 📱 Mobil Önemi:
+
+Bu özellikle **mobil cihazlar** için oldukça önemlidir (örnekte olduğu gibi iPhone).
+
+---
+
+## 🖥️ Donanım ve Yazılıma Dayalı Hedefleme
+### 🔹 Tanım:
+
+Kullanıcıları sahip oldukları **donanım veya yazılım özelliklerine göre** hedeflemek, reklamverenlerin belirli bir kitleye **son derece alakalı mesajlarla** ulaşmasını sağlar.
+
+### 💡 Örnek Senaryo:
+
+**Senaryo:**
+Bir mobil oyun şirketi yeni geliştirdiği **Android oyununu** tanıtmak istiyor.
+
+**Hedefleme:**
+**Android işletim sistemi** kullanan akıllı telefon ve tablet sahiplerine özel olarak reklam gösterilebilir.
+
+---
+
+## 📚 IAB İçerik Taksonomisi (IAB Content Taxonomy)
+### 🔹 Tanım:
+
+**IAB (Interactive Advertising Bureau)**, web sitelerinin kategorize edilmesi için **standart bir taksonomi** sunar.
+
+### 🎯 Kullanım Amaçları:
+
+Reklamverenler:
+- ✅ Reklam isteği (ad request) içinde iletilen kategori bilgilerine göre **dijital reklam alanı satın alabilir**
+- ❌ Aynı zamanda **belirli kategorilere ait web sitelerinde reklamlarının gösterilmemesini** de tercih edebilir
+
+### 🛡️ Marka Güvenliği:
+
+Bu sayede **marka güvenliği (brand safety)** ve **içerik uyumu** sağlanmış olur.
+
+---
+
+### 📊 IAB İçerik Taksonomisi – Örnek Yapı
+Aşağıdaki tablo, **IAB Content Taxonomy'nin hiyerarşik yapısını** (Tier 1 → Tier 2 → Tier 3) örneklerle göstermektedir.
+
+Her satır **benzersiz bir kategori kimliğini (Unique ID)** temsil eder.
+
+| Unique ID | Tier 1                 | Tier 2               | Tier 3                    |
+|-----------|------------------------|----------------------|---------------------------|
+| 1         | Otomotiv               |                      |                           |
+| 2         | Otomotiv               | Araç Kasa Tipi       |                           |
+| 3         | Otomotiv               | Araç Kasa Tipi       | Ticari Kamyonlar          |
+| ...       | ...                    | ...                  | ...                       |
+| 52        | İş ve Finans           |                      |                           |
+| 53        | İş ve Finans           | İş Dünyası           |                           |
+| 54        | İş ve Finans           | İş Dünyası           | Muhasebe ve Finans        |
+| ...       | ...                    | ...                  | ...                       |
+| 223       | Sağlıklı Yaşam         |                      |                           |
+| 224       | Sağlıklı Yaşam         | Çocuk Sağlığı        |                           |
+| 225       | Sağlıklı Yaşam         | Fitness ve Egzersiz  | Katılımcı Sporlar         |
+| ...       | ...                    | ...                  | ...                       |
+| 239       | Hobiler ve İlgi Alanları|                      |                           |
+| 255       | Hobiler ve İlgi Alanları| Sanat ve El İşi      | Fotoğrafçılık             |
+| ...       | ...                    | ...                  | ...                       |
+| 656       | Seyahat                | Seyahat Lokasyonları | Afrika Seyahati           |
+| 657       | Seyahat                | Seyahat Lokasyonları | Asya Seyahati             |
+| 658       | Seyahat                | Seyahat Lokasyonları | Avustralya ve Okyanusya   |
+| ...       | ...                    | ...                  | ...                       |
+
+---
+
+### 📈 IAB İçerik Taksonomisi Hakkında
+
+**IAB Content Taxonomy:**
+- 📊 **30+ adet Tier 1** (üst seviye) kategori
+- 📋 **1.100+ adet benzersiz kategori girdisi** içerir
+
+### 🎯 Faydaları:
+
+Bu yapı, içeriklerin **standart ve tutarlı şekilde sınıflandırılmasını** sağlar.
+
+Reklamverenler bu kategorileri kullanarak:
+- ✅ **Hangi içeriklerde reklam göstereceklerini**
+- ❌ **Hangi içeriklerde reklam göstermeyeceklerini (brand safety)** belirleyebilir
+
+### 📝 Teknik Detay:
+
+Aşağıda gösterilen yapı, **OpenRTB v2.4 spesifikasyonu** içinde yer alan ve **390+ içerik kategorisi** barındıran IAB İçerik Taksonomisinin bir bölümüdür.
+
+---
+
+### 💻 IAB İçerik Kategorileri – Örnekler
+Aşağıda, **IAB Content Taxonomy (OpenRTB 2.4)** kapsamında yer alan bazı içerik kategorilerinin örnekleri bulunmaktadır.
+
+Bu kategoriler genellikle **JSON formatında** tanımlanır ve **ad request** içinde kullanılır.
+
+```json
+{
+  "IAB1": "Sanat ve Eğlence",
+  "IAB1-1": "Kitaplar ve Edebiyat",
+  "IAB1-2": "Ünlüler / Magazin",
+  "IAB1-3": "Güzel Sanatlar",
+  "IAB1-4": "Mizah",
+  "IAB1-5": "Filmler",
+  "IAB1-6": "Müzik",
+  "IAB1-7": "Televizyon",
+
+  "IAB2": "Otomotiv",
+  "IAB2-1": "Oto Parçaları",
+  "IAB2-2": "Araç Tamiri",
+  "IAB2-3": "Araç Alım / Satımı",
+  "IAB2-4": "Otomobil Kültürü",
+  "IAB2-5": "Sertifikalı İkinci El",
+  "IAB2-6": "Cabrio",
+  "IAB2-7": "Coupe",
+  "IAB2-8": "Crossover",
+  "IAB2-9": "Dizel",
+  "IAB2-10": "Elektrikli Araç",
+  "IAB2-11": "Hatchback",
+  "IAB2-12": "Hibrit",
+  "IAB2-13": "Lüks",
+  "IAB2-14": "Minivan",
+  "IAB2-15": "Motosikletler",
+  "IAB2-16": "Arazi Araçları",
+  "IAB2-17": "Performans Araçları",
+  "IAB2-18": "Pickup",
+  "IAB2-19": "Yol Yardımı",
+  "IAB2-20": "Sedan",
+  "IAB2-21": "Kamyonlar ve Aksesuarlar",
+  "IAB2-22": "Klasik Araçlar",
+  "IAB2-23": "Station Wagon",
+
+  "IAB3": "İş Dünyası",
+  "IAB3-1": "Reklamcılık",
+  "IAB3-2": "Tarım",
+  "IAB3-3": "Biyoteknoloji / Biyomedikal",
+  "IAB3-4": "İş Yazılımları",
+  "IAB3-5": "İnşaat",
+  "IAB3-6": "Ormancılık"
+}
+```
+
+> **📝 Kaynak:** GitHub (IAB OpenRTB 2.4 içerik kategorileri)
+
+---
+
+## 📅 Haftanın Günü ve Günün Saati Hedefleme
+### 🔹 Tanım:
+
+Reklamların **haftanın gününe** ve hatta **günün saatine göre** gösterilmesi, reklamverenlerin:
+- ✅ **Doğru kitleye doğru zamanda ulaşmasını**
+- 💰 **Reklam bütçesinin boşa harcanmasını önlemesini**
+
+sağlar.
+
+---
+
+### 💡 Örnek Senaryo
+
+**Senaryo:**
+Büyük bir **pizza restoranı zinciri** için çalışan bir reklamveren
+
+**Hedefleme:**
+**Cuma akşamı kampanyalarını** Cuma günleri **15:00 – 20:00** saatleri arasında yayınlamayı tercih edebilir.
+
+### 🎯 Stratejik Avantajlar:
+
+Bu strateji özellikle:
+- ⚡ **Aynı saatlerde rakiplerin özel bir kampanya sunmadığı durumlarda**
+- 🎯 **Reklamın rakip içeriklerin yanında gösterildiği senaryolarda**
+
+çok daha etkili olur.
+
+---
+
+### 📈 Performans Odaklı Zamanlama
+
+**Durum:**
+Bir marka reklam etkileşiminin **günün belirli saatlerinde daha yüksek** olduğunu fark ederse
+
+**Strateji:**
+Reklamlarını bu zaman aralıklarında göstermeyi seçebilir.
+
+### ✅ Sonuçlar:
+
+Bu sayede:
+- 📈 **Hedef kitleye ulaşma olasılığı artar**
+- 🎯 **Etkileşim oranları yükselir**
+- 📊 **Tıklama oranları (CTR) ve dönüşümler artar**
+
+---
+
+## 🧠 Davranışsal Hedefleme (Behavioral Targeting)
+### 🔹 Tanım:
+
+**Davranışsal hedefleme**, **çevrimiçi davranışsal reklamcılık (Online Behavioral Advertising – OBA)** olarak da bilinir.
+
+### 📋 Açıklama:
+
+Bu yöntem, reklamverenlerin ve yayıncıların, kullanıcıların **web üzerindeki gezinme davranışlarına dayanarak** onlara ilgili reklamlar ve pazarlama mesajları göstermesine olanak tanır.
+
+---
+
+### 📊 Davranışsal Hedefleme için Toplanan Veri Türleri:
+
+Davranışsal hedefleme için toplanan veri türlerine şunlar dahildir:
+- 📄 **Ziyaret edilen sayfalar**
+- 🔍 **Önceki arama terimleri**
+- ⏱️ **Bir web sitesinde geçirilen süre**
+- 🖱️ **Tıklanan reklamlar ve butonlar**
+- 📥 **Görüntülenen ve indirilen içerikler**
+- 🛒 **Yapılan satın almalar**
+- 📅 **Son web sitesi ziyaretinin tarihi**
+- 🔗 **Kullanıcıların farklı web siteleriyle olan etkileşimlerine dair diğer bilgiler**
+
+---
+
+### 🔄 Çevrimiçi Davranışsal Hedefleme Süreci
+
+**Süreç Akışı:**
+
+1. 👤 **Kullanıcı** bir web sitesini ziyaret eder
+2. 📡 **Reklam Alanı (Ad slot)** reklam isteği gönderir
+3. 🖥️ **Yayıncının Reklam Sunucusu** veriyi işler
+4. 🔄 **Reklam Borsası (Ad exchange)** ve **SSP** veriyi alır
+5. 📊 **DMP (Data Management Platform)** kullanıcı hakkında bilgileri sağlar:
+   - 🍪 Çerez bilgisi (cookie)
+   - 👥 Demografik bilgiler
+   - 📈 Davranışsal profil
+   - 📜 Tarama (gezinme) geçmişi
+6. 💰 **DSP (Demand-Side Platform)** teklif verir
+7. 👁️ **Reklam kullanıcıya gösterilir**
+
+> **💡 Not:** Çevrimiçi davranışsal hedefleme, hangi reklamların gösterileceğini belirlemek için **kullanıcıya ait bilgileri** kullanır.
+
+---
+
+## ⚙️ Davranışsal Hedefleme Süreci
+
+Davranışsal hedefleme süreci **üç ana adımdan** oluşur:
+
+### 📋 Genel Süreç:
+
+1. 👤 Kullanıcı bir web sitesini ziyaret eder ve bu ziyaret sırasında kullanıcıya ait veriler (çerezler, gezinme geçmişi vb.) toplanır.
+2. 🔄 Bu veriler, yayıncının reklam sunucusu üzerinden **Ad Exchange**, **SSP** ve **DMP** gibi AdTech platformlarına iletilir.
+3. 💰 **DSP'ler**, kullanıcı profiline en uygun reklamlar için teklif verir ve kazanan reklam kullanıcıya gösterilir.
+
+---
+
+### 1️⃣ Veri Toplama (Data Collection)
+#### 🔹 Tanım:
+
+Reklamverenler, yayıncılar ve **DMP'ler (Data Management Platform)**, kullanıcıların farklı web siteleri ve uygulamalar boyunca gerçekleştirdiği aksiyonlara dair veriler toplar.
+
+#### 📊 Olay Verisi (Event Data):
+
+Bu veriler genellikle **olay verisi (event data)** olarak adlandırılır ve şunları kapsar:
+- 📄 **Sayfa görüntülemeleri**
+- 🛍️ **Ürün görüntülemeleri**
+- 🛒 **Satın alınan ürünler**
+- 🔗 **Bir web sitesi veya mobil uygulamadaki diğer etkileşimler**
+
+#### 🔗 Veri Bağlama:
+
+Bu veriler daha sonra:
+- 🍪 **Web tarayıcılarında bulunan birinci taraf (first-party) ve üçüncü taraf (third-party) çerezlerde** saklanan tanımlayıcılar
+- 📱 **Mobil uygulamalarda kullanılan mobil cihaz kimlikleri (mobile IDs)**
+
+aracılığıyla birbirine bağlanır.
+
+#### 👤 Kullanıcı Profilleri:
+
+Ardından, belirli bir kullanıcıya ait tüm olay verilerini tek bir yerde tutmak için **kullanıcı profilleri** oluşturulur ve gelecekteki tüm olay verileri bu profile atanır.
+
+#### 🔑 Tanımlayıcılar:
+
+Üçüncü taraf çerezlerdeki bir ID ya da mobil cihaz kimliği gibi bir tanımlayıcı, kullanıcıyı farklı web sitelerindeki aksiyonlarıyla ilişkilendirmek ve olay verilerini doğru kullanıcı profiline bağlamak için kullanılır.
+
+---
+
+### 2️⃣ Kitle Oluşturma (Audience Creation)
+#### 🔹 Tanım:
+
+Reklamverenler ve yayıncılar, bireysel kullanıcı profillerinden oluşan **kitleler (audiences)** oluşturur.
+
+#### 💡 Örnek Kriterler:
+
+Örneğin bir reklamveren, aşağıdaki kriterleri karşılayan kullanıcıları içeren bir kitle oluşturabilir:
+- 🛍️ **Belirli bir ürünü bir ay içinde üçten fazla kez görüntülemiş olanlar**
+- 📧 **Bir bültene (newsletter) kayıt olmuş olanlar**
+- 🔄 **Son 60 gün içinde web sitesini en az 15 kez ziyaret etmiş olanlar**
+
+---
+
+### 3️⃣ Verinin Uygulanması (Application of Data)
+#### 🔹 Tanım:
+
+Reklamveren, oluşturulan bu kitleleri **çevrimiçi medya kampanyalarında reklam hedefleme amacıyla** kullanır.
+
+#### ✅ Sonuçlar:
+
+Bunun sonucunda:
+- 🎯 **Kullanıcılara gösterilen reklamlar daha alakalı (relevant) hale gelir**
+- 📈 **Kullanıcıların dönüşüm gerçekleştirme (ör. ürün satın alma) olasılığı artar**
+
+---
+
+### 📊 Davranışsal Hedefleme Sürecinin 3 Temel Adımı
+
+1. 📥 **Verilerin toplanması ve analiz edilmesi**
+2. 👥 **Segmentasyon (kitlelere ayırma)**
+3. 🎯 **Verinin uygulanması (reklam hedefleme)**
+
+Davranışsal hedefleme süreci bu üç temel adımdan oluşur.
+
+---
+
+## 🔄 Yeniden Hedefleme (Retargeting)
+
+### 🔹 Tanım:
+
+**Yeniden hedefleme (Retargeting)**, markayla **daha önce etkileşime geçmiş kullanıcılara** reklam gösterilmesidir.
+
+### ⚙️ Nasıl Çalışır?
+
+#### 📋 Adım Adım Süreç:
+
+1. 📍 **Tracking Pixel Yerleştirme:**
+   - Siteye **1x1 tracking pixel** yerleştirilir
+
+2. 🍪 **Cookie Oluşturma:**
+   - Kullanıcı pixel'i tetikler → **cookie oluşturulur**
+
+3. 🔍 **Kullanıcı Tanıma:**
+   - Kullanıcı başka bir siteye gittiğinde **tanınır**
+
+4. 👁️ **Reklam Gösterimi:**
+   - **Önceden görüntülediği ürün** reklam olarak gösterilir
+
 ## 🎓 Bölüm Özeti
 
 Bu bölümde Hedefleme ve Bütçe Kontrolü konularının temellerini öğrendik:
@@ -331,7 +742,12 @@ Bu bölümde Hedefleme ve Bütçe Kontrolü konularının temellerini öğrendik
 2. **🌐 Bağlamsal Hedefleme** - İçerik tabanlı hedefleme yöntemi
 3. **🔑 Anahtar Kelimeler** - İçerik analizi ve hedefleme
 4. **📍 Reklam Pozisyonu** - Boyut ve konum bazlı hedefleme
-5. **🌍 Coğrafi Hedefleme** - IP tabanlı konum belirleme
+5. **🌍 Coğrafi Hedefleme** - IP ve GPS tabanlı konum belirleme
+6. **💻 Cihaz ve Tarayıcı Hedefleme** - User-Agent bazlı tespit
+7. **📚 IAB İçerik Taksonomisi** - Standart içerik kategorileri
+8. **📅 Zaman Bazlı Hedefleme** - Gün ve saat bazlı gösterim
+9. **🧠 Davranışsal Hedefleme** - Kullanıcı davranışına dayalı hedefleme
+10. **🔄 Yeniden Hedefleme** - Önceki etkileşimlere dayalı reklam gösterimi
 
 ### **🔑 Ana Çıkarımlar:**
 
@@ -339,14 +755,6 @@ Bu bölümde Hedefleme ve Bütçe Kontrolü konularının temellerini öğrendik
 - **Gizlilik:** Bağlamsal hedefleme kişisel veri gerektirmez
 - **Verimlilik:** Doğru hedefleme ROI'yi artırır
 - **Uyumluluk:** GDPR ve benzeri regülasyonlara uyum sağlar
-
-### **📈 Sonraki Bölümlerde:**
-
-- İzlenim, tıklama ve dönüşüm takibi
-- Bütçe kontrolü mekanizmaları
-- Frequency capping (Frekans sınırlaması)
-- Davranışsal hedefleme
-- Demografik hedefleme
 
 ---
 

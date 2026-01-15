@@ -77,6 +77,12 @@ Reklam ajansları bünyesinde kurulmuş, programatik medya alımı yapan özel b
 ### Attribution (Atıf Modellemesi)
 Bir dönüşüme yol açan farklı pazarlama kanallarının ve temas noktalarının katkısını ölçme ve değerlendirme sürecidir.
 
+### Application of Data (Verinin Uygulanması)
+Davranışsal hedefleme sürecinin üçüncü adımıdır. Reklamveren, oluşturulan kitleleri (audiences) çevrimiçi medya kampanyalarında reklam hedefleme amacıyla kullanır. Bu sayede kullanıcılara gösterilen reklamlar daha alakalı hale gelir ve dönüşüm olasılığı artar.
+
+### Audience Creation (Kitle Oluşturma)
+Davranışsal hedefleme sürecinin ikinci adımıdır. Reklamverenler ve yayıncılar, bireysel kullanıcı profillerinden oluşan kitleler (audiences) oluşturur. Örneğin, belirli bir ürünü bir ay içinde üçten fazla kez görüntülemiş olanlar veya bir bültene kayıt olmuş olanlar gibi kriterlere göre kitleler oluşturulabilir.
+
 ### Ad Pod (Reklam Paketi)
 Video reklamcılığında kullanılan, tek bir ses dosyası içinde birden fazla sesli reklamı çalıştırmak için kullanılan formattır. Pre-roll (içerikten önce) veya mid-roll (içerik sırasında) biçiminde gösterilebilir.
 
@@ -208,6 +214,9 @@ Kitlelere aynı mesajı iletmek için tasarlanmış statik sesli reklamlardan fa
 ---
 
 ## E
+
+### Event Data (Olay Verisi)
+Kullanıcıların farklı web siteleri ve uygulamalar boyunca gerçekleştirdiği aksiyonlara dair verilerdir. Sayfa görüntülemeleri, ürün görüntülemeleri, satın alınan ürünler ve bir web sitesi veya mobil uygulamadaki diğer etkileşimleri kapsar. Bu veriler, davranışsal hedefleme için kullanıcı profilleri oluşturmak amacıyla toplanır ve analiz edilir.
 
 ### Expanding Ads (Genişleyen Reklamlar)
 Normal bir banner reklam olarak başlar, ancak kullanıcı tıkladığında genişleyen zengin medya reklam türüdür. Farklı yönlere doğru açılabilir (örneğin sağdan sola ya da yukarıdan aşağıya).
@@ -372,6 +381,9 @@ Zengin medya reklamlarını mobil uygulamalarda görüntülemek için kullanıla
 
 ## O
 
+### OBA (Online Behavioral Advertising - Çevrimiçi Davranışsal Reklamcılık)
+Davranışsal hedefleme (behavioral targeting) olarak da bilinir. Reklamverenlerin ve yayıncıların, kullanıcıların web üzerindeki gezinme davranışlarına dayanarak onlara ilgili reklamlar ve pazarlama mesajları göstermesine olanak tanıyan yöntemdir. Kullanıcıların ziyaret ettiği sayfalar, arama terimleri, geçirdiği süre, tıkladığı reklamlar ve satın alma davranışları gibi verileri kullanır.
+
 ### Native Ads (Yerel Reklamlar)
 Bulunduğu sayfanın içeriğine doğal bir şekilde uyum sağlayan, "reklam gibi görünmeyen" reklamlardır. Sayfa tasarımına benzer görünür ancak "Sponsored", "Ad", "Promoted" gibi açıklama eklenir.
 
@@ -420,7 +432,10 @@ Reklam ağına dahil tüm sitelerde reklam yayınlama hedefleme türüdür. Beli
 Belirli yayıncıları veya alan adlarını hedef alan reklam yayınlama türüdür. Sadece seçilen sitelerde kampanya çalıştırılır.
 
 ### Retargeting (Yeniden Hedefleme)
-Daha önce bir web sitesini ziyaret etmiş veya bir ürünü görüntülemiş ancak satın almamış kullanıcılara tekrar reklam gösterme stratejisidir.
+Daha önce bir web sitesini ziyaret etmiş veya bir ürünü görüntülemiş ancak satın almamış kullanıcılara tekrar reklam gösterme stratejisidir. Tracking pixel yerleştirme, cookie oluşturma ve kullanıcı tanıma süreçlerini içerir. Kullanıcı başka bir siteye gittiğinde tanınır ve önceden görüntülediği ürün reklam olarak gösterilir.
+
+### Radius-Based Targeting (Yarıçap Bazlı Hedefleme)
+GPS tabanlı coğrafi hedefleme yöntemidir. Yerel mobil uygulamalar, akıllı telefonun GPS'inden alınan kesin enlem ve boylam bilgilerini doğrudan reklam sunucusuna iletebilir. Reklam sunucusu, kullanıcıları belirli bir noktanın belirli bir yarıçapı içinde hedefleyebilir. Örneğin, bir mağazanın 5 mil çevresindeki kullanıcılar hedeflenebilir. IP adresine dayalı konum tespitine kıyasla çok daha hassas ve doğru bir coğrafi hedefleme sağlar.
 
 ### RTB (Real-Time Bidding - Gerçek Zamanlı Teklif Verme)
 Reklam gösteriminin milisaniyeler içinde açık artırma yoluyla satın alındığı otomatik süreçtir. Kullanıcı bir web sayfasını yüklediğinde, o gösterim için gerçek zamanlı açık artırma yapılır.
@@ -507,6 +522,9 @@ Veri aracıları (data brokers) tarafından çeşitli kaynaklardan toplanıp pak
 
 ### UAP (Universal Ad Package - Evrensel Reklam Paketi)
 IAB tarafından belirlenen standart reklam boyutları setidir. Medium rectangle, leaderboard, skyscraper gibi formatları içerir.
+
+### User-Agent
+HTTP protokolünde, tarayıcının veya uygulamanın kendisini tanımlamak için gönderdiği header bilgisidir. Reklam sunucusuna gönderilen her reklam isteği, bir User-Agent HTTP header içerir. Bu bilgi sayesinde reklam sunucusu, kullanıcının işletim sistemini, tarayıcı türünü ve sürümünü, cihaz türünü, marka ve modelini tespit edebilir. Özellikle mobil cihazlar için oldukça önemlidir.
 
 ---
 

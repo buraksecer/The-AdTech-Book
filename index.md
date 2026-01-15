@@ -316,15 +316,30 @@ Bu repo, **AdTech (Advertising Technology)** kitabının Türkçe çevirisini i�
 
 ### 📌 [Bölüm 07: Hedefleme ve Bütçe Kontrolü](bolumler/07-hedefleme-ve-butce-kontrol.md)
 - 🎯 Hedefleme Nedir?
-- 🌐 Bağlamsal Hedefleme (Contextual Targeting)
-  - ⚙️ Nasıl Çalışır?
-  - 💎 Faydaları
-- 🔑 Anahtar Kelimeler (Keywords)
-- 📍 Reklam Alanı ve Reklam Pozisyonu
-- 🌍 Yayıncının URL'si
-  - 🌐 Domain Hedefleme
-  - 📂 Bölüm ve URL Hedefleme
-- 🌍 IP ve Coğrafi Konum Hedefleme
+- 💡 Arka Plan
+- ⚙️ Hedefleme Nasıl Çalışır?
+- 📊 Hedefleme Yöntemleri
+  - 🎯 Bağlamsal Hedefleme
+    - ⚙️ Nasıl Çalışır?
+    - 💎 Faydaları
+  - 🔑 Anahtar Kelimeler
+  - 📍 Reklam Alanı ve Pozisyonu
+  - 🌍 Yayıncının URL'si
+    - 🌐 Domain Hedefleme
+    - 📂 Bölüm ve URL Hedefleme
+  - 🌍 IP ve Coğrafi Konum Hedefleme
+  - 📱 GPS ve Mobil Uygulamalarda Coğrafi Hedefleme
+  - 💻 Tarayıcı Türü, İşletim Sistemi ve Cihaz Türü
+  - 🖥️ Donanım ve Yazılıma Dayalı Hedefleme
+  - 📚 IAB İçerik Taksonomisi
+  - 📅 Haftanın Günü ve Günün Saati Hedefleme
+  - 🧠 Davranışsal Hedefleme (Behavioral Targeting)
+    - 📊 Veri Toplama
+    - 👥 Kitle Oluşturma
+    - 🎯 Verinin Uygulanması
+  - 🔄 Yeniden Hedefleme (Retargeting)
+- 💰 Bütçe Kontrolü
+- 🎓 Bölüm Özeti
 
 ### 📌 Bölüm 08: İzlenim, Tıklama ve Dönüşüm Takibi
 - 📊 Takip ve Raporlama
