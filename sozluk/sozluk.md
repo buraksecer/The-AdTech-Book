@@ -56,6 +56,12 @@ Bir ad sunucudan veya başka bir AdTech platformundan (ör. SSP, DSP vb.) bir re
 1. Reklam kreatif dosyasını (ör. banner görseli, video) reklam alanına yüklemek
 2. İzleme piksellerini yükleyerek gösterimi (impression) takip etmek
 
+### Ad Position (Reklam Pozisyonu)
+Bir reklamın web sayfasındaki konumunu ifade eder. Örneğin: sayfanın üst kısmı (top of the page), yan taraf (sidebar), içerik arası (in-content) gibi. Reklamverenler, belirli boyutlara sahip veya web sayfasının belirli bir bölümünde yer alan reklam alanlarında reklam göstermek için bu hedeflemeyi kullanabilirler. Bu tür hedefleme oldukça geniş kapsamlı olduğu için genellikle diğer hedefleme yöntemleriyle birlikte kullanılır.
+
+### Ad Request (Reklam İsteği)
+Bir web sayfası yüklendiğinde, reklam alanını (ad slot) doldurmak için reklam sunucusuna gönderilen teknik istektir. Bu istek, kullanıcı hakkında bilgiler (IP adresi, sayfa URL'si, tarayıcı bilgileri, bağlamsal bilgiler vb.) içerir ve reklam sunucusunun hangi reklamı göstereceğine karar vermesini sağlar. Reklam isteği, bağlamsal hedefleme için URL, anahtar kelimeler ve kategori bilgilerini de içerebilir.
+
 ### Ad Verification (Reklam Doğrulama)
 Reklamların doğru yerde, gerçek kullanıcılar tarafından görüntülendiğini ve uygunsuz içeriklerin yanında gösterilmediğini kontrol eden sistemlerdir. Bot trafiği, sahte tıklama ve marka güvenliği açısından önemlidir.
 
@@ -101,6 +107,9 @@ Podcast'lerin, müzik yayın servislerinin ve dijital radyonun popülerliğinin 
 ### Brand Awareness (Marka Farkındalığı)
 Geniş bir tüketici kitlesine ulaşmak, onlarla etkileşim kurmak ve markaya maruz kaldıkları süreyi en üst düzeye çıkarmak amacıyla yapılan reklam stratejisidir.
 
+### Brand Safety (Marka Koruması)
+Reklamların uygunsuz, zararlı veya marka imajına uygun olmayan içeriklerin yanında gösterilmesini önleme sürecidir. Bağlamsal hedefleme, marka koruması sağlamak için etkili bir yöntemdir çünkü reklamlar, içerik bağlamına göre uygun sayfalarda gösterilir. Bu sayede markalar, itibar risklerinden korunur.
+
 ### Branded Content (Markalı İçerik)
 Markaların kendi hikayelerini, ürünlerini veya mesajlarını editoryal içerik biçiminde sundukları reklamlardır. Kullanıcıyı başka bir siteye yönlendirmez, doğrudan yayıncının sitesinde "Sponsored by [marka adı]" etiketiyle yayınlanır.
 
@@ -122,6 +131,9 @@ Web sayfalarında veya mobil uygulamalarda gördüğünüz banner reklamlara ben
 
 ### Connected TV (CTV - Bağlı TV)
 Internete bağlanabilen ve kullanıcıların OTT yayın hizmetlerinden video içerik izlemelerini sağlayan cihazlardır. Akıllı TV'ler, oyun konsolları ve yayın cihazları örnek verilebilir.
+
+### Contextual Targeting (Bağlamsal Hedefleme)
+Reklamverenlerin ziyaretçi hakkında toplanan veriler yerine, web sitesinin içeriğine dayalı olarak ilgili reklamları göstermesine olanak tanıyan hedefleme yöntemidir. URL, anahtar kelimeler, içerik, kategoriler ve etiketler gibi bilgileri kullanır. Kişisel verilere ihtiyaç duymadığı için GDPR gibi gizlilik regülasyonlarına uyumludur ve marka koruması sağlar.
 
 ### Content Recommendation Ads (İçerik Öneri Reklamları)
 Native reklam türlerinden biridir. Genellikle makale veya haberlerin altında "From the web", "Recommended for you" gibi ibarelerle görünür. Kullanıcıyı başka bir siteye veya markalı içeriğe yönlendirmeyi amaçlar.
@@ -165,6 +177,9 @@ Sesli reklamların sunulması için kullanılan standarttır. Daha sonra VAST 4.
 
 ### DCO (Dynamic Creative Optimization)
 Reklamların otomatik kişiselleştirme teknolojisidir. Kullanıcı profiline, davranışına ve bağlamına göre reklam içeriğini gerçek zamanlı olarak değiştiren sistemdir.
+
+### Direct Deal (Doğrudan Anlaşma)
+Reklamveren ile yayıncı arasında doğrudan yapılan, Insertion Order (IO) ile belirlenen reklam anlaşmasıdır. Geleneksel olarak hedefleme, bu tür anlaşmalarda reklam sunucuları üzerinden yapılırdı. Reklamveren, hedefleme kriterlerini IO içinde tanımlar ve yayıncının AdOps ekibi bu kriterleri yayıncının reklam sunucusunda yapılandırır.
 
 ### Direct Response (Doğrudan Yanıt)
 Tüketiciyi belirli bir eyleme (form doldurmak, satın almak vb.) yönlendiren reklamları göstererek yeni müşteri adayları, satışlar ve dönüşümler elde etmeye yönelik reklam stratejisidir.
@@ -222,6 +237,9 @@ Avrupa Birliği'nde 2018'de yürürlüğe giren, kullanıcı gizliliğini koruya
 
 ### GMP (Google Marketing Platform)
 Google'ın pazarlama teknolojileri için geliştirdiği kapsamlı ürün ailesidir. DV360, Analytics 360, Search Ads 360, Data Studio gibi araçları içerir.
+
+### Geolocation Targeting (Coğrafi Konum Hedeflemesi)
+Kullanıcılara mevcut konumlarına göre reklam gösterilmesini ifade eden hedefleme yöntemidir. Reklam sunucusu, kullanıcının tarayıcısından gelen reklam isteğindeki IP adresini, MaxMind veya Neustar gibi harici veritabanları kullanarak ülke, bölge ve şehir bilgileriyle eşleştirir. Bu sayede kullanıcının konumunu belirleyerek coğrafi hedefleme yapabilir. Örneğin, Chicago'da bulunan bir kullanıcıya Chicago bölgesindeki mağazaları, restoranları veya hizmetleri tanıtan reklamlar gösterilebilir.
 
 ---
 
@@ -287,6 +305,13 @@ Bir web sitesinde mevcut tüm reklam boşluklarına verilen addır (ad inventory
 - **Premium Inventory:** En değerli ve talep edilen envanter
 - **Remnant Inventory:** Satılamayan "artık" envanter
 - **Long-tail Inventory:** Küçük sitelerde ve bloglarda bulunan envanter
+
+---
+
+## K
+
+### Keywords (Anahtar Kelimeler)
+Reklamverenler için değerli hedefleme değişkenleridir, çünkü web sitesi ziyaretçisinin tükettiği içerik türü hakkında doğru bir resim sunarlar. Bir reklam sunucusu, belirli bir web sayfasında hangi anahtar kelimelerin bulunduğunu editör etiketleri (tags) aracılığıyla veya JavaScript/sunucu taraflı web taraması (server-side crawling) ile çıkarabilir. Bu anahtar kelimeler genellikle ad tag'e iletilir ve reklam sunucusu, reklam isteği sırasında bu bilgileri alarak hangi reklamın gösterileceğine karar verir.
 
 ---
 
@@ -451,6 +476,12 @@ Facebook, LinkedIn ve Twitter gibi sosyal medya ağlarının kendi başlarına b
 ### SSP (Supply-Side Platform - Arz Tarafı Platformu)
 Yayıncıların reklam envanterlerini yönetmelerine, birden fazla talep kaynağına sunmalarına ve gelirlerini optimize etmelerine yardımcı olan platformdur.
 
+### Section (Bölüm)
+Bir web sitesinin belirli bir içerik kategorisini veya bölümünü ifade eder. Reklamverenler, sitenin belirli bölümlerini (örneğin teknoloji veya eğlence bölümü) hedeflemeyi tercih edebilirler. Bu bölümler genellikle yalnızca URL üzerinden net bir şekilde ayırt edilemez, bu nedenle yayıncının, reklam sunucusunun bu değişkeni hedeflemede kullanabilmesi için bölüm adını (section name) ad tag içinde göndermesi gerekebilir. Bu hedefleme yöntemi çoğu zaman reklam ağlarında kullanılan run-on-network (RON) hedefleme ile ilişkilidir.
+
+### Server-side Crawling (Sunucu Taraflı Web Taraması)
+Web sayfalarındaki anahtar kelimeleri otomatik olarak çıkarmak için kullanılan bir yöntemdir. Reklam sunucuları, bu yöntemi kullanarak sayfadaki anahtar kelimeleri tespit edebilir ve bağlamsal hedefleme için kullanabilir. JavaScript tabanlı tarama yöntemlerine alternatif olarak sunucu tarafında gerçekleştirilir.
+
 ### Supply Side (Arz Tarafı)
 Reklam ekosisteminde yayıncılar, SSP'ler ve reklam borsaları gibi envanter sunan tarafı ifade eder.
 
@@ -514,6 +545,9 @@ Web sitesini ziyaret eden kullanıcıdır. Reklamcılıkta hedeflenen kişidir.
 
 ### Web Advertising (Web Reklamcılığı)
 Çevrimiçi reklamcılığın köklü biçimlerinden biridir. İnternetin 1990'ların sonlarında yaygınlaşmasıyla birlikte, markalar ve ajanslar için erişilebilir ilk reklam kanalı olmuştur. Masaüstü bilgisayarlarda, dizüstü bilgisayarlarda ve mobil cihazlarda web tarayıcılarında gösterilen reklamlara karşılık gelir.
+
+### Web Crawler (Web Tarayıcı)
+Web sitelerini otomatik olarak tarayan ve içerikleri ile reklam alanlarını kategorize eden yazılım programıdır. Bağlamsal hedefleme için URL'leri tarar ve içerikleri analiz eder. Bu bilgiler, reklam isteği sırasında reklam sunucusuna iletilir ve hangi reklamların gösterileceğini belirlemek için kullanılır.
 
 ### Yield Optimization (Gelir Optimizasyonu)
 SSP'lerin algoritma kullanarak yayıncı adına hangi teklifi kabul edeceğini otomatik belirleme sürecidir. Amaç, her gösterimden maksimum gelir elde etmektir.

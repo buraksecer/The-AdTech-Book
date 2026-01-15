@@ -309,11 +309,17 @@ Bu repo, **AdTech (Advertising Technology)** kitabının Türkçe çevirisini i�
     - 📷 IMG Reklam Etiketleri
   - 📋 Ad Markup (Reklam İşaretlemesi)
 
-### 📌 Bölüm 07: Hedefleme ve Bütçe Kontrolü
-- 🎯 Bağlamsal Hedefleme
-- 🔑 Anahtar Kelimeler
-- 📍 Reklam Alanı ve Konum
-- 🌍 Yayıncı URL'leri ve Domainler
+### 📌 [Bölüm 07: Hedefleme ve Bütçe Kontrolü](bolumler/07-hedefleme-ve-butce-kontrol.md)
+- 🎯 Hedefleme Nedir?
+- 🌐 Bağlamsal Hedefleme (Contextual Targeting)
+  - ⚙️ Nasıl Çalışır?
+  - 💎 Faydaları
+- 🔑 Anahtar Kelimeler (Keywords)
+- 📍 Reklam Alanı ve Reklam Pozisyonu
+- 🌍 Yayıncının URL'si
+  - 🌐 Domain Hedefleme
+  - 📂 Bölüm ve URL Hedefleme
+- 🌍 IP ve Coğrafi Konum Hedefleme
 
 ### 📌 Bölüm 08: İzlenim, Tıklama ve Dönüşüm Takibi
 - 📊 Takip ve Raporlama
