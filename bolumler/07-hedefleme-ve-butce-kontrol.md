@@ -647,9 +647,9 @@ Davranışsal hedefleme süreci **üç ana adımdan** oluşur:
 
 Reklamverenler, yayıncılar ve **DMP'ler (Data Management Platform)**, kullanıcıların farklı web siteleri ve uygulamalar boyunca gerçekleştirdiği aksiyonlara dair veriler toplar.
 
-#### 📊 Olay Verisi (Event Data):
+#### 📊 Event Data:
 
-Bu veriler genellikle **olay verisi (event data)** olarak adlandırılır ve şunları kapsar:
+Bu veriler genellikle **Event Data** olarak adlandırılır ve şunları kapsar:
 - 📄 **Sayfa görüntülemeleri**
 - 🛍️ **Ürün görüntülemeleri**
 - 🛒 **Satın alınan ürünler**
@@ -665,11 +665,11 @@ aracılığıyla birbirine bağlanır.
 
 #### 👤 Kullanıcı Profilleri:
 
-Ardından, belirli bir kullanıcıya ait tüm olay verilerini tek bir yerde tutmak için **kullanıcı profilleri** oluşturulur ve gelecekteki tüm olay verileri bu profile atanır.
+Ardından, belirli bir kullanıcıya ait tüm **Event Data**’yı tek bir yerde tutmak için **kullanıcı profilleri** oluşturulur ve gelecekteki tüm **Event Data** bu profile atanır.
 
 #### 🔑 Tanımlayıcılar:
 
-Üçüncü taraf çerezlerdeki bir ID ya da mobil cihaz kimliği gibi bir tanımlayıcı, kullanıcıyı farklı web sitelerindeki aksiyonlarıyla ilişkilendirmek ve olay verilerini doğru kullanıcı profiline bağlamak için kullanılır.
+Üçüncü taraf çerezlerdeki bir ID ya da mobil cihaz kimliği gibi bir tanımlayıcı, kullanıcıyı farklı web sitelerindeki aksiyonlarıyla ilişkilendirmek ve **Event Data**’yı doğru kullanıcı profiline bağlamak için kullanılır.
 
 ---
 

@@ -215,7 +215,10 @@ Kitlelere aynı mesajı iletmek için tasarlanmış statik sesli reklamlardan fa
 
 ## E
 
-### Event Data (Olay Verisi)
+### Event
+Reklam teknolojilerinde (AdTech) **Event**, sistemde anlamlı bir aksiyonun veya ölçüm noktasının kaydıdır. Örneğin: **Impression Event**, **Click Event**, **Conversion Event**. Event’ler, raporlama, optimizasyon, attribution ve dolandırıcılık tespiti gibi süreçlerin temel girdisidir.
+
+### Event Data
 Kullanıcıların farklı web siteleri ve uygulamalar boyunca gerçekleştirdiği aksiyonlara dair verilerdir. Sayfa görüntülemeleri, ürün görüntülemeleri, satın alınan ürünler ve bir web sitesi veya mobil uygulamadaki diğer etkileşimleri kapsar. Bu veriler, davranışsal hedefleme için kullanıcı profilleri oluşturmak amacıyla toplanır ve analiz edilir.
 
 ### Expanding Ads (Genişleyen Reklamlar)
