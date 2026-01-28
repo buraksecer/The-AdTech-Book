@@ -224,6 +224,11 @@ Bir reklam alanının içinde, reklam sunucusuyla iletişim kurarak gerçek bir 
 
 ***Reklam boşluğu*** (ad space), reklam alanındaki mevcut gerçek gösterimi ifade eder.
 
+Pratikte “ad space / inventory” çoğunlukla **satılabilir gösterim kapasitesi** olarak ele alınır ve kabaca şöyle hesaplanır:
+\[
+\text{Ad Space (teorik)} \approx \text{Pageviews} \times \text{(Sayfa başına ortalama Ad Slot)}
+\]
+
 > **📌 Not:** "Ad space" ve "ad slot" terimleri genellikle birbirinin yerine kullanılır; ancak temel fark, ad slot'un reklam boşluğunun barındırıldığı yer olmasıdır.
 
 ---
@@ -242,7 +247,7 @@ Bir reklam alanının içinde, reklam sunucusuyla iletişim kurarak gerçek bir 
 
 - Bir web sitesi veya mobil uygulamada reklam için satılabilir tüm alanların toplamıdır
 - Yani sitenin veya uygulamanın envanterini ifade eder
-- **Örneğin:** Bir haber sitesinde 5 farklı reklam alanı (slot) varsa, bu sitenin reklam boşluğu bunların toplam kapasitesidir
+- **Örneğin:** Bir sayfada ortalama **5 ad slot** varsa ve site ayda **1.000.000 sayfa görüntülenmesi** alıyorsa, teorik satılabilir kapasite yaklaşık **5.000.000 gösterim/ay**’dır (\(1.000.000 \times 5\)). *(Not: Fill rate, viewability, refresh, frekans sınırlaması gibi faktörler bu sayıyı pratikte değiştirebilir.)*
 - Reklam boşluğu, reklamverenlere "satılabilir reklam hacmi" olarak sunulur
 - **Space = tüm reklam alanlarının ticari toplamı**
 
