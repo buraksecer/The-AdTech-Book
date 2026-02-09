@@ -29,7 +29,7 @@ Bu repo, **AdTech (Advertising Technology)** kitabının Türkçe çevirisini i�
 
 ## 📖 İçindekiler
 
-### 📌 [Bölüm 01: Giriş](bolumler/01-giris.md)
+### 📌 [Bölüm 01: Giriş](bolumler/01-giris)
 - 📖 Giriş
 - 🤔 Bu Kitabı Neden Yazdık?
 - 👥 The AdTech Book Kimin İçin Yazıldı?
@@ -37,7 +37,7 @@ Bu repo, **AdTech (Advertising Technology)** kitabının Türkçe çevirisini i�
 - 📚 Bu Kitap Nasıl Düzenlendi?
 - 🔤 Bu Kitapta Kullanılan Kurallar ve Terminoloji
 
-### 📌 [Bölüm 02: Reklamcılığın Temelleri](bolumler/02-reklamciligin-temelleri.md)
+### 📌 [Bölüm 02: Reklamcılığın Temelleri](bolumler/02-reklamciligin-temelleri)
 - 🔗 Reklamveren-Yayıncı İlişkisi
 - 💼 Reklamveren Nedir?
 - 🎯 Markalar ve Şirketler Neden Reklam Verir?
@@ -52,7 +52,7 @@ Bu repo, **AdTech (Advertising Technology)** kitabının Türkçe çevirisini i�
   - Gösterim, Tıklama ve Dönüşüm
   - Fiyatlandırma Modelleri (CPM, CPC, CPA)
 
-### 📌 [Bölüm 03: Çevrimiçi Reklamcılık Teknolojisinin Tarihi](bolumler/03-cevrimici-reklamcilik-teknolojisinin-tarihi.md)
+### 📌 [Bölüm 03: Çevrimiçi Reklamcılık Teknolojisinin Tarihi](bolumler/03-cevrimici-reklamcilik-teknolojisinin-tarihi)
 - 🌐 Reklamcılık Çevrimiçi Dünyaya Taşınıyor
 - 🎯 1994: İlk Banner Reklam
 - 🖥️ 1995: İlk Reklam Sunucusu (Ad Server)
@@ -61,7 +61,7 @@ Bu repo, **AdTech (Advertising Technology)** kitabının Türkçe çevirisini i�
 - 💹 Reklam Borsaları (Ad Exchanges) ve RTB
 - 📅 Programatik Reklamcılık Zaman Çizelgesi
 
-### 📌 [Bölüm 04: Temel Teknoloji Platformları ve Aracılar](bolumler/04-temel-teknoloji-platformlari-ve-araclari.md)
+### 📌 [Bölüm 04: Temel Teknoloji Platformları ve Aracılar](bolumler/04-temel-teknoloji-platformlari-ve-araclari)
 - 🌐 Çevrimiçi Reklam Ekosistemi Nedir?
 - 📚 Ekosistem Terimleri Sözlüğü
   - 👥 Taraflar ve Roller (Advertiser, Publisher, Visitor)
@@ -207,7 +207,7 @@ Bu repo, **AdTech (Advertising Technology)** kitabının Türkçe çevirisini i�
   - 🌍 Yapısı ve Üyeleri
   - 🔗 Geliştirdiği Standartlar
 
-### 📌 [Bölüm 05: Dijital Reklam Mecraları ve Kanalları](bolumler/05-baslica-dijital-reklam-mecralari-ve-kanallari.md)
+### 📌 [Bölüm 05: Dijital Reklam Mecraları ve Kanalları](bolumler/05-baslica-dijital-reklam-mecralari-ve-kanallari)
 - 🔁 Medium ve Channel Arasındaki Fark
   - 📖 Terim Tanımları
   - 🧠 Basit Örnekler
@@ -272,7 +272,7 @@ Bu repo, **AdTech (Advertising Technology)** kitabının Türkçe çevirisini i�
   - 🏙️ DOOH Reklamcılığı (Digital Out-of-Home)
   - 🔍 Arama Reklamcılığı (Search Advertising)
 
-### 📌 [Bölüm 06: Ad Serving (Reklam Sunucuları)](bolumler/06-ad-serving.md)
+### 📌 [Bölüm 06: Ad Serving (Reklam Sunucuları)](bolumler/06-ad-serving)
 - 🖥️ Ad Server Nedir?
   - 🔹 Tanım ve Temel Görevler
   - 💡 WordPress Benzetmesi
@@ -309,7 +309,7 @@ Bu repo, **AdTech (Advertising Technology)** kitabının Türkçe çevirisini i�
     - 📷 IMG Reklam Etiketleri
   - 📋 Ad Markup (Reklam İşaretlemesi)
 
-### 📌 [Bölüm 07: Hedefleme ve Bütçe Kontrolü](bolumler/07-hedefleme-ve-butce-kontrol.md)
+### 📌 [Bölüm 07: Hedefleme ve Bütçe Kontrolü](bolumler/07-hedefleme-ve-butce-kontrol)
 - 🎯 Hedefleme Nedir?
 - 💡 Arka Plan
 - ⚙️ Hedefleme Nasıl Çalışır?
@@ -336,7 +336,7 @@ Bu repo, **AdTech (Advertising Technology)** kitabının Türkçe çevirisini i�
 - 💰 Bütçe Kontrolü
 - 🎓 Bölüm Özeti
 
-### 📌 [Bölüm 08: İzlenim, Tıklama ve Dönüşüm Takibi](bolumler/08-izlenim-tiklama-donusum-takibi.md)
+### 📌 [Bölüm 08: İzlenim, Tıklama ve Dönüşüm Takibi](bolumler/08-izlenim-tiklama-donusum-takibi)
 - 🎯 Gösterim, Tıklama ve Dönüşüm Takibi
 - 👁️ Gösterim (Impression) Takibi
   - 🧪 Yöntem 1: Reklam Markup’ına İki Pixel Eklemek

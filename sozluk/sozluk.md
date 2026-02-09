@@ -639,7 +639,7 @@ Veri aracıları tarafından toplanıp satılan, kaynak güvenirliği düşük v
 ---
 
 <p align="center">
-  <a href="../index.md">🏠 Ana Sayfa'ya Dön</a>
+  <a href="../">🏠 Ana Sayfa'ya Dön</a>
 </p>
 
 ---

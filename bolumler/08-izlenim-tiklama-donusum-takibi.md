@@ -671,4 +671,4 @@ Bu bölümde, AdTech platformlarında **tracking (takip)** ve **raporlama** mant
 
 ---
 
-[⬅️ Bölüm 07: Hedefleme ve Bütçe Kontrolü](/The-AdTech-Book/bolumler/07-hedefleme-ve-butce-kontrol.md) | [🏠 Ana Sayfa](/The-AdTech-Book/index.md) | [➡️ Bölüm 09: Medya Satın Alma Yöntemleri](/The-AdTech-Book/bolumler/09-medya-satin-alma-yontemleri.md)
+[⬅️ Bölüm 07: Hedefleme ve Bütçe Kontrolü](/The-AdTech-Book/bolumler/07-hedefleme-ve-butce-kontrol) | [🏠 Ana Sayfa](/The-AdTech-Book/) | [➡️ Bölüm 09: Medya Satın Alma Yöntemleri](/The-AdTech-Book/bolumler/09-medya-satin-alma-yontemleri)
