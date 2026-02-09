@@ -758,4 +758,4 @@ Bu bölümde Hedefleme ve Bütçe Kontrolü konularının temellerini öğrendik
 
 ---
 
-[⬅️ Bölüm 06: Ad Serving (Reklam Sunucuları)](06-ad-serving.md) | [🏠 Ana Sayfa](../index.md) | [➡️ Bölüm 08: İzlenim, Tıklama ve Dönüşüm Takibi](08-izlenim-tiklama-ve-donusum-takibi.md)
+[⬅️ Bölüm 06: Ad Serving (Reklam Sunucuları)](/The-AdTech-Book/bolumler/06-ad-serving.md) | [🏠 Ana Sayfa](/The-AdTech-Book/index.md) | [➡️ Bölüm 08: İzlenim, Tıklama ve Dönüşüm Takibi](/The-AdTech-Book/bolumler/08-izlenim-tiklama-donusum-takibi.md)

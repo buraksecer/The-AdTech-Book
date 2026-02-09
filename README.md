@@ -336,8 +336,27 @@ Bu repo, **AdTech (Advertising Technology)** kitabının Türkçe çevirisini i�
 - 💰 Bütçe Kontrolü
 - 🎓 Bölüm Özeti
 
-### 📌 Bölüm 08: İzlenim, Tıklama ve Dönüşüm Takibi
-- 📊 Takip ve Raporlama
+### 📌 [Bölüm 08: İzlenim, Tıklama ve Dönüşüm Takibi](bolumler/08-izlenim-tiklama-donusum-takibi.md)
+- 🎯 Gösterim, Tıklama ve Dönüşüm Takibi
+- 👁️ Gösterim (Impression) Takibi
+  - 🧪 Yöntem 1: Reklam Markup’ına İki Pixel Eklemek
+  - 🧪 Yöntem 2: Ad Server Request Bazlı Sayım
+- 🖱️ Tıklama (Click) Takibi
+  - 🔗 Click URL Makroları
+- 🎯 Dönüşüm (Conversion) Takibi
+  - Click-through Conversion
+  - View-through Conversion
+  - Attribution Window (Atıf Penceresi)
+  - 🧩 Pixel Yöntemi
+  - 🖧 Server-Side Yöntem
+- 📊 Raporlama (Reporting)
+  - 📈 Metrikler (Metrics)
+  - 🧮 eCPM, eCPC, eCPA
+  - 💰 ROI
+  - 🧩 Dimension/Subdimension ve Filtering
+  - 🛠️ Raporlamada Teknik Hususlar
+- ⚠️ Discrepancies ve Reconciliation
+- 🎓 Bölüm Özeti
 
 ### 📌 Bölüm 09: Medya Satın Alma Yöntemleri
 - ✋ Manuel Satın Alma

@@ -722,4 +722,4 @@ Bu bölümde dijital reklam mecraları ve kanallarının temellerini öğrendik:
 
 ---
 
-[⬅️ Bölüm 04: Temel Teknoloji Platformları ve Aracılar](04-temel-teknoloji-platformlari-ve-araclari.md) | [🏠 Ana Sayfa](../index.md) | [➡️ Bölüm 06: Ad Serving (Reklam Sunucuları)](06-ad-serving-reklam-sunuculari.md)
+[⬅️ Bölüm 04: Temel Teknoloji Platformları ve Aracılar](/The-AdTech-Book/bolumler/04-temel-teknoloji-platformlari-ve-araclari.md) | [🏠 Ana Sayfa](/The-AdTech-Book/index.md) | [➡️ Bölüm 06: Ad Serving (Reklam Sunucuları)](/The-AdTech-Book/bolumler/06-ad-serving.md)

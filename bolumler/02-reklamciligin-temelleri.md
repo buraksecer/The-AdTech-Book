@@ -509,4 +509,4 @@ Kitap boyunca başka ifadeler, kısaltmalar ve terimlerle de karşılaşacaksın
 
 ---
 
-[⬅️ Bölüm 01: Giriş](01-giris.md) | [🏠 Ana Sayfa](../index.md) | [➡️ Bölüm 03: Çevrimiçi Reklamcılık Teknolojisinin Tarihi](03-cevrimici-reklamcilik-teknolojisinin-tarihi.md)
+[⬅️ Bölüm 01: Giriş](/The-AdTech-Book/bolumler/01-giris.md) | [🏠 Ana Sayfa](/The-AdTech-Book/index.md) | [➡️ Bölüm 03: Çevrimiçi Reklamcılık Teknolojisinin Tarihi](/The-AdTech-Book/bolumler/03-cevrimici-reklamcilik-teknolojisinin-tarihi.md)

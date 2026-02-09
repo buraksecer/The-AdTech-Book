@@ -77,6 +77,9 @@ Reklam ajansları bünyesinde kurulmuş, programatik medya alımı yapan özel b
 ### Attribution (Atıf Modellemesi)
 Bir dönüşüme yol açan farklı pazarlama kanallarının ve temas noktalarının katkısını ölçme ve değerlendirme sürecidir.
 
+### Attribution Window (Atıf Penceresi)
+Bir kullanıcının reklamı **ilk gördüğü (impression)** veya **ilk tıkladığı (click)** an ile **dönüşümü (conversion)** gerçekleştirdiği an arasındaki süreyi ifade eder. Atıf penceresi uzadıkça daha fazla dönüşüm “yakalanabilir”; ancak atfın doğruluğu azalabilir. Bu pencere reklamverenden reklamverene değişir (ör. 24 saat – 30 gün).
+
 ### Application of Data (Verinin Uygulanması)
 Davranışsal hedefleme sürecinin üçüncü adımıdır. Reklamveren, oluşturulan kitleleri (audiences) çevrimiçi medya kampanyalarında reklam hedefleme amacıyla kullanır. Bu sayede kullanıcılara gösterilen reklamlar daha alakalı hale gelir ve dönüşüm olasılığı artar.
 
@@ -132,6 +135,15 @@ Reklamın dağıtıldığı veya iletildiği platform ya da araçtır. Örneğin
 ### Click (Tıklama)
 Bir kişinin reklama tıklaması durumunda sayılan metriktir. Kullanıcı reklamverενin web sitesine ulaşamasa bile sayılır.
 
+### Click Tracker
+Ad server’ın **redirect (yönlendirme)** servisine ait URL’dir. Kullanıcı reklama tıkladığında önce bu URL’ye gider; sistem tıklamayı sayar ve kullanıcıyı kampanyanın **nihai açılış sayfasına (final landing page)** yönlendirir.
+
+### Click Redirect
+Birden fazla sistemin aynı tıklamayı sayabilmesi için **redirect zincirine** eklenen ek yönlendirmedir. Örneğin, publisher’ın ad server’ı tıklamayı saydıktan sonra kullanıcıyı advertiser’ın ad server’ına yönlendirir; advertiser da tıklamayı sayıp kullanıcıyı landing page’e gönderir.
+
+### Click URL Macro
+Click tracker zincirlerinde, bir sonraki yönlendirmenin URL’sini dinamik olarak iletmek için kullanılan yer tutucudur. Örneğin bazı ad server’lar `%%CLICK_URL%%` gibi bir macro’yu, zincirdeki bir sonraki click tracker URL’si ile otomatik olarak genişletir.
+
 ### Companion Ads (Eşlik Eden Reklamlar)
 Web sayfalarında veya mobil uygulamalarda gördüğünüz banner reklamlara benzer şekilde, bir kullanıcı bir ses dosyası (örneğin bir podcast veya müzik) dinlerken ekranda görüntülenebilen reklam türüdür.
 
@@ -171,12 +183,24 @@ Yayıncılar arası ortak izleyiciyi hesaba katarak kampanyanın erişimini öl�
 ### Conversion (Dönüşüm)
 Bir kullanıcının reklamveren veya pazarlamacı tarafından belirlenen bir hedefi tamamlamasıdır. Örneğin: ürün satın alma, kayıt olma, dosya indirme, form doldurma.
 
+### Click-through Conversion
+Kullanıcının **reklama tıklaması** ve belirli bir süre içinde **dönüşüm gerçekleştirmesi** durumudur.
+
+### Conversion Pixel
+Dönüşüm gerçekleştiğinde (ör. “success / teşekkürler” sayfasında) tetiklenen ve dönüşüm bilgisini ölçüm/ad server sistemine ileten pikseldir. Pixel ile birlikte cookie ID, click ID gibi tanımlayıcılar da iletilebilir; böylece dönüşüm doğru kampanya/line item/creative’e bağlanabilir.
+
+### View-through Conversion
+Kullanıcının reklamı **görmesi**, reklama **tıklamaması**, ancak daha sonra (attribution window içinde) dönüşüm gerçekleştirmesi durumudur. Viewability, çerez silme ve dolandırıcılık gibi faktörler bu metrikte daha kritik hale gelir.
+
 ---
 
 ## D
 
 ### Data Broker (Veri Aracısı)
 Çeşitli kaynaklardan (çevrimiçi ve çevrimdışı) kullanıcı verisi toplayan ve bu verileri paketleyerek reklamverenlere, ajanslara veya DMP'lere satan şirketlerdir.
+
+### Discrepancy
+İki farklı AdTech platformunda raporlanan metrikler arasındaki farktır. Örneğin publisher’ın ad server’ı ile advertiser’ın ad server’ında raporlanan impression/click sayıları farklı olabilir. Discrepancy’ler çoğunlukla teknik sebepler, konfigürasyon farkları, zaman dilimi farkları ve implementasyon hatalarından kaynaklanır; faturalama ve güven açısından kritiktir.
 
 ### DAAST (Digital Audio Ad Serving Template)
 Sesli reklamların sunulması için kullanılan standarttır. Daha sonra VAST 4.1 sürümüne dahil edilmiştir.
@@ -269,6 +293,9 @@ Dijital reklamcılık endüstrisi için standartlar belirleyen, rehberler yayın
 
 ### Impression (Gösterim)
 Bir reklamın kullanıcıya gösterildiği her andır. Genellikle reklamın sayfa üzerinde yüklendiği anda sayılır, kullanıcının görmesi gerekmez.
+
+### Impression Pixel / Impression Tracker
+Bir gösterimi saymak için kullanılan, genellikle **1×1 şeffaf görsel** (veya benzeri bir tracker) aracılığıyla ad server’a gönderilen istektir. Amaç, reklamın sadece “seçilmesini” değil, tarayıcıda gerçekten yüklenmesini/render edilmesini saymaktır.
 
 ### Iframe Reklam Etiketleri (Iframe Ad Tags)
 Masaüstü veya mobil tarayıcıda web sayfalarında display reklam sunumu için kullanılan HTML iframe etiketleridir. Iframe, içindeki reklam kodunu tamamen izole eder ve bu sayede reklamın sayfanın geri kalanıyla etkileşime girmesini engeller.
@@ -406,6 +433,9 @@ Dijital içeriğin bağlı bir TV'ye aktarılmasını sağlayan cihaz veya hizme
 ### Piggybacking
 Yayıncının ad sunucusundan dönen reklam markup'ının, tarayıcının reklamverenin (üçüncü taraf) ad sunucusuna ikinci bir istek göndermesini tetikleme sürecidir. Bu yöntemle hem yayıncı hem reklamveren ad sunucuları aynı gösterimde rol alabilir.
 
+### Postback
+Özellikle **affiliate** ve **mobil uygulama yükleme** kampanyalarında kullanılan, dönüşüm gerçekleştiğinde partner sisteme **server-to-server** şekilde gönderilen bildirimin adıdır. Postback, genellikle “dönüşüm onaylandı, komisyon kazanıldı” anlamına gelir.
+
 ### PMP (Private Marketplace)
 Özel reklam borsasıdır. Yayıncılar premium envanterlerini sadece davetli reklamverenlere sunar. Açık borsalardan daha kontrollü ve yüksek kaliteli bir ortamdır.
 
@@ -439,6 +469,12 @@ Daha önce bir web sitesini ziyaret etmiş veya bir ürünü görüntülemiş an
 
 ### Radius-Based Targeting (Yarıçap Bazlı Hedefleme)
 GPS tabanlı coğrafi hedefleme yöntemidir. Yerel mobil uygulamalar, akıllı telefonun GPS'inden alınan kesin enlem ve boylam bilgilerini doğrudan reklam sunucusuna iletebilir. Reklam sunucusu, kullanıcıları belirli bir noktanın belirli bir yarıçapı içinde hedefleyebilir. Örneğin, bir mağazanın 5 mil çevresindeki kullanıcılar hedeflenebilir. IP adresine dayalı konum tespitine kıyasla çok daha hassas ve doğru bir coğrafi hedefleme sağlar.
+
+### Redirect (Yönlendirme)
+Kullanıcının tarayıcısının bir URL’den başka bir URL’ye otomatik olarak yönlendirilmesidir. AdTech’te redirect’ler, özellikle **click tracking** sırasında click tracker zincirleri kurmak ve kullanıcıyı ölçüm adımlarından geçirerek nihai landing page’e ulaştırmak için kullanılır. Yaygın bir örnek **HTTP 302 redirect**’tir.
+
+### Reconciliation
+İki farklı kayıt setinin (ör. publisher ad server’ı ve advertiser ad server’ı raporları) karşılaştırılarak verilerin doğru ve tutarlı olduğunun doğrulanması sürecidir. Discrepancy analizi ve faturalama süreçlerinde kritik bir adımdır.
 
 ### RTB (Real-Time Bidding - Gerçek Zamanlı Teklif Verme)
 Reklam gösteriminin milisaniyeler içinde açık artırma yoluyla satın alındığı otomatik süreçtir. Kullanıcı bir web sayfasını yüklediğinde, o gösterim için gerçek zamanlı açık artırma yapılır.

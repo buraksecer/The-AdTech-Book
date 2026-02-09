@@ -695,4 +695,4 @@ Bu bölümde Ad Serving (Reklam Sunucuları) teknolojisinin temellerini öğrend
 
 ---
 
-[⬅️ Bölüm 05: Başlıca Dijital Reklam Mecraları ve Kanalları](05-baslica-dijital-reklam-mecralari-ve-kanallari.md) | [🏠 Ana Sayfa](../index.md) | [➡️ Bölüm 07: Hedefleme ve Bütçe Kontrolü](07-hedefleme-ve-butce-kontrolu.md)
+[⬅️ Bölüm 05: Başlıca Dijital Reklam Mecraları ve Kanalları](/The-AdTech-Book/bolumler/05-baslica-dijital-reklam-mecralari-ve-kanallari.md) | [🏠 Ana Sayfa](/The-AdTech-Book/index.md) | [➡️ Bölüm 07: Hedefleme ve Bütçe Kontrolü](/The-AdTech-Book/bolumler/07-hedefleme-ve-butce-kontrol.md)

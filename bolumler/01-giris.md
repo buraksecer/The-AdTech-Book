@@ -141,4 +141,4 @@ Bu kitabı sizin için yazdık. Eğer ekleyebileceğimizi düşündüğünüz ya
 
 ---
 
-[🏠 Ana Sayfa](../index.md) | [➡️ Bölüm 02: Reklamcılığın Temelleri](02-reklamciligin-temelleri.md)
+[🏠 Ana Sayfa](/The-AdTech-Book/index.md) | [➡️ Bölüm 02: Reklamcılığın Temelleri](/The-AdTech-Book/bolumler/02-reklamciligin-temelleri.md)

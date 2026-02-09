@@ -2020,4 +2020,4 @@ Bu kapsamlı bölümde, çevrimiçi reklam ekosisteminin temel yapı taşların�
 
 ---
 
-[⬅️ Bölüm 03: Çevrimiçi Reklamcılık Teknolojisinin Tarihi](03-cevrimici-reklamcilik-teknolojisinin-tarihi.md) | [🏠 Ana Sayfa](../index.md) | [➡️ Bölüm 05: Dijital Reklam Mecraları ve Kanalları](05-dijital-reklam-mecralari-ve-kanallari.md)
+[⬅️ Bölüm 03: Çevrimiçi Reklamcılık Teknolojisinin Tarihi](/The-AdTech-Book/bolumler/03-cevrimici-reklamcilik-teknolojisinin-tarihi.md) | [🏠 Ana Sayfa](/The-AdTech-Book/index.md) | [➡️ Bölüm 05: Başlıca Dijital Reklam Mecraları ve Kanalları](/The-AdTech-Book/bolumler/05-baslica-dijital-reklam-mecralari-ve-kanallari.md)
