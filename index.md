@@ -363,16 +363,38 @@ Bu repo, **AdTech (Advertising Technology)** kitabının Türkçe çevirisini i�
 - ⚠️ Discrepancies ve Reconciliation
 - 🎓 Bölüm Özeti
 
-### 📌 Bölüm 09: Medya Satın Alma Yöntemleri
-- ✋ Manuel Satın Alma
-- 🤖 Programatik Satın Alma
+### 📌 [Bölüm 09: Medya Satın Alma Yöntemleri](bolumler/09-medya-satin-alma-yontemleri)
+- 📋 Başlıca Medya Satın Alma Süreçleri
+- ✋ Manuel Medya Satın Alma
+- 🤖 Programmatic Medya Satın Alma
+  - Programmatic Ne Anlama Gelir?
+- 📊 Kampanya Optimizasyonu: Manuel vs. Algoritmalar
+  - Manuel Optimizasyon
+  - Otomatik (Automated) Optimizasyon
 - 📋 Programmatic Direct
-- ⚡ RTB (Real-Time Bidding)
-- 🔐 PMP (Private Marketplace)
+- ⚡ Real-Time Bidding (RTB)
+  - İlk SSP’ler ve DSP’ler
+  - RTB ve OpenRTB Nedir?
+  - RTB Sürecine Detaylı Bakış
+  - Bid Request / Bid Response ve OpenRTB Objeleri
+- 📈 RTB’nin Reklam Verenler ve Yayıncılar İçin Faydaları
+- 💰 RTB Ekosisteminde Komisyon ve Görünürlük Problemleri
+  - Aracı Komisyonları ve Ücretler
+  - Sektör Buradan Nereye Gidiyor?
+- 🔐 Private Marketplace (PMP)
+- 📊 Medya Satın Alma Süreçlerinin Karşılaştırma Tablosu
+- 🌊 Publisher’ın Waterfall Süreci
+  - Yayıncının İkilemi: Yüksek CPM mi, Yüksek Fill Rate mi?
+  - Waterfall Nasıl Uygulanır? / Nasıl Çalışır?
 - 🏷️ Header Bidding
-- 🎲 Açık Artırma Dinamikleri
+  - Nasıl Çalışır?
+  - Client-Side vs Server-Side Header Bidding
+- 🎲 Açık Artırma Dinamikleri (Second-Price, First-Price)
+- 📉 Bid Shading
+- 💵 Floor Prices (Hard Floor, Soft Floor)
+- 🎓 Bölüm Özeti
 
-### 📌 Bölüm 10: Kullanıcı Kimliklendirme
+### 📌 [Bölüm 10: Kullanıcı Kimliklendirme](bolumler/10-kullanici-kimliklendirme)
 - 🆔 Neden Kullanıcı Kimliklendirme Gerekli?
 - 🍪 Yöntemler (Çerezler, Fingerprinting, Mobil ID vb.)
 - 👤 Kullanıcı Profilleme ve Eşleme
